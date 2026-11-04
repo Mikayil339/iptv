@@ -1,0 +1,161 @@
+{
+  "profiles": [
+    {
+      "group": "1080p Russian Movies",
+      "country": "Rusiya",
+      "min_height": 1080,
+      "ids": [
+        "Pobeda.ru",
+        "MosfilmGoldCollection.ru",
+        "Domkino.ru",
+        "DomkinoPremium.ru",
+        "Nashemuzhskoe.ru",
+        "NasheNovoeKino.ru",
+        "RodnoeKino.ru",
+        "Russkiyroman.ru",
+        "RusskiyBestseller.ru",
+        "RusskiyDetektiv.ru",
+        "vijuTV1000russkoe.ru",
+        "STARTAir.ru",
+        "STARTWorld.ru",
+        "VelvetSovetskoeKino.ru",
+        "KinoTV.ru",
+        "Evrokino.ru",
+        "Kinopremyera.ru"
+      ]
+    },
+    {
+      "group": "Türk Filmləri və Dublyaj",
+      "country": "Türkiyə",
+      "min_height": 720,
+      "ids": [
+        "FILM.SCREEN.tr",
+        "Cine1.tr",
+        "Tivi6.tr",
+        "Cine5.tr",
+        "Yesilcam.tr",
+        "KemalSunal.tr",
+        "SinemaTV.tr",
+        "SinemaTVAksiyon.tr",
+        "SinemaYerli.tr",
+        "SinemaTVAile.tr",
+        "SinemaTV1001.tr",
+        "SinemaTVComedy.tr"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "country": "Rusiya",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u"
+    },
+    {
+      "country": "Türkiyə",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tr.m3u"
+    },
+    {
+      "country": "Türkiyə",
+      "url": "https://raw.githubusercontent.com/tecobaba/tecom3u/main/guncel.m3u"
+    }
+  ],
+  "backups": [
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"FILM.SCREEN.tr\"  group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/film.screen.tr-3612b857c488.png\"",
+      "name": "Film Screen HD",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Tivi6.tr@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tivi6.tr-1efd0b955315.png\"",
+      "name": "Tivi 6 (720p)",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"DomkinoPremium.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/domkinopremium.ru-3773a4858988.png\"",
+      "name": "Dom kino Premium HD (1080p)",
+      "options": [],
+      "url": "http://stream.mcquack.net/108/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Evrokino.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png\"",
+      "name": "Evrokino HD (1080p)",
+      "options": [],
+      "url": "http://stream.mcquack.net/385/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"KinoTV.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kinotv.ru-69fd0863bee9.png\"",
+      "name": "Kino TV HD (1080p)",
+      "options": [],
+      "url": "http://176.118.197.101/KinoTvHD/playlist.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Kinopremyera.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kinopremyera.ru-64fd4793be9c.png\"",
+      "name": "Kinopremyera (1080p)",
+      "options": [],
+      "url": "http://5.188.159.128:8070/KINOPREMIERA/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"STARTAir.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/startair.ru-9e7155fa526c.png\"",
+      "name": "START Air (1080p)",
+      "options": [],
+      "url": "http://176.118.197.101/START_AIR/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Nashemuzhskoe.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/nashemuzhskoe.ru-1b0acaf7e6c7.png\"",
+      "name": "Nashe muzhskoe HD (1080p)",
+      "options": [],
+      "url": "http://stream.mcquack.net/362/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Pobeda.ru\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/pobeda.ru-0dd5faa7df67.png\"",
+      "name": "Pobeda / Победа (576p)",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://streaming.thestream.cyou/live/43.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/mosfilmgoldcollection.ru-0b29b1879c94.png\"",
+      "name": "Mosfilm — Золотая коллекция (1080p)",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "http://stream.mcquack.net/369/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-name=\"Cine 1\" tvg-logo=\"https://i.imgur.com/agn47sQ.png\" group-title=\"TÜM KANALLAR (A-Z Sıralı)\" tvg-id=\"Cine1.tr\"",
+      "name": "Cine 1",
+      "options": [],
+      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-name=\"Tivi 6\" group-title=\"TÜM KANALLAR (A-Z Sıralı)\" tvg-id=\"Tivi6.tr\"",
+      "name": "Tivi 6",
+      "options": [],
+      "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-name=\"Cine 1\" tvg-logo=\"https://i.imgur.com/agn47sQ.png\" group-title=\"Sinema & Dizi\" tvg-id=\"Cine1.tr\"",
+      "name": "Cine 1",
+      "options": [],
+      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-name=\"Tivi 6\" group-title=\"Yerel\" tvg-id=\"Tivi6.tr\"",
+      "name": "Tivi 6",
+      "options": [],
+      "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Tivi6.tr\"",
+      "name": "TIVI 6",
+      "options": [],
+      "url": "https://waw1.artiyerelmedya.net/tivi6/bant1/playlist.m3u8"
+    }
+  ]
+}

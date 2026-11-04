@@ -32,3 +32,9 @@ python scripts/update_logos.py
 ```
 
 `source-group` yayım mənbəsinin ölkəsini saxlayır; `group-title` IPTV tətbiqində görünən qrupdur. İdman kanalları ayrıca qrupdadır.
+
+## Kino qrupları
+
+`1080p Russian Movies` qrupuna yalnız ffprobe ilə video ölçüsü ən azı 1080p təsdiqlənən yayımlar daxil edilir. `Türk Filmləri və Dublyaj` üçün minimum 720p-dir. Cine 1 və Tivi 6 film xaricində proqramlar da yayımlaya bilər. Mövcud kanal zəifləyəndə və ya yoxlama alınmayanda silinmir, ölkə qrupuna qaytarılır. Sonrakı yoxlamada keyfiyyət bərpa olunarsa kino qrupuna qayıdır.
+
+Kino mənbələri və kanal seçimi `cinema.json`, son yoxlama nəticələri `cinema_status.json` faylındadır. Hər 6 saatlıq GitHub Actions yenilənməsi kino mənbələrini də yenidən yoxlayır. Kanal adındakı HD yazısı keyfiyyət sübutu sayılmır.

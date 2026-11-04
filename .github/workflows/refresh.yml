@@ -8,6 +8,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'sources.json'
+      - 'cinema.json'
       - 'requirements.txt'
       - '.github/workflows/refresh.yml'
 permissions:
@@ -31,6 +32,10 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Discover and verify channels
         run: python scripts/refresh.py
+      - name: Verify decoded cinema resolution and update movie groups
+        run: |
+          command -v ffprobe >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y ffmpeg)
+          python scripts/refresh_cinema.py
       - name: Cache and repair channel logos
         env:
           GH_TOKEN: ${{ github.token }}
@@ -39,7 +44,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add playlist.m3u8 sources.json health.json STATUS.md LAST_RUN.json logo_status.json logos
+          git add playlist.m3u8 sources.json health.json STATUS.md LAST_RUN.json logo_status.json cinema_status.json logos
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh IPTV streams, sports channels and logos'
             git push
