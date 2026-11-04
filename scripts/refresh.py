@@ -106,6 +106,15 @@ def probe(entry):
                 height, child = max(variants)
                 url = urljoin(final_url, child)
                 continue
+            for key_line in lines:
+                if key_line.startswith('#EXT-X-KEY:') and 'METHOD=NONE' not in key_line:
+                    method = re.search(r'METHOD=([^,]+)', key_line)
+                    key_uri = re.search(r'URI="([^"]+)"', key_line)
+                    if not method or method[1] != 'AES-128' or not key_uri:
+                        raise ValueError('Unsupported encrypted/DRM stream')
+                    key_data, _ = fetch(urljoin(final_url, key_uri[1]), headers, 32)
+                    if len(key_data) != 16:
+                        raise ValueError('HLS encryption key unavailable')
             # For fMP4, initialization and a media segment must both be reachable.
             init = re.search(r'#EXT-X-MAP:.*?URI="([^"]+)"', text)
             if init:
@@ -167,14 +176,31 @@ def main():
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
     pool = {}
     errors = []
+    catalog = None
+    if config.get('sports_languages'):
+        try:
+            from sports_catalog import build_catalog
+            channel_data, _ = fetch('https://iptv-org.github.io/api/channels.json', limit=20_000_000)
+            feed_data, _ = fetch('https://iptv-org.github.io/api/feeds.json', limit=20_000_000)
+            catalog = build_catalog(json.loads(channel_data), json.loads(feed_data), config['sports_languages'])
+        except Exception as error:
+            errors.append({'source': 'sports metadata', 'error': str(error)[:160]})
     for source in config['playlists']:
         try:
             raw, _ = fetch(source['url'])
             for entry in parse(raw.decode('utf-8-sig')):
                 if source.get('only_ids') and identity(entry) not in source['only_ids']:
                     continue
-                entry['attrs'] = re.sub(r' group-title="[^"]*"', '', entry['attrs']) + ' group-title="' + source['group'] + '"'
-                pool.setdefault((source['group'], identity(entry)), []).append(entry)
+                group = source['group']
+                if source.get('sports_only'):
+                    if catalog is None:
+                        continue
+                    from sports_catalog import allowed_entry
+                    if not allowed_entry(entry, catalog[0], catalog[1], catalog[2], config['sports_languages']):
+                        continue
+                    group = catalog[3].get(identity(entry), group)
+                entry['attrs'] = re.sub(r' group-title="[^"]*"', '', entry['attrs']) + ' group-title="' + group + '"'
+                pool.setdefault((group, identity(entry)), []).append(entry)
         except Exception as error:
             errors.append({'source': source['url'], 'error': str(error)[:160]})
     for webpage in config.get('webpages', []):
@@ -196,6 +222,16 @@ def main():
     for entry in config.get('backups', []):
         pool.setdefault((country(entry), identity(entry)), []).insert(0, entry)
     sports_ids = set(config.get('sports_ids', []))
+    if catalog:
+        sports_ids.update(catalog[0])
+        # Replace non-target-language international feeds through discovery.
+        from sports_catalog import allowed_entry
+        current = [entry for entry in current if not (
+            attributes(entry).get('group-title') == 'Futbol və idman'
+            and country(entry) == 'Beynəlxalq'
+            and identity(entry) in catalog[3]
+            and not allowed_entry(entry, catalog[0], catalog[1], catalog[2], config['sports_languages'])
+        )]
     existing_keys = {(country(e), identity(e)) for e in current}
     additions = []
     for key, candidates in pool.items():
@@ -224,10 +260,12 @@ def main():
             return None
         valid.sort(key=lambda item: (-item[0], item[1]))
         return valid[0][2]
+    seen_urls = {entry['url'] for entry in current}
     with futures.ThreadPoolExecutor(max_workers=20) as executor:
         for entry in executor.map(discover, additions):
-            if entry:
+            if entry and entry['url'] not in seen_urls:
                 current.append(entry)
+                seen_urls.add(entry['url'])
     # Put all approved free sports streams into their own group, without copies.
     for entry in current:
         if identity(entry) in sports_ids:
@@ -254,6 +292,13 @@ def main():
             return int(match[1]) if match else 0
         alternatives.sort(key=quality, reverse=True)
         result = probe(entry)
+        if not result['ok'] and identity(entry) in config.get('required_channels', []):
+            for alternative in alternatives[:8]:
+                candidate = clean_candidate(alternative, entry)
+                candidate_result = probe(candidate)
+                if candidate_result['ok']:
+                    entry, result = candidate, candidate_result
+                    break
         if result['ok'] and (result.get('height', 0) < 720 or result.get('seconds', 0) > 6):
             for alternative in alternatives[:2]:
                 candidate = clean_candidate(alternative, entry)
@@ -262,6 +307,10 @@ def main():
                     entry, result = candidate, candidate_result
                     break
         chosen, failures, status, result = select(entry, result, alternatives, count)
+        if result.get('ok') and result.get('height'):
+            height = result['height']
+            chosen = dict(chosen)
+            chosen['name'] = re.sub(r'\(\d{3,4}p\)', '(' + str(height) + 'p)', chosen['name'])
         cached = [clean_candidate(c, entry) for c in alternatives if c['url'] != chosen['url']][:12]
         if chosen['url'] != entry['url']:
             cached.append(entry)
@@ -275,6 +324,13 @@ def main():
     statuses = {item[1]: item[2] for item in results}
     state = {'checked_at_utc': now, 'source_errors': errors, 'channels': statuses}
     playlist.write_text(render(updated), encoding='utf-8')
+    from collections import Counter
+    counts = dict(Counter(attributes(entry).get('group-title', '') for entry in updated))
+    overview = {'channels': len(updated), 'healthy': sum(info['check']['ok'] for info in statuses.values()),
+                'replaced': sum(info['status'] == 'replaced' for info in statuses.values()),
+                'groups': counts, 'checked_at_utc': now,
+                'required_channels': {cid: any(identity(entry) == cid for entry in updated) for cid in config.get('required_channels', [])}}
+    (ROOT / 'LAST_RUN.json').write_text(json.dumps(overview, ensure_ascii=False, indent=2) + '\n')
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + '\n')
     rows = ['# Yayım vəziyyəti', '', 'Son yoxlama (UTC): ' + now, '',
             '| Ölkə | Kanal | Vəziyyət | Ardıcıl uğursuz yoxlama |', '|---|---|---|---|']

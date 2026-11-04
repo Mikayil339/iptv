@@ -1,4 +1,4 @@
-name: Refresh protected IPTV playlist
+name: Refresh IPTV playlist
 on:
   schedule:
     - cron: '23 */6 * * *'
@@ -7,36 +7,38 @@ on:
     paths:
       - 'scripts/**'
       - 'tests/**'
+      - 'sources.json'
+      - 'requirements.txt'
       - '.github/workflows/refresh.yml'
 permissions:
   contents: write
-  id-token: write
 concurrency:
   group: playlist-refresh
   cancel-in-progress: true
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test updater
+          cache: pip
+      - name: Install image processing dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Test updater and logos
         run: python -m unittest discover -s tests -v
-      - name: Load protected playlist using GitHub identity
-        run: python scripts/gateway_sync.py download
-      - name: Discover HD and sports streams and verify video fragments
+      - name: Discover and verify channels
         run: python scripts/refresh.py
-      - name: Publish protected playlist
-        run: python scripts/gateway_sync.py upload
-      - name: Commit aggregate health summary only
+      - name: Cache and repair channel logos
+        run: python scripts/update_logos.py
+      - name: Publish playlist and health reports to GitHub
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add LAST_RUN.json
+          git add playlist.m3u8 sources.json health.json STATUS.md LAST_RUN.json logo_status.json logos
           if ! git diff --cached --quiet; then
-            git commit -m 'Update aggregate playlist health summary'
+            git commit -m 'Refresh IPTV streams, sports channels and logos'
             git push
           fi

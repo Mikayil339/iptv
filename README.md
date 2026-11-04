@@ -1,23 +1,34 @@
-# Protected IPTV updater
+# Azərbaycan · Türkiyə · Rusiya · Futbol və idman
 
-This repository maintains a playlist for Azerbaijan, Turkey, Russia and a separate free sports group. Viewer access is through a secret link provided directly by the owner; the link and its access key are never stored here.
+## Pleylist URL
 
-The previous public raw playlist endpoint has been removed from the current branch. Historical commits can still contain older public channel lists; they do not grant access to the protected service or to its future updates.
+https://raw.githubusercontent.com/Mikayil339/iptv/main/playlist.m3u8
 
-## Updates
+Bu açıq linki Televizo və digər IPTV tətbiqlərinə əlavə edin. Hesab, parol və ChatGPT tələb olunmur. Pleylist, mənbələr, loqolar və avtomatik yeniləmə bu GitHub repozitoriyasında saxlanılır. Əvvəlki ayrıca giriş xidmətindən asılılıq yoxdur.
 
-GitHub Actions runs every six hours (approximately 04:23, 10:23, 16:23, 22:23 Asia/Baku). It authenticates to the playlist service using a short-lived GitHub OIDC identity restricted to this repository, the main branch and the exact refresh workflow. No viewer key or permanent GitHub credential is needed in Actions.
+## Avtomatik yeniləmə
 
-The service stores the playlist, channel health and fallback sources privately. Only aggregate health counts are committed here. Do not upload generated playlist, source, health or revision files to this repository.
+GitHub Actions hər 6 saatdan bir — Bakı vaxtı ilə təxminən 04:23, 10:23, 16:23 və 22:23 — açıq mənbələri yenidən oxuyur, HLS siyahılarını və video fraqmentlərini yoxlayır. İki ardıcıl uğursuz yoxlamadan sonra işləyən ehtiyat mənbəni seçir. İşlək ehtiyat tapılmazsa kanal silinmir və vəziyyət hesabatında qeyd edilir. İşləyən HD alternativlərə və ölçülmüş daha qısa cavab müddətinə üstünlük verilir.
 
-The updater refreshes known public sources, checks HLS and media fragments, discovers additional HD channels and approved free sports broadcasts, and prefers HD alternatives with a faster measured response where available. Temporary failures are retried; a failing channel is not removed automatically. After two consecutive failing runs, a verified fallback is selected.
+Əlavə HD kanallar avtomatik axtarılır. Futbol və idman kanalları Azərbaycan, rus, ingilis və türk dili məlumatlarına əsasən kataloqdan seçilir. Yalnız yoxlamadan keçən yeni yayımlar əlavə edilir. Giriş məlumatı tələb edən hesab linkləri və dəstəklənməyən DRM yayımları idxal edilmir. İctimai yayımların regional məhdudiyyətləri ola bilər; bütün oyunların göstərilməsi zəmanəti yoxdur.
 
-Free sports does not mean every competition is available. Match rights and regional restrictions apply. No paid-channel credentials, DRM circumvention, or guaranteed access to paid football competitions are provided. Published source resolution labels and response times are useful indicators, not a guarantee of quality or speed on every viewer's internet connection.
+TRT Belgesel Türkiyə qrupunda ayrıca saxlanılır, rəsmi yayımlar və ehtiyatlar təkrar yoxlanılır.
 
-## Manual run
+## Loqolar
 
-Actions → Refresh protected IPTV playlist → Run workflow.
+Loqolar PNG formatında `logos/` qovluğuna yüklənir və həmin GitHub hesabından göstərilir. Xarici şəkil serveri sonradan bağlansa da saxlanılan loqo qalır. Loqolar hər həftə yoxlanılır; uğursuz şəkillər hər icrada yenidən sınanır. Real loqo tapılmayan kanal üçün görünən hərf nişanı yaradılır; bu, rəsmi kanal loqosu deyil. Ətraflı vəziyyət `logo_status.json` faylındadır.
 
-Tests: `python -m unittest discover -s tests -v`.
+[Vəziyyət](STATUS.md) · [Son nəticə](LAST_RUN.json) · [Avtomatik icralar](https://github.com/Mikayil339/iptv/actions/workflows/refresh.yml)
 
-A GitHub schedule may be delayed or disabled by GitHub inactivity rules. Check Actions if updates stop.
+Televizo-da gündəlik avtomatik pleylist yeniləməsini aktivləşdirin. GitHub cədvəli gecikə və ya uzun fəaliyyətsizlikdən sonra dayandırıla bilər. Lazım olsa Actions → Refresh IPTV playlist → Run workflow ilə əl ilə başladın.
+
+## Lokal icra
+
+```sh
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python scripts/refresh.py
+python scripts/update_logos.py
+```
+
+`source-group` yayım mənbəsinin ölkəsini saxlayır; `group-title` IPTV tətbiqində görünən qrupdur. İdman kanalları ayrıca qrupdadır.
