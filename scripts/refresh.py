@@ -205,7 +205,7 @@ def main():
         for candidate in candidates:
             match = re.search(r'(\d{3,4})p', candidate['name'] + ' ' + candidate['url'])
             quality = int(match[1]) if match else (720 if '@HD' in candidate['attrs'] else 0)
-            if quality >= 720 or identity(candidate) in sports_ids:
+            if quality == 0 or quality >= 720 or identity(candidate) in sports_ids:
                 eligible.append((quality, candidate))
         if eligible:
             eligible.sort(key=lambda item: item[0], reverse=True)

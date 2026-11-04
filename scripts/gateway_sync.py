@@ -1,6 +1,5 @@
 """Use GitHub Actions OIDC identity; no persistent GitHub or viewer key is needed."""
 import json
-import base64
 import urllib.error
 import os
 from pathlib import Path
@@ -16,8 +15,6 @@ def identity():
     request = urllib.request.Request(url, headers={'Authorization':'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
     with urllib.request.urlopen(request, timeout=30) as response:
         token = json.load(response)['value']
-        claims = json.loads(base64.urlsafe_b64decode(token.split('.')[1] + '==='))
-        print('Updater identity:', json.dumps({k:claims.get(k) for k in ['iss','aud','sub','repository','ref','workflow_ref','exp']},sort_keys=True))
         return token
 
 
