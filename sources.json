@@ -3233,5 +3233,8 @@
   ],
   "required_channels": [
     "trtbelgesel.tr"
+  ],
+  "official_trt_pages": [
+    "https://www.trtbelgesel.com.tr/canli-yayin"
   ]
 }

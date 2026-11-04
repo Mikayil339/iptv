@@ -219,6 +219,14 @@ def main():
                     pool.setdefault(('Azərbaycan', identity(entry)), []).insert(0, entry)
         except Exception as error:
             errors.append({'source': webpage['url'], 'error': str(error)[:160]})
+    for page in config.get('official_trt_pages', []):
+        try:
+            from official_trt import parse_page
+            raw, _ = fetch(page, limit=20_000_000)
+            for entry in parse_page(raw.decode('utf-8')):
+                pool.setdefault(('Türkiyə', identity(entry)), []).insert(0, entry)
+        except Exception as error:
+            errors.append({'source': page, 'error': str(error)[:160]})
     for entry in config.get('backups', []):
         pool.setdefault((country(entry), identity(entry)), []).insert(0, entry)
     sports_ids = set(config.get('sports_ids', []))
@@ -281,12 +289,13 @@ def main():
         prior = previous.get(key, {})
         # Reset failures when a human changed the stream URL.
         count = prior.get('failures', 0) if prior.get('url') == entry['url'] else 0
-        alternatives, seen = [], {entry['url']}
+        alternatives, seen = [], {(entry['url'], tuple(entry.get('options', [])))}
         # Remember discovered backups, including temporary failures.
         candidates = pool.get((country(entry), identity(entry)), []) + prior.get('backups', [])
         for candidate in candidates:
-            if candidate['url'] not in seen:
-                seen.add(candidate['url']); alternatives.append(candidate)
+            candidate_key = (candidate['url'], tuple(candidate.get('options', [])))
+            if candidate_key not in seen:
+                seen.add(candidate_key); alternatives.append(candidate)
         def quality(candidate):
             match = re.search(r'(\d{3,4})p', candidate['name'] + ' ' + candidate['url'])
             return int(match[1]) if match else 0

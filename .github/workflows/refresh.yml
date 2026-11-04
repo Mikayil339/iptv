@@ -32,6 +32,8 @@ jobs:
       - name: Discover and verify channels
         run: python scripts/refresh.py
       - name: Cache and repair channel logos
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python scripts/update_logos.py
       - name: Publish playlist and health reports to GitHub
         run: |

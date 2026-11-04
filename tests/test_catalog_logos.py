@@ -31,9 +31,27 @@ class LogoTests(unittest.TestCase):
  def test_svg_is_converted_without_external_images(self):
   result=logos.png(b'<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><image href="file:///etc/passwd"/><rect width="40" height="40" fill="red"/></svg>')
   im=Image.open(io.BytesIO(result));self.assertEqual(im.getpixel((128,128))[:3],(255,0,0))
+ def test_transparent_logo_is_rejected(self):
+  data=io.BytesIO();Image.new('RGBA',(20,20)).save(data,format='PNG')
+  with self.assertRaises(ValueError):logos.png(data.getvalue())
  def test_invalid_image_is_not_accepted(self):
   with self.assertRaises(Exception):logos.png(b'<html>Error</html>')
  def test_fallback_is_a_valid_visible_image(self):
   im=Image.open(io.BytesIO(logos.fallback('Test TV')));self.assertEqual(im.size,(256,256));self.assertGreater(len(im.getcolors(65536)),1)
 
 if __name__=='__main__':unittest.main()
+
+class SupplementalLogoTests(unittest.TestCase):
+ def test_exact_channel_and_country_are_matched(self):
+  tree={'tree':[{'path':'countries/turkey/trt-belgesel-tr.png','type':'blob'},{'path':'countries/united-states/espn-2-us.png','type':'blob'}]}
+  idx=logos.supplemental_index(tree)
+  self.assertEqual(len(logos.supplemental_urls('trtbelgesel.tr','TRT Belgesel','Türkiyə',idx)),1)
+  self.assertEqual(logos.supplemental_urls('trthaber.tr','TRT Haber','Türkiyə',idx),[])
+
+class TRTTests(unittest.TestCase):
+ def test_only_public_before_login_clear_hls_is_imported(self):
+  import official_trt
+  rows=[{'slug':'trtbelgesel','loginStatus':'watched_before_login','media':[{'type':'hls','drmSchema':'clear','url':'https://trt.example.org/master.m3u8'},{'type':'hls','drmSchema':'widevine','url':'https://drm.example.org/master.m3u8'}]},{'slug':'trtspor','loginStatus':'login_required','media':[{'type':'hls','drmSchema':'clear','url':'https://private.example.org/master.m3u8'}]}]
+  import json
+  page='<script id="__NEXT_DATA__" type="application/json">'+json.dumps(rows)+'</script>'
+  entries=official_trt.parse_page(page);self.assertEqual(len(entries),1);self.assertIn('TRTBelgesel.tr',entries[0]['attrs'])
