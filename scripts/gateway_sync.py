@@ -20,7 +20,7 @@ def call(data=None):
     # Tokens are short-lived and never logged or written to disk.
     request = urllib.request.Request(GATEWAY + '/admin/bundle',
         data=json.dumps(data, ensure_ascii=False).encode() if data is not None else None,
-        headers={'Authorization':'Bearer ' + identity(), 'Content-Type':'application/json','User-Agent':'Mozilla/5.0'})
+        headers={'X-GitHub-OIDC':identity(), 'Content-Type':'application/json','User-Agent':'Mozilla/5.0'})
     with urllib.request.urlopen(request, timeout=60) as response:
         return json.load(response)
 
