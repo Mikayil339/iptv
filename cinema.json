@@ -56,6 +56,14 @@
     {
       "country": "Türkiyə",
       "url": "https://raw.githubusercontent.com/tecobaba/tecom3u/main/guncel.m3u"
+    },
+    {
+      "country": "Türkiyə",
+      "url": "https://raw.githubusercontent.com/YosemiteSam6/turkiye-iptv-m3u-m3u8/main/kanallar.m3u",
+      "name_ids": {
+        "Cine 1": "Cine1.tr",
+        "Tivi 6": "Tivi6.tr"
+      }
     }
   ],
   "backups": [

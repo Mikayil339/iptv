@@ -79,6 +79,10 @@ def main():
         try:
             entries = parse(fetch(source['url'])[0].decode('utf-8-sig'))
             for entry in entries:
+                mapped = source.get('name_ids', {}).get(entry['name'])
+                if mapped:
+                    entry = set_attr(entry, 'tvg-id', mapped)
+                entry['url'] = entry['url'].split('#', 1)[0]
                 cid = identity(entry)
                 if cid in profiles and profiles[cid]['country'] == source['country']:
                     pool.setdefault(cid, []).append(entry)
