@@ -155,7 +155,10 @@ def render(entries):
 def main():
     config = json.loads((ROOT / 'sources.json').read_text())
     playlist = ROOT / 'playlist.m3u8'
-    current = parse(playlist.read_text())
+    original_text = playlist.read_text()
+    current = parse(original_text)
+    if len(current) != sum(line.startswith('#EXTINF:') for line in original_text.splitlines()):
+        raise RuntimeError('Invalid local channel metadata; refusing to drop entries')
     if not current:
         raise RuntimeError('Refusing to overwrite an empty/invalid playlist')
     state_path = ROOT / 'health.json'
