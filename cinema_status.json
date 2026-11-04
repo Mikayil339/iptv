@@ -1,0 +1,280 @@
+{
+  "source_errors": [],
+  "channels": {
+    "cine1.tr": {
+      "name": "Cine 1 (1080p)",
+      "group": "Türk Filmləri və Dublyaj",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 6.67,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "domkino.ru": {
+      "name": "domkino.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "domkinopremium.ru": {
+      "name": "Dom kino Premium HD (1080p)",
+      "group": "Rusiya",
+      "check": {
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.25
+      }
+    },
+    "evrokino.ru": {
+      "name": "Evrokino HD (1080p)",
+      "group": "1080p Russian Movies",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 0.76,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "film.screen.tr": {
+      "name": "Film Screen HD (1080p)",
+      "group": "Türk Filmləri və Dublyaj",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 0.56,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "kemalsunal.tr": {
+      "name": "kemalsunal.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "kinopremyera.ru": {
+      "name": "Kinopremyera (1080p)",
+      "group": "1080p Russian Movies",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 1.21,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "kinotv.ru": {
+      "name": "Kino TV HD (1080p)",
+      "group": "1080p Russian Movies",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 1.5,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "mosfilmgoldcollection.ru": {
+      "name": "Mosfilm — Золотая коллекция (1080p)",
+      "group": "Rusiya",
+      "check": {
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.24
+      }
+    },
+    "nashemuzhskoe.ru": {
+      "name": "Nashe muzhskoe HD (1080p)",
+      "group": "Rusiya",
+      "check": {
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.25
+      }
+    },
+    "nashenovoekino.ru": {
+      "name": "nashenovoekino.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "pobeda.ru": {
+      "name": "Pobeda / Победа (576p)",
+      "group": "Rusiya",
+      "check": {
+        "ok": true,
+        "height": 576,
+        "seconds": 3.79,
+        "width": 1024,
+        "resolution_verified": true
+      }
+    },
+    "rodnoekino.ru": {
+      "name": "rodnoekino.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "russkiybestseller.ru": {
+      "name": "russkiybestseller.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "russkiydetektiv.ru": {
+      "name": "russkiydetektiv.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "russkiyroman.ru": {
+      "name": "Russkiy roman (1080p)",
+      "group": "1080p Russian Movies",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 0.5,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "sinematv.tr": {
+      "name": "sinematv.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "sinematv1001.tr": {
+      "name": "sinematv1001.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "sinematvaile.tr": {
+      "name": "sinematvaile.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "sinematvaksiyon.tr": {
+      "name": "sinematvaksiyon.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "sinematvcomedy.tr": {
+      "name": "sinematvcomedy.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "sinemayerli.tr": {
+      "name": "sinemayerli.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "startair.ru": {
+      "name": "START Air (1080p)",
+      "group": "1080p Russian Movies",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 1.52,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "startworld.ru": {
+      "name": "startworld.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "tivi6.tr": {
+      "name": "Tivi 6 (720p)",
+      "group": "Türk Filmləri və Dublyaj",
+      "check": {
+        "ok": true,
+        "height": 720,
+        "seconds": 1.97,
+        "width": 1280,
+        "resolution_verified": true
+      }
+    },
+    "velvetsovetskoekino.ru": {
+      "name": "velvetsovetskoekino.ru",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    },
+    "vijutv1000russkoe.ru": {
+      "name": "viju TV1000 russkoe (1080p)",
+      "group": "1080p Russian Movies",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 2.27,
+        "width": 1920,
+        "resolution_verified": true
+      }
+    },
+    "yesilcam.tr": {
+      "name": "yesilcam.tr",
+      "group": null,
+      "check": {
+        "ok": false,
+        "height": 0,
+        "error": "No working cinema source"
+      }
+    }
+  }
+}
