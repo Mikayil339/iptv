@@ -1,6 +1,6 @@
 {
   "channels": 499,
-  "healthy": 479,
+  "healthy": 472,
   "replaced": 2,
   "groups": {
     "Azərbaycan": 18,
@@ -8,7 +8,7 @@
     "Türkiyə": 192,
     "Rusiya": 164
   },
-  "checked_at_utc": "2026-11-04T13:20:15+00:00",
+  "checked_at_utc": "2026-11-04T13:25:21+00:00",
   "required_channels": {
     "trtbelgesel.tr": true
   }
