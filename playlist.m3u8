@@ -1220,3 +1220,9 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/setantasports2eurasia.ie-52710016d1de.png",Setanta Sports 2 Eurasia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/235/index.m3u8
+#EXTINF:-1 tvg-id="Pobeda.ru" group-title="Rusiya" tvg-logo="https://iptvx.one/picons/pobeda.png",Pobeda / Победа (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://streaming.thestream.cyou/live/43.m3u8
+#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Rusiya" tvg-logo="https://iptvx.one/picons/mosfilm.png",Mosfilm — Золотая коллекция (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+http://stream.mcquack.net/369/index.m3u8

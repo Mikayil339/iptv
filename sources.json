@@ -3153,6 +3153,54 @@
         "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
       ],
       "url": "http://sol.trtcdn.com/tv/trtbelgesel/smil:trtbelgesel.smil/playlist.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Pobeda.ru\" group-title=\"Rusiya\"",
+      "name": "Победа",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Pobeda.ru\" group-title=\"Rusiya\"",
+      "name": "Победа",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"Pobeda.ru\" group-title=\"Rusiya\"",
+      "name": "Победа",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://streaming.thestream.cyou/live/43.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" group-title=\"Rusiya\"",
+      "name": "Mosfilm Gold Collection (576p)",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "http://31.222.235.15/mosfilm/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" group-title=\"Rusiya\"",
+      "name": "Mosfilm Gold Collection (576p)",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "http://stream.mcquack.net/369/index.m3u8"
+    },
+    {
+      "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" group-title=\"Rusiya\"",
+      "name": "Mosfilm Gold Collection (576p)",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+      ],
+      "url": "https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv"
     }
   ],
   "webpages": [
@@ -3232,7 +3280,9 @@
     "tur"
   ],
   "required_channels": [
-    "trtbelgesel.tr"
+    "trtbelgesel.tr",
+    "pobeda.ru",
+    "mosfilmgoldcollection.ru"
   ],
   "official_trt_pages": [
     "https://www.trtbelgesel.com.tr/canli-yayin"
