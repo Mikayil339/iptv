@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T13:26:25+00:00",
+  "checked_at": "2026-11-04T18:57:37+00:00",
   "metadata_error": null,
   "supplemental_error": null,
   "channels": {
@@ -19,7 +19,7 @@
       "path": "logos/xezertv.az-e940acff31e9.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "spacetv.az": {
       "path": "logos/spacetv.az-43787db5013a.png",
@@ -235,7 +235,7 @@
       "path": "logos/abcnews-f9f8e5452f2c.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "abc news australia": {
       "path": "logos/abc-news-australia-39ed3da7a897.png",
@@ -361,7 +361,7 @@
       "path": "logos/brfernsehennord.de-ece4ebdfbe6f.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "brt 1 hd.tr": {
       "path": "logos/brt-1-hd.tr-9a832d5f86c0.png",
@@ -409,7 +409,7 @@
       "path": "logos/cgtndocumentary-5aeb0ea7472d.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "channel news asia": {
       "path": "logos/channel-news-asia-95e68667ead4.png",
@@ -466,10 +466,10 @@
       "checked_at": "2026-11-04T13:09:36+00:00"
     },
     "dmax.tr": {
-      "path": "logos/dmax.tr-63a481fe8158.png",
-      "source": null,
-      "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "path": "logos/dmax.tr-255c9c45ad62.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png",
+      "fallback": false,
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "documentary+": {
       "path": "logos/documentary--47d424cae71c.png",
@@ -547,7 +547,7 @@
       "path": "logos/film.screen.tr-3612b857c488.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "finansturktv.tr": {
       "path": "logos/finansturktv.tr-f3a834e9f488.png",
@@ -559,7 +559,7 @@
       "path": "logos/flashhabertv.tr-5b624b4a0490.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "fortunatv.tr": {
       "path": "logos/fortunatv.tr-99c39b722e91.png",
@@ -889,7 +889,7 @@
       "path": "logos/persianaturkiye.fr-eb3d6cfd34b3.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "powerdance.tr": {
       "path": "logos/powerdance.tr-a8105622554d.png",
@@ -991,7 +991,7 @@
       "path": "logos/tabii.tv.tr-ebc8bd934351.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "tbmmtv.tr": {
       "path": "logos/tbmmtv.tr-2a43957af984.png",
@@ -1042,10 +1042,10 @@
       "checked_at": "2026-11-04T13:09:36+00:00"
     },
     "tlc.tr": {
-      "path": "logos/tlc.tr-44c1a3aad319.png",
-      "source": null,
-      "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "path": "logos/tlc.tr-ca6c4c7eb2e2.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png",
+      "fallback": false,
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "tontv.tr": {
       "path": "logos/tontv.tr-e33d3fc94f66.png",
@@ -1057,7 +1057,7 @@
       "path": "logos/name-trsozcutv-d9f3d517cda5.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "trace urban": {
       "path": "logos/trace-urban-22e9d25cacbb.png",
@@ -1126,10 +1126,10 @@
       "checked_at": "2026-11-04T13:09:36+00:00"
     },
     "trteba.tr": {
-      "path": "logos/trteba.tr-7e26fe6c60d7.png",
-      "source": null,
-      "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "path": "logos/trteba.tr-cecd71c4ed92.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png",
+      "fallback": false,
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "trtgenc.tr": {
       "path": "logos/trtgenc.tr-ae9d4798d4c3.png",
@@ -1249,7 +1249,7 @@
       "path": "logos/name-vevopopfast-bd2e6640e20f.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "yoltv.de": {
       "path": "logos/yoltv.de-2b6ae81a8919.png",
@@ -1354,10 +1354,10 @@
       "checked_at": "2026-11-04T13:09:36+00:00"
     },
     "animalplanet.ru": {
-      "path": "logos/animalplanet.ru-90ec71ab4883.png",
-      "source": null,
-      "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "path": "logos/animalplanet.ru-17988b01220f.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png",
+      "fallback": false,
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "arkhyz24.ru": {
       "path": "logos/arkhyz24.ru-1ae0df54f4d3.png",
@@ -1435,7 +1435,7 @@
       "path": "logos/discoverychannel.ru-b2227dd7d001.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "domkinopremium.ru": {
       "path": "logos/domkinopremium.ru-3773a4858988.png",
@@ -1495,7 +1495,7 @@
       "path": "logos/foodnetwork.ru-a4f5d6102abd.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "govoritmoskva.ru": {
       "path": "logos/govoritmoskva.ru-cd1ba99e8f2c.png",
@@ -1537,7 +1537,7 @@
       "path": "logos/investigationdiscovery.ru-f7120bc9373a.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "istoki.ru": {
       "path": "logos/istoki.ru-0385dbbfa9ab.png",
@@ -1705,7 +1705,7 @@
       "path": "logos/ntvvitrina.ru-b0351d0061cc.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "o.ru": {
       "path": "logos/o.ru-2ed1d0a12506.png",
@@ -1825,7 +1825,7 @@
       "path": "logos/russiak.ru-68926dc7a6b1.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "russianextremeultra.ru": {
       "path": "logos/russianextremeultra.ru-ec34a701f915.png",
@@ -1951,7 +1951,7 @@
       "path": "logos/tlc.ru-66edfc0c8c30.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "tnvtatarstan.ru": {
       "path": "logos/tnvtatarstan.ru-0d5dc77a4823.png",
@@ -2557,7 +2557,7 @@
       "path": "logos/foxdeportes.us-a48ff7fa2268.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "foxsports1.us": {
       "path": "logos/foxsports1.us-2a0b0540a382.png",
@@ -2851,7 +2851,7 @@
       "path": "logos/sport5.ua-cf53d751cac9.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "sportsgrid.us": {
       "path": "logos/sportsgrid.us-da031242f42a.png",
@@ -2893,7 +2893,7 @@
       "path": "logos/talksport.uk-4d75b5bf9872.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "tennischannel2.us": {
       "path": "logos/tennischannel2.us-45fc54074a15.png",
@@ -2938,10 +2938,10 @@
       "checked_at": "2026-11-04T13:09:36+00:00"
     },
     "tvssportsbureau.us": {
-      "path": "logos/tvssportsbureau.us-7caa6a50a76d.png",
+      "path": "logos/tvssportsbureau.us-d88c51e8a0cd.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-04T13:26:25+00:00"
+      "checked_at": "2026-11-04T18:57:37+00:00"
     },
     "tvsturbo.us": {
       "path": "logos/tvsturbo.us-17d84cecba59.png",
@@ -2984,6 +2984,18 @@
       "source": "https://i.imgur.com/ouHunnK.png",
       "fallback": false,
       "checked_at": "2026-11-04T13:21:18+00:00"
+    },
+    "pobeda.ru": {
+      "path": "logos/pobeda.ru-0dd5faa7df67.png",
+      "source": "https://i.imgur.com/4KiYSln.png",
+      "fallback": false,
+      "checked_at": "2026-11-04T18:57:37+00:00"
+    },
+    "mosfilmgoldcollection.ru": {
+      "path": "logos/mosfilmgoldcollection.ru-0b29b1879c94.png",
+      "source": "https://i.imgur.com/95Y8jb6.png",
+      "fallback": false,
+      "checked_at": "2026-11-04T18:57:37+00:00"
     }
   }
 }

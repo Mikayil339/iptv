@@ -1,15 +1,17 @@
 {
-  "channels": 499,
-  "healthy": 472,
+  "channels": 501,
+  "healthy": 464,
   "replaced": 2,
   "groups": {
     "Azərbaycan": 18,
     "Futbol və idman": 125,
     "Türkiyə": 192,
-    "Rusiya": 164
+    "Rusiya": 166
   },
-  "checked_at_utc": "2026-11-04T13:25:21+00:00",
+  "checked_at_utc": "2026-11-04T18:56:19+00:00",
   "required_channels": {
-    "trtbelgesel.tr": true
+    "trtbelgesel.tr": true,
+    "pobeda.ru": true,
+    "mosfilmgoldcollection.ru": true
   }
 }
