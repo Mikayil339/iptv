@@ -17,9 +17,10 @@ def parse_page(text):
     def walk(node):
         if isinstance(node,dict):
             slug=node.get('slug')
-            if slug in MAP and node.get('loginStatus')=='watched_before_login':
+            if isinstance(slug,str) and slug in MAP and node.get('loginStatus')=='watched_before_login':
                 cid,name=MAP[slug]
                 for medium in node.get('media',[]):
+                    if not isinstance(medium,dict):continue
                     url=medium.get('url','')
                     if medium.get('type')=='hls' and medium.get('drmSchema')=='clear' and url.startswith('https://') and url not in seen:
                         seen.add(url);entries.append({'attrs':'#EXTINF:-1 tvg-id="'+cid+'" group-title="Türkiyə"',

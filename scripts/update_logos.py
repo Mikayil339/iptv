@@ -46,11 +46,13 @@ def supplemental_urls(cid,name,group,index):
     if not cc or len(cc)!=2:
         prefix=cid;cc={'Azərbaycan':'az','Türkiyə':'tr','Rusiya':'ru'}.get(group,'')
     keys={norm(prefix),norm(name),norm(re.sub(r'^(?:TR|AZ|RU|EN)\s*[-|:]?\s+', '', name, flags=re.I))}
+    if cid=='nowtv.tr':keys.add('now')
     urls=[]
     for key in keys:
         urls.extend(local.get((cc,key),[]))
         candidates=global_names.get(key,[])
-        if len(candidates)==1:urls.extend(candidates)
+        country_codes={re.search(r'-([a-z]{2})\.png$',url).group(1) for url in candidates}
+        if len(country_codes)==1:urls.extend(candidates)
     return list(dict.fromkeys(urls))
 
 def png(data):

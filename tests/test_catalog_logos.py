@@ -51,7 +51,7 @@ class SupplementalLogoTests(unittest.TestCase):
 class TRTTests(unittest.TestCase):
  def test_only_public_before_login_clear_hls_is_imported(self):
   import official_trt
-  rows=[{'slug':'trtbelgesel','loginStatus':'watched_before_login','media':[{'type':'hls','drmSchema':'clear','url':'https://trt.example.org/master.m3u8'},{'type':'hls','drmSchema':'widevine','url':'https://drm.example.org/master.m3u8'}]},{'slug':'trtspor','loginStatus':'login_required','media':[{'type':'hls','drmSchema':'clear','url':'https://private.example.org/master.m3u8'}]}]
+  rows=[{'slug':['trtbelgesel']},{'slug':'trtbelgesel','loginStatus':'watched_before_login','media':[{'type':'hls','drmSchema':'clear','url':'https://trt.example.org/master.m3u8'},{'type':'hls','drmSchema':'widevine','url':'https://drm.example.org/master.m3u8'}]},{'slug':'trtspor','loginStatus':'login_required','media':[{'type':'hls','drmSchema':'clear','url':'https://private.example.org/master.m3u8'}]}]
   import json
   page='<script id="__NEXT_DATA__" type="application/json">'+json.dumps(rows)+'</script>'
   entries=official_trt.parse_page(page);self.assertEqual(len(entries),1);self.assertIn('TRTBelgesel.tr',entries[0]['attrs'])
