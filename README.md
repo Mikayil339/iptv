@@ -1,44 +1,23 @@
-# Azərbaycan · Türkiyə · Rusiya IPTV
+# Protected IPTV updater
 
-Televizo və digər IPTV tətbiqləri üçün birbaşa URL:
+This repository maintains a playlist for Azerbaijan, Turkey, Russia and a separate free sports group. Viewer access is through a secret link provided directly by the owner; the link and its access key are never stored here.
 
-https://raw.githubusercontent.com/Mikayil339/iptv/main/playlist.m3u8
+The previous public raw playlist endpoint has been removed from the current branch. Historical commits can still contain older public channel lists; they do not grant access to the protected service or to its future updates.
 
-## Avtomatik yeniləmə
+## Updates
 
-GitHub Actions hər 6 saatdan bir yoxlama aparır: Bakı vaxtı ilə təxminən **04:23, 10:23, 16:23, 22:23**. GitHub növbəsinə görə gecikmə mümkündür.
+GitHub Actions runs every six hours (approximately 04:23, 10:23, 16:23, 22:23 Asia/Baku). It authenticates to the playlist service using a short-lived GitHub OIDC identity restricted to this repository, the main branch and the exact refresh workflow. No viewer key or permanent GitHub credential is needed in Actions.
 
-- Əvvəl kanalın HLS siyahısı və video fraqmenti yoxlanılır.
-- Nasazlıq həmin işə düşmə daxilində təkrar yoxlanılır.
-- İki ardıcıl işə düşmədə uğursuz olan kanal üçün eyni ölkə və kanal identifikatoruna uyğun ehtiyatlar yoxlanılır.
-- Video fraqmenti alınan ehtiyat tapılarsa URL yenilənir. Keyfiyyət qeydi olan yüksək ölçülü alternativlərə üstünlük verilir.
-- İşləyən ehtiyat tapılmasa kanal silinmir, son ünvan saxlanır.
-- Ölkə qrupları və ümumi kanal sayı saxlanır. Sistem avtomatik yeni kanal əlavə etmir.
-- Açıq ölkə siyahıları və Azərbaycan canlı yayım səhifəsi hər işə düşmədə yenidən oxunur. Yalnız konfiqurasiyadakı mənbələrdə yayımlanan yeni ünvanlar tapıla bilər.
+The service stores the playlist, channel health and fallback sources privately. Only aggregate health counts are committed here. Do not upload generated playlist, source, health or revision files to this repository.
 
-[Vəziyyət hesabatı](STATUS.md) · [Yoxlamalar](https://github.com/Mikayil339/iptv/actions/workflows/refresh.yml)
+The updater refreshes known public sources, checks HLS and media fragments, discovers additional HD channels and approved free sports broadcasts, and prefers HD alternatives with a faster measured response where available. Temporary failures are retried; a failing channel is not removed automatically. After two consecutive failing runs, a verified fallback is selected.
 
-`retry_next_run`: birinci uğursuz yoxlama; `replaced`: ehtiyatla əvəzləndi; `unavailable_kept`: ehtiyatlar da açılmadı, kanal saxlanıldı.
+Free sports does not mean every competition is available. Match rights and regional restrictions apply. No paid-channel credentials, DRM circumvention, or guaranteed access to paid football competitions are provided. Published source resolution labels and response times are useful indicators, not a guarantee of quality or speed on every viewer's internet connection.
 
-## Televizo
+## Manual run
 
-Pleylist ayarlarında avtomatik yeniləməni gündəlik aktivləşdirin. Mövcud link dəyişmir. Tətbiqdə həmin ayar yoxdursa, pleylisti əl ilə yeniləyin.
+Actions → Refresh protected IPTV playlist → Run workflow.
 
-## Əl ilə işə salmaq
+Tests: `python -m unittest discover -s tests -v`.
 
-GitHub → Actions → Refresh IPTV playlist → Run workflow.
-
-Lokal icra (Python 3.12, əlavə paket tələb olunmur):
-
-```sh
-python -m unittest discover -s tests -v
-python scripts/refresh.py
-```
-
-## Məhdudiyyətlər
-
-Video fraqmentinin alınması uzunmüddətli oynatma, düzgün kanal məzmunu, səs və sizin regionda əlçatanlıq zəmanəti deyil. Keyfiyyət qeydləri mənbələrə əsaslanır. Şifrələnmiş, abunə tələb edən və regional məhdudiyyətli yayımlar açılmaya bilər. Əsas yayım işləyirsə, lazımsız URL dəyişikliyi edilmir. Eyni identifikatoru olan alternativlər arasında uğurlu ilk mənbə seçilir; bütün yayımların faktiki görüntü keyfiyyəti ölçülmür.
-
-GitHub Actions söndürülərsə, yazma icazəsi məhdudlaşdırılarsa və ya GitHub cədvəli gecikərsə yeniləmə dayanacaq. Açıq repozitoriyalarda 60 günlük fəaliyyətsizlikdən sonra cədvəl deaktiv edilə bilər; Actions səhifəsindən yenidən aktivləşdirilir. Hesabat hər uğurlu işə düşmədə repozitoriyaya yazılır.
-
-Mənbələr `sources.json`, yadda saxlanan ehtiyatlar və uğursuzluq sayğacları `health.json` faylındadır. Heç bir şəxsi token və ya ayrıca server tələb olunmur.
+A GitHub schedule may be delayed or disabled by GitHub inactivity rules. Check Actions if updates stop.

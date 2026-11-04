@@ -1,7 +1,7 @@
 """Refresh existing channels from public sources; never remove a channel on failure."""
 import concurrent.futures as futures
 import datetime as dt
-import hashlib
+import time
 import json
 import os
 from pathlib import Path
@@ -61,7 +61,8 @@ def identity(entry):
 
 
 def country(entry):
-    return attributes(entry).get('group-title', '')
+    attrs = attributes(entry)
+    return attrs.get('source-group', attrs.get('group-title', ''))
 
 
 def fetch(url, headers=None, limit=4_000_000):
@@ -84,6 +85,7 @@ def headers_for(entry):
 
 def probe(entry):
     """Require a media segment, not merely HTTP 200 or a master manifest."""
+    started = time.monotonic()
     url, height = entry['url'], 0
     headers = headers_for(entry)
     try:
@@ -91,7 +93,7 @@ def probe(entry):
             raw, final_url = fetch(url, headers, 1_000_000)
             if not raw.lstrip().startswith(b'#EXTM3U'):
                 if depth and raw and not raw.lstrip().lower().startswith((b'<', b'{')):
-                    return {'ok': True, 'height': height}
+                    return {'ok': True, 'height': height, 'seconds': round(time.monotonic() - started, 2)}
                 raise ValueError('Not HLS/media data')
             text = raw.decode('utf-8-sig')
             lines = [line.strip() for line in text.splitlines() if line.strip()]
@@ -114,10 +116,10 @@ def probe(entry):
             raw, _ = fetch(urljoin(final_url, segments[-1]), headers, 4096)
             if not raw or raw.lstrip().lower().startswith((b'<', b'{', b'#extm3u')):
                 raise ValueError('Invalid media segment response')
-            return {'ok': True, 'height': height}
+            return {'ok': True, 'height': height, 'seconds': round(time.monotonic() - started, 2)}
         raise ValueError('Too many nested manifests')
     except Exception as error:
-        return {'ok': False, 'error': str(error)[:160], 'height': height}
+        return {'ok': False, 'error': str(error)[:160], 'height': height, 'seconds': round(time.monotonic() - started, 2)}
 
 
 def clean_candidate(candidate, original):
@@ -169,6 +171,8 @@ def main():
         try:
             raw, _ = fetch(source['url'])
             for entry in parse(raw.decode('utf-8-sig')):
+                if source.get('only_ids') and identity(entry) not in source['only_ids']:
+                    continue
                 entry['attrs'] = re.sub(r' group-title="[^"]*"', '', entry['attrs']) + ' group-title="' + source['group'] + '"'
                 pool.setdefault((source['group'], identity(entry)), []).append(entry)
         except Exception as error:
@@ -191,10 +195,51 @@ def main():
             errors.append({'source': webpage['url'], 'error': str(error)[:160]})
     for entry in config.get('backups', []):
         pool.setdefault((country(entry), identity(entry)), []).insert(0, entry)
+    sports_ids = set(config.get('sports_ids', []))
+    existing_keys = {(country(e), identity(e)) for e in current}
+    additions = []
+    for key, candidates in pool.items():
+        if key in existing_keys:
+            continue
+        eligible = []
+        for candidate in candidates:
+            match = re.search(r'(\d{3,4})p', candidate['name'] + ' ' + candidate['url'])
+            quality = int(match[1]) if match else (720 if '@HD' in candidate['attrs'] else 0)
+            if quality >= 720 or identity(candidate) in sports_ids:
+                eligible.append((quality, candidate))
+        if eligible:
+            eligible.sort(key=lambda item: item[0], reverse=True)
+            additions.append((key, [item[1] for item in eligible[:3]]))
+    def discover(item):
+        _, candidates = item
+        valid = []
+        for candidate in candidates:
+            result = probe(candidate)
+            if result['ok']:
+                match = re.search(r'(\d{3,4})p', candidate['name'])
+                height = result.get('height') or (int(match[1]) if match else 0)
+                if height >= 720 or identity(candidate) in sports_ids:
+                    valid.append((height, result.get('seconds', 99), candidate))
+        if not valid:
+            return None
+        valid.sort(key=lambda item: (-item[0], item[1]))
+        return valid[0][2]
+    with futures.ThreadPoolExecutor(max_workers=20) as executor:
+        for entry in executor.map(discover, additions):
+            if entry:
+                current.append(entry)
+    # Put all approved free sports streams into their own group, without copies.
+    for entry in current:
+        if identity(entry) in sports_ids:
+            group = country(entry)
+            entry['attrs'] = re.sub(r' group-title="[^"]*"', '', entry['attrs'])
+            if 'source-group=' not in entry['attrs']:
+                entry['attrs'] += ' source-group="' + group + '"'
+            entry['attrs'] += ' group-title="Futbol və idman"'
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     previous = state.get('channels', {})
     def process(entry):
-        key = country(entry) + ':' + identity(entry)
+        key = attributes(entry).get('group-title', '') + ':' + identity(entry)
         prior = previous.get(key, {})
         # Reset failures when a human changed the stream URL.
         count = prior.get('failures', 0) if prior.get('url') == entry['url'] else 0
@@ -209,6 +254,13 @@ def main():
             return int(match[1]) if match else 0
         alternatives.sort(key=quality, reverse=True)
         result = probe(entry)
+        if result['ok'] and (result.get('height', 0) < 720 or result.get('seconds', 0) > 6):
+            for alternative in alternatives[:2]:
+                candidate = clean_candidate(alternative, entry)
+                candidate_result = probe(candidate)
+                if candidate_result['ok'] and candidate_result.get('height', 0) >= 720 and (result.get('height', 0) < 720 or candidate_result.get('seconds', 99) < result.get('seconds', 0)):
+                    entry, result = candidate, candidate_result
+                    break
         chosen, failures, status, result = select(entry, result, alternatives, count)
         cached = [clean_candidate(c, entry) for c in alternatives if c['url'] != chosen['url']][:12]
         if chosen['url'] != entry['url']:
