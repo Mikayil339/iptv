@@ -1,16 +1,16 @@
 {
   "channels": 518,
   "healthy": 487,
-  "replaced": 2,
+  "replaced": 1,
   "groups": {
     "Azərbaycan": 18,
     "Futbol və idman": 135,
     "Türkiyə": 191,
     "Türk Filmləri və Dublyaj": 3,
-    "Rusiya": 165,
-    "1080p Russian Movies": 6
+    "Rusiya": 166,
+    "1080p Russian Movies": 5
   },
-  "checked_at_utc": "2026-11-07T06:15:49+00:00",
+  "checked_at_utc": "2026-11-07T13:20:13+00:00",
   "required_channels": {
     "trtbelgesel.tr": true,
     "pobeda.ru": true,

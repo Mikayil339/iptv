@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.05,
+        "seconds": 1.82,
         "width": 1920,
         "resolution_verified": true
       }
@@ -28,18 +28,17 @@
         "ok": false,
         "error": "Not HLS/media data",
         "height": 0,
-        "seconds": 0.34
+        "seconds": 0.25
       }
     },
     "evrokino.ru": {
       "name": "Evrokino HD (1080p)",
-      "group": "1080p Russian Movies",
+      "group": "Rusiya",
       "check": {
         "ok": true,
-        "height": 1080,
-        "seconds": 1.07,
-        "width": 1920,
-        "resolution_verified": true
+        "height": 0,
+        "seconds": 0.5,
+        "resolution_verified": false
       }
     },
     "film.screen.tr": {
@@ -48,7 +47,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.66,
+        "seconds": 0.54,
         "width": 1920,
         "resolution_verified": true
       }
@@ -68,7 +67,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.12,
+        "seconds": 0.76,
         "width": 1920,
         "resolution_verified": true
       }
@@ -79,19 +78,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.46,
+        "seconds": 2.94,
         "width": 1920,
         "resolution_verified": true
       }
     },
     "mosfilmgoldcollection.ru": {
       "name": "Mosfilm — Золотая коллекция (1080p)",
-      "group": "Rusiya",
+      "group": "1080p Russian Movies",
       "check": {
         "ok": true,
-        "height": 0,
-        "seconds": 0.71,
-        "resolution_verified": false
+        "height": 1080,
+        "seconds": 0.75,
+        "width": 1920,
+        "resolution_verified": true
       }
     },
     "nashemuzhskoe.ru": {
@@ -100,7 +100,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.7,
+        "seconds": 0.5,
         "resolution_verified": false
       }
     },
@@ -119,7 +119,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.18,
+        "seconds": 2.55,
         "width": 1024,
         "resolution_verified": true
       }
@@ -153,13 +153,12 @@
     },
     "russkiyroman.ru": {
       "name": "Russkiy roman (1080p)",
-      "group": "1080p Russian Movies",
+      "group": "Rusiya",
       "check": {
         "ok": true,
-        "height": 1080,
-        "seconds": 1.09,
-        "width": 1920,
-        "resolution_verified": true
+        "height": 0,
+        "seconds": 0.51,
+        "resolution_verified": false
       }
     },
     "sinematv.tr": {
@@ -222,7 +221,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.47,
+        "seconds": 1.51,
         "width": 1920,
         "resolution_verified": true
       }
@@ -242,7 +241,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.08,
+        "seconds": 2.06,
         "width": 1280,
         "resolution_verified": true
       }
@@ -262,7 +261,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.44,
+        "seconds": 1.33,
         "width": 1920,
         "resolution_verified": true
       }
