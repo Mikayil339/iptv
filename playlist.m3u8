@@ -291,7 +291,6 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 #EXTINF:-1 tvg-id="HunatTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/hunattv.tr-4bed0cc222bd.png",Hunat TV (720p) [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1 tvg-id="i24 NEWS EN" tvg-name="i24 NEWS EN"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/i24-news-en-b7b90c5ba3a1.png",i24 NEWS EN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -300,22 +299,17 @@ https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 tvg-id="Kanal12.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal12.tr-cedb0c41adf0.png",Kanal 12 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal15.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal15.tr-f8bc19e87953.png",Kanal 15 (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal23.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal23.tr-7fb3ecb0e0c9.png",Kanal 23 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
 #EXTINF:-1 tvg-id="Kanal26.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal26.tr-8902409ed19f.png",Kanal 26 (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal3.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal3.tr-946b6ca4ebb5.png",Kanal 3 (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal58.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal58.tr-f5b38caa4d4b.png",KANAL 58 (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanal7avrupa.tr-7330617f0684.png",Kanal 7 Avrupa (1080p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -327,16 +321,12 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-sams
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://catcast.ismailturret.workers.dev/50822.m3u8
 #EXTINF:-1 tvg-id="KanalFirat.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanalfirat.tr-d82179125445.png",Kanal Firat (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kanalv.tr-cec5c4710b8a.png",Kanal V (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTINF:-1 tvg-id="KayTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kaytv.tr-04ea629730fd.png",Kay TV (720p) [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #EXTINF:-1 tvg-id="KentTurk.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kentturk.tr-5aa84734f0fd.png",Kent Türk TV (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="KNMusicTV.az@SD"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/knmusictv.az-e0b0842e35eb.png",KN Music TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1057,7 +1047,7 @@ https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playl
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxdeportes.us-4d73575c6667.png",Fox Deportes (720p)
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us@HD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxsports1.us-2a0b0540a382.png",Fox Sports 1 (1080p)
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxsports1.us-2a0b0540a382.png",Fox Sports 1 (720p)
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ftfsports.us-e31257b321e7.png",FTF Sports (1080p)
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
@@ -1217,7 +1207,7 @@ https://streaming.thestream.cyou/live/43.m3u8
 http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1 tvg-name="Cine 1" tvg-id="Cine1.tr" source-group="Türkiyə" group-title="Türk Filmləri və Dublyaj" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cine1.tr-9213341e2ec8.png",Cine 1 (1080p)
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
-#EXTINF:-1 tvg-id="Russkiyroman.ru@SD" source-group="Rusiya" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russkiyroman.ru-804bbe7f056f.png",Russkiy roman (1080p)
+#EXTINF:-1 tvg-id="Russkiyroman.ru@SD" source-group="Rusiya" group-title="1080p Russian Movies" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russkiyroman.ru-804bbe7f056f.png",Russkiy roman (1080p)
 http://stream.mcquack.net/266/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" source-group="Rusiya" group-title="1080p Russian Movies" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijutv1000russkoe.ru-cf5e88b94650.png",viju TV1000 russkoe (1080p)
 https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
@@ -1262,3 +1252,5 @@ https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8
 #EXTINF:-1 tvg-id="Eurosport.fr@Asia" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/eurosport.fr-3fb64057023b.png",Eurosport (France)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://103.253.74.210:7070/stream/122/index.m3u8
+#EXTINF:-1 tvg-id="CNNTurk.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cnnturk.tr-23266d2db00b.png",CNN Turk (1080p)
+http://85.117.61.84/cnnturk/index.m3u8
