@@ -58,7 +58,6 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 tvg-id="ATV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/atv.tr-e4f233c2ed6f.png",ATV (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="NOWTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/nowtv.tr-9370aa57ccc5.png",NOW TV (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-id="StarTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/startv.tr-4baa2f685743.png",Star TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -67,7 +66,7 @@ https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TV8.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv8.tr-95cc1af105fb.png",TV 8 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 tvg-id="TV8,5.tr" tvg-name="TV 8.5"  source-group="Türkiyə" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv8-5.tr-ae36a210880c.png",TV 8.5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web
@@ -77,9 +76,9 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8
 #EXTINF:-1 tvg-id="NTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ntv.tr-1bacb669e288.png",NTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 tvg-id="AHaber.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ahaber.tr-77f263f5f436.png",A Haber (1080p)
+#EXTINF:-1 tvg-id="AHaber.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ahaber.tr-bae0235d9058.png",A Haber (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 tvg-id="TRTHaber.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/trthaber.tr-4e0b071d0b32.png",TRT Haber (1440p)
+#EXTINF:-1 tvg-id="TRTHaber.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/trthaber.tr-305418ac84eb.png",TRT Haber (1440p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="24 HABER"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-24haber-4a13fe032d2f.png",24 HABER
@@ -97,6 +96,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 #EXTINF:-1 tvg-id="A2TV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/a2tv.tr-ee5eda90bee7.png",A2TV (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:-1 tvg-id="ABCNews"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/abcnews-f9f8e5452f2c.png",ABC News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -128,10 +128,10 @@ https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u
 #EXTINF:-1 tvg-id="ArasTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/arastv.tr-7dc206ec967a.png",ARAS TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="ARD Alpha.de" tvg-name="ARD Alpha" tvg-id="ARDalpha.de"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ardalpha.de-f6f9ea842d3e.png",ARD Alpha
+#EXTINF:-1 tvg-id="ARD Alpha.de" tvg-name="ARD Alpha" tvg-id="ARDalpha.de"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ardalpha.de-a3983a7a325a.png",ARD Alpha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="ATVAlanya.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/atvalanya.tr-81f56d18eba8.png",ATV Alanya (720p)
+#EXTINF:-1 tvg-id="ATVAlanya.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/atvalanya.tr-81f56d18eba8.png",ATV Alanya (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="AugsburgTV" tvg-name="AugsburgTV"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/augsburgtv-fa6203829942.png",Augsburg TV
@@ -143,10 +143,10 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 #EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bbcfirst.uk-3b5af142a7b0.png",BBC First Turkiye
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://88.212.7.14/live/bbc_first/index.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.tr" tvg-name="BBCWorldNews.tr"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bbcworldnews.tr-ac2824a3126f.png",BBC NEWS
+#EXTINF:-1 tvg-id="BBCWorldNews.tr" tvg-name="BBCWorldNews.tr"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bbcworldnews.tr-c280ab703ea6.png",BBC NEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BENGÜTÜRK.tr" tvg-name="BENGÜTÜRK.tr"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/beng-t-rk.tr-d6805494ccd6.png",BENGU TURK
+#EXTINF:-1 tvg-id="BENGÜTÜRK.tr" tvg-name="BENGÜTÜRK.tr"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/beng-t-rk.tr-0e1db42e9707.png",BENGU TURK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/benguturktv.tr-2762d9daa77f.png",BENGÜTÜRK TV (720p) [Not 24/7]
@@ -164,7 +164,7 @@ https://ensonhaber-live.ercdn.net/bloomberght/bloomberght.m3u8
 #EXTINF:-1 tvg-id="BR Nord.de" tvg-name="BR Nord" tvg-id="BRFernsehenNord.de"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/brfernsehennord.de-ece4ebdfbe6f.png",BR Nord
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="BRT 1 HD.tr" tvg-name="BRT 1 HD.tr"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/brt-1-hd.tr-9a832d5f86c0.png",BRT 1
+#EXTINF:-1 tvg-id="BRT 1 HD.tr" tvg-name="BRT 1 HD.tr"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/brt-1-hd.tr-ae42d2c257d7.png",BRT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://edge.kuzeykibrissmart.tv/brt1hd/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="BRTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/brtv.tr-7b798b070f8c.png",BRTV (720p) [Geo-blocked]
@@ -177,7 +177,7 @@ http://176.65.153.40:6002/play/a013/index.m3u8
 #EXTINF:-1 tvg-id="CBCNews" tvg-name="CBCNews"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cbcnews-faed927d2026.png",CBC News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8
-#EXTINF:-1 tvg-name="CBS NEWS"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-cbsnews-faed927d2026.png",CBS NEWS
+#EXTINF:-1 tvg-name="CBS NEWS"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-cbsnews-b618f8d11b74.png",CBS NEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live-manifest.production-public.tubi.io/live/08b1a540-5618-46ce-b6e2-c0dfd1e8786f/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cgtn-724e73da083e.png",CGTN
@@ -190,7 +190,6 @@ https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-id="CNBCe.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cnbce.tr-977beafa49fd.png",CNBC-e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="CNN INT" tvg-name="CNN INT"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cnn-int-a0d90c0bc85d.png",CNN INT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -263,7 +262,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c05
 #EXTINF:-1 tvg-id="FortunaTV.tr@HD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fortunatv.tr-99c39b722e91.png",Fortuna TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="Fox News" tvg-name="Fox News"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fox-news-bab03914c76a.png",FOX NEWS
+#EXTINF:-1 tvg-id="Fox News" tvg-name="Fox News"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fox-news-fde15f347f95.png",FOX NEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GB NEWS" tvg-name="GB NEWS"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/gb-news-fdd22fcffab7.png",GB NEWS
@@ -435,10 +434,10 @@ https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktaptaze.tr-b6aaea3f7a20.png",Power Türk Taptaze (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktv.tr-01b1ec32c7c9.png",PowerTürk TV (1088p)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktv.tr-01b1ec32c7c9.png",PowerTürk TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
-#EXTINF:-1 tvg-id="RT DEUTSCH.de" tvg-name="RT DEUTSCH"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/rt-deutsch.de-dbdc20e386a3.png",RT DEUTSCH
+#EXTINF:-1 tvg-id="RT DEUTSCH.de" tvg-name="RT DEUTSCH"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/rt-deutsch.de-276e5ad5e49f.png",RT DEUTSCH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://rt-ger.rttv.com/live/rtdeutsch/playlist.m3u8
 #EXTINF:-1 tvg-id="RT NEWS" tvg-name="RT NEWS"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/rt-news-dbdc20e386a3.png",RT NEWS
@@ -477,7 +476,7 @@ https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1tvg-id="Terra Mater WILD"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-terramaterwild-7b83965785ae.png",Terra Mater WILD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE2"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/teve2.tr-15bdf33c1261.png",TEVE2
+#EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE2"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/teve2.tr-c05bc7e669c8.png",TEVE2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8
 #EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tgrtbelgesel.tr-0b53dcfcae5f.png",TGRT Belgesel TV (576p) [Not 24/7]
@@ -516,7 +515,7 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT ARAPCA"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-trtarapca-b22dd67f9ee7.png",TRT ARAPCA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tv-trtarabi.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="TRTAvaz.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/trtavaz.tr-b4e5662e8a79.png",TRT Avaz (1440p)
+#EXTINF:-1 tvg-id="TRTAvaz.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/trtavaz.tr-9415f9222bf8.png",TRT Avaz (1440p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTCocuk.tr@SD"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/trtcocuk.tr-f334087546b0.png",TRT Cocuk (1440p)
@@ -552,7 +551,7 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/trtworld.tr-b4f78f583fe1.png",TRT World (1440p) [Not 24/7]
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV 100"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv100.tr-7b1594a6d126.png",TV 100
+#EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV 100"  group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv100.tr-6a7708d2dafe.png",TV 100
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tv.ensonhaber.com/tv100/tv100_1080p.m3u8
 #EXTINF:-1 tvg-id="24TV.tr@SD" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/24tv.tr-6c56aca68fb1.png",TV 24 (720p)
@@ -673,7 +672,7 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" source-group="Rusiya" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/eurosport2.fr-b34d3cc2468e.png",Eurosport 2 Russia (1080p)
 https://s7.iptv-24.net/1452/playlist.m3u8
-#EXTINF:-1 tvg-id="Evrokino.ru@HD" source-group="Rusiya" group-title="1080p Russian Movies" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png",Evrokino HD (1080p)
+#EXTINF:-1 tvg-id="Evrokino.ru@HD" source-group="Rusiya" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png",Evrokino HD (1080p)
 http://stream.mcquack.net/385/index.m3u8
 #EXTINF:-1 tvg-id="FashionLifeStyle.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fashionlifestyle.ru-d14bfd0b45f8.png",Fashion&LifeStyle (1080p)
 http://stream.mcquack.net/119/index.m3u8
@@ -943,7 +942,7 @@ http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TKR.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tkr.ru-295e4aa2b42d.png",TKR (720p) [Not 24/7]
 http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRain.nl@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvrain.nl-d495a0371df3.png",TV Rain (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="TVRain.nl@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvrain.nl-1efe26938c60.png",TV Rain (1080p) [Geo-blocked]
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 #EXTINF:-1 tvg-id="VIVARussia.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vivarussia.ru-c361dc5bc167.png",VIVA Russia
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
@@ -953,7 +952,7 @@ https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/play
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/belarus5.by-ab8386535237.png",Belarus-5 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="TV 8" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-tv8-dc3cba96f054.png",TV 8
+#EXTINF:-1 tvg-name="TV 8" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-tv8-04c49a38753e.png",TV 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
 #EXTINF:-1 tvg-id="ABC NEWS" tvg-name="ABC NEWS" group-title="Türkiyə" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/abc-news-8d4190244a46.png",ABC NEWS
@@ -973,7 +972,7 @@ http://stream.mcquack.net/274/index.m3u8
 http://stream.mcquack.net/112/index.m3u8
 #EXTINF:-1 tvg-id="MatchPremier.ru@SD" source-group="Rusiya" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/matchpremier.ru-a05d9084c360.png",Match! Premier (576p)
 http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
-#EXTINF:-1 tvg-id="Nashemuzhskoe.ru@HD" source-group="Rusiya" group-title="1080p Russian Movies" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/nashemuzhskoe.ru-1b0acaf7e6c7.png",Nashe muzhskoe HD (1080p)
+#EXTINF:-1 tvg-id="Nashemuzhskoe.ru@HD" source-group="Rusiya" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/nashemuzhskoe.ru-1b0acaf7e6c7.png",Nashe muzhskoe HD (1080p)
 http://stream.mcquack.net/362/index.m3u8
 #EXTINF:-1 tvg-id="OkkoFutbol.ru@SD" source-group="Rusiya" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/okkofutbol.ru-2e83d26f92ae.png",Okko Futbol (576p)
 http://178.124.179.122:8080/Setanta1/index.m3u8
@@ -1044,7 +1043,7 @@ https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playl
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxdeportes.us-4d73575c6667.png",Fox Deportes (720p)
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us@HD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxsports1.us-2a0b0540a382.png",Fox Sports 1 (1080p)
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxsports1.us-2a0b0540a382.png",Fox Sports 1 (720p)
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ftfsports.us-e31257b321e7.png",FTF Sports (1080p)
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
@@ -1116,7 +1115,7 @@ https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="RACERInternational.pl@FAST" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/racerinternational.pl-6ba5ea0ff86e.png",RACER International (1080p)
 https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="RacerNetwork.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/racernetwork.us-ccb10d6ae7e3.png",Racer Network (1080p)
+#EXTINF:-1 tvg-id="RacerNetwork.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/racernetwork.us-fa3b5c0533a4.png",Racer Network (1080p)
 https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="RacerSelect.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/racerselect.us-dc536ae6e893.png",Racer Select (1080p)
 https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
@@ -1133,7 +1132,7 @@ https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
 http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-id="SkyRacing1.au@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/skyracing1.au-4ca52ac24346.png",Sky Racing 1 (720p)
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
-#EXTINF:-1 tvg-id="SkySportsF1.uk@SD" http-referrer="https://stmify.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/skysportsf1.uk-b373f03d42fb.png",Sky Sports F1 (720p)
+#EXTINF:-1 tvg-id="SkySportsF1.uk@SD" http-referrer="https://stmify.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/skysportsf1.uk-6e53aa5ad065.png",Sky Sports F1 (720p)
 #EXTVLCOPT:http-referrer=https://stmify.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36
 https://cdn.stmify.com/out/v1/SKY_SPORTS_F1/index.m3u8
@@ -1173,17 +1172,17 @@ https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
 #EXTINF:-1 tvg-id="TVSBowlingNetwork.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsbowlingnetwork.us-1ae2fb3aaf93.png",TVS Bowling Network (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
-#EXTINF:-1 tvg-id="TVSBoxing.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsboxing.us-eb7d4caf7861.png",TVS Boxing (480p)
+#EXTINF:-1 tvg-id="TVSBoxing.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsboxing.us-eb7d4caf7861.png",TVS Boxing (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
 #EXTINF:-1 tvg-id="TVSClassicSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsclassicsports.us-0ff24fc8e456.png",TVS Classic Sports (480p)
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-#EXTINF:-1 tvg-id="TVSSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssports.us-ff95e4b053c6.png",TVS Sports (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVSSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssports.us-ff95e4b053c6.png",TVS Sports (528p) [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
 #EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssportsbureau.us-696ed8e9c04b.png",TVS Sports Bureau (526p)
 https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
-#EXTINF:-1 tvg-id="TVSTurbo.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsturbo.us-17d84cecba59.png",TVS Turbo (360p)
+#EXTINF:-1 tvg-id="TVSTurbo.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsturbo.us-17d84cecba59.png",TVS Turbo (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvswomensports.us-5a7d763e00d7.png",TVS Women Sports (540p)
+#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvswomensports.us-5a7d763e00d7.png",TVS Women Sports (360p)
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/unbeaten.us-f23f4db95b4b.png",Unbeaten (1080p)
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
@@ -1204,7 +1203,7 @@ https://streaming.thestream.cyou/live/43.m3u8
 http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1 tvg-name="Cine 1" tvg-id="Cine1.tr" source-group="Türkiyə" group-title="Türk Filmləri və Dublyaj" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/cine1.tr-9213341e2ec8.png",Cine 1 (1080p)
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
-#EXTINF:-1 tvg-id="Russkiyroman.ru@SD" source-group="Rusiya" group-title="1080p Russian Movies" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russkiyroman.ru-804bbe7f056f.png",Russkiy roman (1080p)
+#EXTINF:-1 tvg-id="Russkiyroman.ru@SD" source-group="Rusiya" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russkiyroman.ru-804bbe7f056f.png",Russkiy roman (1080p)
 http://stream.mcquack.net/266/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" source-group="Rusiya" group-title="1080p Russian Movies" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijutv1000russkoe.ru-cf5e88b94650.png",viju TV1000 russkoe (1080p)
 https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
@@ -1230,7 +1229,7 @@ https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07_3500k.m3u8
 https://tvsen6.aynaott.com/golfchannel/index.m3u8
 #EXTINF:-1 tvg-id="MarqueeSportsNetwork.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/marqueesportsnetwork.us-e917250e148f.png",Marquee Sports Network (1080p)
 https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8
-#EXTINF:-1 tvg-id="SkySportsNews.uk@SD" http-referrer="https://stmify.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/skysportsnews.uk-4dbd7cf913ce.png",Sky Sports News (576p)
+#EXTINF:-1 tvg-id="SkySportsNews.uk@SD" http-referrer="https://stmify.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/skysportsnews.uk-4dbd7cf913ce.png",Sky Sports News (1080p)
 #EXTVLCOPT:http-referrer=https://stmify.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 https://cdn.stmify.com/out/v1/SKY_SPORTS_PREMIER_LEAGUE/index.m3u8
