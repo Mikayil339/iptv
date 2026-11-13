@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T20:12:32+00:00",
+  "checked_at": "2026-11-13T07:01:29+00:00",
   "metadata_error": null,
   "supplemental_error": null,
   "channels": {
@@ -19,7 +19,7 @@
       "path": "logos/xezertv.az-e940acff31e9.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "spacetv.az": {
       "path": "logos/spacetv.az-43787db5013a.png",
@@ -235,7 +235,7 @@
       "path": "logos/abcnews-f9f8e5452f2c.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "abc news australia": {
       "path": "logos/abc-news-australia-39ed3da7a897.png",
@@ -361,7 +361,7 @@
       "path": "logos/brfernsehennord.de-ece4ebdfbe6f.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "brt 1 hd.tr": {
       "path": "logos/brt-1-hd.tr-ae42d2c257d7.png",
@@ -409,7 +409,7 @@
       "path": "logos/cgtndocumentary-5aeb0ea7472d.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "channel news asia": {
       "path": "logos/channel-news-asia-95e68667ead4.png",
@@ -547,7 +547,7 @@
       "path": "logos/film.screen.tr-eaae00b6e3a8.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "finansturktv.tr": {
       "path": "logos/finansturktv.tr-f3a834e9f488.png",
@@ -559,7 +559,7 @@
       "path": "logos/flashhabertv.tr-5b624b4a0490.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "fortunatv.tr": {
       "path": "logos/fortunatv.tr-99c39b722e91.png",
@@ -889,7 +889,7 @@
       "path": "logos/persianaturkiye.fr-eb3d6cfd34b3.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "powerdance.tr": {
       "path": "logos/powerdance.tr-a8105622554d.png",
@@ -991,7 +991,7 @@
       "path": "logos/tabii.tv.tr-ebc8bd934351.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "tbmmtv.tr": {
       "path": "logos/tbmmtv.tr-2a43957af984.png",
@@ -1057,7 +1057,7 @@
       "path": "logos/name-trsozcutv-d9f3d517cda5.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "trace urban": {
       "path": "logos/trace-urban-22e9d25cacbb.png",
@@ -1249,7 +1249,7 @@
       "path": "logos/name-vevopopfast-bd2e6640e20f.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "yoltv.de": {
       "path": "logos/yoltv.de-2b6ae81a8919.png",
@@ -1492,10 +1492,10 @@
       "checked_at": "2026-11-12T20:12:32+00:00"
     },
     "foodnetwork.ru": {
-      "path": "logos/foodnetwork.ru-4dcd2a2c5b67.png",
+      "path": "logos/foodnetwork.ru-67626626fde6.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png",
       "fallback": false,
-      "checked_at": "2026-11-04T19:11:53+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "govoritmoskva.ru": {
       "path": "logos/govoritmoskva.ru-cd1ba99e8f2c.png",
@@ -1537,7 +1537,7 @@
       "path": "logos/investigationdiscovery.ru-527bb0e8bd4c.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png",
       "fallback": false,
-      "checked_at": "2026-11-04T19:11:53+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "istoki.ru": {
       "path": "logos/istoki.ru-0385dbbfa9ab.png",
@@ -1705,7 +1705,7 @@
       "path": "logos/ntvvitrina.ru-c10408b00bce.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NTV_logo_2003.svg/1280px-NTV_logo_2003.svg.png",
       "fallback": false,
-      "checked_at": "2026-11-04T19:11:53+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "o.ru": {
       "path": "logos/o.ru-2ed1d0a12506.png",
@@ -1825,7 +1825,7 @@
       "path": "logos/russiak.ru-5aa248b09902.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png",
       "fallback": false,
-      "checked_at": "2026-11-04T19:58:00+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "russianextremeultra.ru": {
       "path": "logos/russianextremeultra.ru-ec34a701f915.png",
@@ -2941,7 +2941,7 @@
       "path": "logos/tvssportsbureau.us-7caa6a50a76d.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "tvsturbo.us": {
       "path": "logos/tvsturbo.us-17d84cecba59.png",
@@ -3049,7 +3049,7 @@
       "path": "logos/samaragis.ru-a071462c7631.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-12T20:12:32+00:00"
+      "checked_at": "2026-11-13T07:01:29+00:00"
     },
     "theexplorers.ru": {
       "path": "logos/theexplorers.ru-7ca13973311c.png",
@@ -3152,6 +3152,18 @@
       "source": "https://i.imgur.com/ZxUjCpF.png",
       "fallback": false,
       "checked_at": "2026-11-12T07:30:13+00:00"
+    },
+    "formula1antenaplay.ro": {
+      "path": "logos/formula1antenaplay.ro-c8c01b51e323.png",
+      "source": "https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png",
+      "fallback": false,
+      "checked_at": "2026-11-13T07:01:29+00:00"
+    },
+    "setantasportsplusgeorgia.ge": {
+      "path": "logos/setantasportsplusgeorgia.ge-a0958ce031e4.png",
+      "source": "https://i.imgur.com/ZtoZQUV.png",
+      "fallback": false,
+      "checked_at": "2026-11-13T07:01:29+00:00"
     }
   }
 }
