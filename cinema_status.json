@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.48,
+        "seconds": 2.23,
         "width": 1920,
         "resolution_verified": true
       }
@@ -25,10 +25,10 @@
       "name": "Dom kino Premium HD (1080p)",
       "group": "Rusiya",
       "check": {
-        "ok": false,
-        "error": "Not HLS/media data",
+        "ok": true,
         "height": 0,
-        "seconds": 0.26
+        "seconds": 0.61,
+        "resolution_verified": false
       }
     },
     "evrokino.ru": {
@@ -37,7 +37,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.79,
+        "seconds": 0.9,
         "width": 1920,
         "resolution_verified": true
       }
@@ -48,7 +48,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.5,
+        "seconds": 0.76,
         "width": 1920,
         "resolution_verified": true
       }
@@ -68,7 +68,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.87,
+        "seconds": 2.0,
         "width": 1920,
         "resolution_verified": true
       }
@@ -79,7 +79,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.48,
+        "seconds": 1.49,
         "width": 1920,
         "resolution_verified": true
       }
@@ -90,7 +90,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.77,
+        "seconds": 0.91,
         "width": 1920,
         "resolution_verified": true
       }
@@ -99,10 +99,10 @@
       "name": "Nashe muzhskoe HD (1080p)",
       "group": "Rusiya",
       "check": {
-        "ok": true,
+        "ok": false,
+        "error": "Not HLS/media data",
         "height": 0,
-        "seconds": 0.51,
-        "resolution_verified": false
+        "seconds": 0.3
       }
     },
     "nashenovoekino.ru": {
@@ -120,7 +120,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.63,
+        "seconds": 2.6,
         "width": 1024,
         "resolution_verified": true
       }
@@ -158,7 +158,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.51,
+        "seconds": 0.6,
         "resolution_verified": false
       }
     },
@@ -222,7 +222,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.75,
+        "seconds": 1.49,
         "width": 1920,
         "resolution_verified": true
       }
@@ -242,7 +242,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.94,
+        "seconds": 2.39,
         "width": 1280,
         "resolution_verified": true
       }
@@ -262,7 +262,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.67,
+        "seconds": 1.26,
         "width": 1920,
         "resolution_verified": true
       }
