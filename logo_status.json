@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T19:56:33+00:00",
+  "checked_at": "2026-11-14T06:47:47+00:00",
   "metadata_error": null,
   "supplemental_error": null,
   "channels": {
@@ -19,7 +19,7 @@
       "path": "logos/xezertv.az-e940acff31e9.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "spacetv.az": {
       "path": "logos/spacetv.az-43787db5013a.png",
@@ -235,7 +235,7 @@
       "path": "logos/abcnews-f9f8e5452f2c.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "abc news australia": {
       "path": "logos/abc-news-australia-39ed3da7a897.png",
@@ -361,7 +361,7 @@
       "path": "logos/brfernsehennord.de-ece4ebdfbe6f.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "brt 1 hd.tr": {
       "path": "logos/brt-1-hd.tr-ae42d2c257d7.png",
@@ -409,7 +409,7 @@
       "path": "logos/cgtndocumentary-5aeb0ea7472d.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "channel news asia": {
       "path": "logos/channel-news-asia-95e68667ead4.png",
@@ -547,7 +547,7 @@
       "path": "logos/film.screen.tr-eaae00b6e3a8.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "finansturktv.tr": {
       "path": "logos/finansturktv.tr-f3a834e9f488.png",
@@ -559,7 +559,7 @@
       "path": "logos/flashhabertv.tr-5b624b4a0490.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "fortunatv.tr": {
       "path": "logos/fortunatv.tr-99c39b722e91.png",
@@ -889,7 +889,7 @@
       "path": "logos/persianaturkiye.fr-eb3d6cfd34b3.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "powerdance.tr": {
       "path": "logos/powerdance.tr-a8105622554d.png",
@@ -991,7 +991,7 @@
       "path": "logos/tabii.tv.tr-ebc8bd934351.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "tbmmtv.tr": {
       "path": "logos/tbmmtv.tr-2a43957af984.png",
@@ -1057,7 +1057,7 @@
       "path": "logos/name-trsozcutv-d9f3d517cda5.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "trace urban": {
       "path": "logos/trace-urban-22e9d25cacbb.png",
@@ -1249,7 +1249,7 @@
       "path": "logos/name-vevopopfast-bd2e6640e20f.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "yoltv.de": {
       "path": "logos/yoltv.de-2b6ae81a8919.png",
@@ -2851,7 +2851,7 @@
       "path": "logos/sport5.ua-a1f5190c5d67.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sport5UA.jpg",
       "fallback": false,
-      "checked_at": "2026-11-05T07:05:15+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "sportsgrid.us": {
       "path": "logos/sportsgrid.us-da031242f42a.png",
@@ -2893,7 +2893,7 @@
       "path": "logos/talksport.uk-10312be15b24.png",
       "source": "https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png",
       "fallback": false,
-      "checked_at": "2026-11-04T19:58:00+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "tennischannel2.us": {
       "path": "logos/tennischannel2.us-45fc54074a15.png",
@@ -2938,10 +2938,10 @@
       "checked_at": "2026-11-11T19:47:16+00:00"
     },
     "tvssportsbureau.us": {
-      "path": "logos/tvssportsbureau.us-682fd624b365.png",
+      "path": "logos/tvssportsbureau.us-7caa6a50a76d.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "tvsturbo.us": {
       "path": "logos/tvsturbo.us-17d84cecba59.png",
@@ -3025,7 +3025,7 @@
       "path": "logos/beinsportsusa.us-2be5bf5c03e2.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png",
       "fallback": false,
-      "checked_at": "2026-11-05T07:05:15+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "foxsports2.us": {
       "path": "logos/foxsports2.us-989be4831660.png",
@@ -3049,55 +3049,55 @@
       "path": "logos/samaragis.ru-a071462c7631.png",
       "source": null,
       "fallback": true,
-      "checked_at": "2026-11-13T19:56:33+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "theexplorers.ru": {
       "path": "logos/theexplorers.ru-7ca13973311c.png",
       "source": "https://www.oreol.tv/img/news/Logo_The_Explorers_Bleu.png",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "volleyball.ru": {
       "path": "logos/volleyball.ru-b48f8e677264.png",
       "source": "https://smotreshka.server-img.lfstrm.tv/images/media/59/20/592021ab74bddb93907e2b18997215a9.png",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "antenaplayevents.ro": {
       "path": "logos/antenaplayevents.ro-febc381ca10f.png",
       "source": "https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "golfchannel.us": {
       "path": "logos/golfchannel.us-1e25f4d91784.png",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Golf_Channel_logo_2025.svg/960px-Golf_Channel_logo_2025.svg.png",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "marqueesportsnetwork.us": {
-      "path": "logos/marqueesportsnetwork.us-e917250e148f.png",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Marquee_Sports_Network_Logo.svg/960px-Marquee_Sports_Network_Logo.svg.png",
+      "path": "logos/marqueesportsnetwork.us-b0d920ad7af0.png",
+      "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/marquee-sports-network-us.png",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "skysportsnews.uk": {
       "path": "logos/skysportsnews.uk-4dbd7cf913ce.png",
       "source": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "starsportsselect2.in": {
       "path": "logos/starsportsselect2.in-163b28f93866.png",
       "source": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7266/1783001217266-h.jpg",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "tapsports.ph": {
       "path": "logos/tapsports.ph-0d9f0411c3ea.png",
       "source": "https://i.imgur.com/4GmuJMD.png",
       "fallback": false,
-      "checked_at": "2026-11-07T06:18:12+00:00"
+      "checked_at": "2026-11-14T06:47:47+00:00"
     },
     "dazn1.uk": {
       "path": "logos/dazn1.uk-293ebad276f2.png",
@@ -3164,6 +3164,24 @@
       "source": "https://i.imgur.com/ZtoZQUV.png",
       "fallback": false,
       "checked_at": "2026-11-13T07:01:29+00:00"
+    },
+    "beinsports1turk.tr": {
+      "path": "logos/beinsports1turk.tr-ec3b027d0d2f.png",
+      "source": "https://static.wikia.nocookie.net/logopedia/images/2/27/BeinSports1.svg/revision/latest?cb=20230910184457",
+      "fallback": false,
+      "checked_at": "2026-11-14T06:47:47+00:00"
+    },
+    "sozcutv.tr": {
+      "path": "logos/sozcutv.tr-31cb96ae5a2c.png",
+      "source": "https://i.imgur.com/BxpdvsG.png",
+      "fallback": false,
+      "checked_at": "2026-11-14T06:47:47+00:00"
+    },
+    "nhlantenaplay.ro": {
+      "path": "logos/nhlantenaplay.ro-db320b4f3cfa.png",
+      "source": "https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png",
+      "fallback": false,
+      "checked_at": "2026-11-14T06:47:47+00:00"
     }
   }
 }

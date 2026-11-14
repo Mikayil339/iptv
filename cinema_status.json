@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.2,
+        "seconds": 1.48,
         "width": 1920,
         "resolution_verified": true
       }
@@ -23,13 +23,12 @@
     },
     "domkinopremium.ru": {
       "name": "Dom kino Premium HD (1080p)",
-      "group": "1080p Russian Movies",
+      "group": "Rusiya",
       "check": {
-        "ok": true,
-        "height": 1080,
-        "seconds": 0.68,
-        "width": 1920,
-        "resolution_verified": true
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.26
       }
     },
     "evrokino.ru": {
@@ -38,7 +37,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.98,
+        "seconds": 0.79,
         "width": 1920,
         "resolution_verified": true
       }
@@ -49,7 +48,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.93,
+        "seconds": 0.5,
         "width": 1920,
         "resolution_verified": true
       }
@@ -69,7 +68,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.09,
+        "seconds": 1.87,
         "width": 1920,
         "resolution_verified": true
       }
@@ -87,12 +86,13 @@
     },
     "mosfilmgoldcollection.ru": {
       "name": "Mosfilm — Золотая коллекция (1080p)",
-      "group": "Rusiya",
+      "group": "1080p Russian Movies",
       "check": {
         "ok": true,
-        "height": 0,
-        "seconds": 0.7,
-        "resolution_verified": false
+        "height": 1080,
+        "seconds": 0.77,
+        "width": 1920,
+        "resolution_verified": true
       }
     },
     "nashemuzhskoe.ru": {
@@ -101,7 +101,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.69,
+        "seconds": 0.51,
         "resolution_verified": false
       }
     },
@@ -120,7 +120,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.51,
+        "seconds": 2.63,
         "width": 1024,
         "resolution_verified": true
       }
@@ -158,7 +158,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.58,
+        "seconds": 0.51,
         "resolution_verified": false
       }
     },
@@ -222,7 +222,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.52,
+        "seconds": 1.75,
         "width": 1920,
         "resolution_verified": true
       }
@@ -242,7 +242,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.1,
+        "seconds": 1.94,
         "width": 1280,
         "resolution_verified": true
       }
@@ -262,7 +262,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.24,
+        "seconds": 1.67,
         "width": 1920,
         "resolution_verified": true
       }
