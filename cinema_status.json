@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.31,
+        "seconds": 1.53,
         "width": 1920,
         "resolution_verified": true
       }
@@ -28,17 +28,18 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.38
       }
     },
     "evrokino.ru": {
-      "name": "Evrokino HD (1080p)",
+      "name": "Evrokino HD (576p)",
       "group": "Rusiya",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
-        "height": 0,
-        "seconds": 0.38
+        "ok": true,
+        "height": 576,
+        "seconds": 1.74,
+        "width": 720,
+        "resolution_verified": true
       }
     },
     "film.screen.tr": {
@@ -47,18 +48,9 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.25,
+        "seconds": 0.75,
         "width": 1920,
         "resolution_verified": true
-      }
-    },
-    "kemalsunal.tr": {
-      "name": "kemalsunal.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
       }
     },
     "kinopremyera.ru": {
@@ -67,7 +59,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.46,
+        "seconds": 1.45,
         "width": 1920,
         "resolution_verified": true
       }
@@ -78,7 +70,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.52,
         "width": 1920,
         "resolution_verified": true
       }
@@ -89,7 +81,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.28,
+        "seconds": 1.74,
         "width": 720,
         "resolution_verified": true
       }
@@ -101,7 +93,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.34
       }
     },
     "nashenovoekino.ru": {
@@ -119,7 +111,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.37,
+        "seconds": 2.3,
         "width": 1024,
         "resolution_verified": true
       }
@@ -161,67 +153,13 @@
         "seconds": 0.37
       }
     },
-    "sinematv.tr": {
-      "name": "sinematv.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
-      }
-    },
-    "sinematv1001.tr": {
-      "name": "sinematv1001.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
-      }
-    },
-    "sinematvaile.tr": {
-      "name": "sinematvaile.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
-      }
-    },
-    "sinematvaksiyon.tr": {
-      "name": "sinematvaksiyon.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
-      }
-    },
-    "sinematvcomedy.tr": {
-      "name": "sinematvcomedy.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
-      }
-    },
-    "sinemayerli.tr": {
-      "name": "sinemayerli.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
-      }
-    },
     "startair.ru": {
       "name": "START Air (1080p)",
       "group": "1080p Russian Movies",
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.52,
         "width": 1920,
         "resolution_verified": true
       }
@@ -232,7 +170,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.82,
+        "seconds": 1.53,
         "width": 1350,
         "resolution_verified": true
       }
@@ -243,7 +181,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.28,
+        "seconds": 2.7,
         "width": 1280,
         "resolution_verified": true
       }
@@ -263,18 +201,9 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.04,
+        "seconds": 1.43,
         "width": 1920,
         "resolution_verified": true
-      }
-    },
-    "yesilcam.tr": {
-      "name": "yesilcam.tr",
-      "group": null,
-      "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
       }
     }
   }

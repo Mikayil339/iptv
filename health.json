@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T20:49:58+00:00",
+  "checked_at_utc": "2026-11-20T07:32:26+00:00",
   "source_errors": [
     {
       "source": "https://operativmm.az/az/canli-tv",
@@ -15,7 +15,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.72
+        "seconds": 0.83
       },
       "backups": [
         {
@@ -79,7 +79,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.0
+        "seconds": 1.01
       },
       "backups": [
         {
@@ -98,7 +98,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.66
+        "seconds": 0.97
       },
       "backups": [
         {
@@ -123,7 +123,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.93
+        "seconds": 0.89
       },
       "backups": []
     },
@@ -135,7 +135,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.95
+        "seconds": 0.87
       },
       "backups": []
     },
@@ -147,7 +147,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.96
+        "seconds": 0.92
       },
       "backups": []
     },
@@ -159,7 +159,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.93
+        "seconds": 0.76
       },
       "backups": []
     },
@@ -171,7 +171,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.89
+        "seconds": 0.86
       },
       "backups": []
     },
@@ -183,7 +183,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.79
+        "seconds": 1.18
       },
       "backups": [
         {
@@ -208,7 +208,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.77
+        "seconds": 1.75
       },
       "backups": []
     },
@@ -220,7 +220,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.84
+        "seconds": 2.33
       },
       "backups": [
         {
@@ -245,7 +245,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.69
+        "seconds": 0.81
       },
       "backups": [
         {
@@ -266,7 +266,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.19
+        "seconds": 1.27
       },
       "backups": []
     },
@@ -278,7 +278,7 @@
       "check": {
         "ok": true,
         "height": 360,
-        "seconds": 1.83
+        "seconds": 1.68
       },
       "backups": [
         {
@@ -305,7 +305,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.09
+        "seconds": 2.06
       },
       "backups": []
     },
@@ -317,7 +317,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.9
+        "seconds": 0.88
       },
       "backups": []
     },
@@ -329,7 +329,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.94
+        "seconds": 0.88
       },
       "backups": []
     },
@@ -341,7 +341,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.53
+        "seconds": 1.7
       },
       "backups": []
     },
@@ -353,7 +353,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.04
+        "seconds": 2.06
       },
       "backups": []
     },
@@ -365,7 +365,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.55
+        "seconds": 1.39
       },
       "backups": []
     },
@@ -373,11 +373,11 @@
       "name": "SHOW TV",
       "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558",
       "failures": 0,
-      "status": "ok_after_retry",
+      "status": "ok",
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.13
+        "seconds": 2.94
       },
       "backups": [
         {
@@ -432,7 +432,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.51
+        "seconds": 3.14
       },
       "backups": [
         {
@@ -467,11 +467,11 @@
       "name": "ATV (1080p)",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
       "failures": 0,
-      "status": "ok",
+      "status": "ok_after_retry",
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 5.97
+        "seconds": 9.6
       },
       "backups": [
         {
@@ -520,7 +520,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 7.91
+        "seconds": 2.71
       },
       "backups": []
     },
@@ -532,7 +532,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.72
+        "seconds": 2.85
       },
       "backups": [
         {
@@ -554,13 +554,12 @@
     "Türkiyə:trt1.tr": {
       "name": "TRT 1 (1440p)",
       "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 0,
+      "status": "ok",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
-        "height": 0,
-        "seconds": 0.01
+        "ok": true,
+        "height": 1440,
+        "seconds": 2.75
       },
       "backups": [
         {
@@ -582,7 +581,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 9.52
+        "seconds": 1.81
       },
       "backups": [
         {
@@ -609,28 +608,20 @@
     },
     "Futbol və idman:tv8,5.tr": {
       "name": "TV 8.5",
-      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
+      "url": "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
-        "height": 0,
-        "seconds": 3.29
+        "height": 1080,
+        "seconds": 3.36
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"TV8,5.tr\" tvg-name=\"TV 8.5\"  source-group=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv8-5.tr-ae36a210880c.png\" group-title=\"Futbol və idman\"",
           "name": "TV 8.5",
-          "options": [
-            "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
-          ],
-          "url": "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web"
-        },
-        {
-          "attrs": "#EXTINF:-1 tvg-id=\"TV8,5.tr\" tvg-name=\"TV 8.5\"  source-group=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv8-5.tr-ae36a210880c.png\" group-title=\"Futbol və idman\"",
-          "name": "TV 8.5",
           "options": [],
-          "url": "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web"
+          "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8"
         }
       ]
     },
@@ -642,7 +633,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.08
+        "seconds": 2.74
       },
       "backups": [
         {
@@ -671,7 +662,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.52
+        "seconds": 2.55
       },
       "backups": [
         {
@@ -692,7 +683,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 5.56
+        "seconds": 3.93
       },
       "backups": [
         {
@@ -713,7 +704,7 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 0.8
+        "seconds": 0.99
       },
       "backups": [
         {
@@ -742,7 +733,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.53
+        "seconds": 2.84
       },
       "backups": []
     },
@@ -754,7 +745,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.07
+        "seconds": 4.69
       },
       "backups": [
         {
@@ -783,11 +774,11 @@
       "name": "A Spor (1080p)",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
       "failures": 0,
-      "status": "ok_after_retry",
+      "status": "ok",
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 5.65
+        "seconds": 2.46
       },
       "backups": [
         {
@@ -806,7 +797,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.49
+        "seconds": 2.62
       },
       "backups": []
     },
@@ -818,7 +809,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.13
+        "seconds": 3.23
       },
       "backups": []
     },
@@ -830,7 +821,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.24
+        "seconds": 0.43
       },
       "backups": []
     },
@@ -842,7 +833,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.16
+        "seconds": 0.42
       },
       "backups": []
     },
@@ -854,7 +845,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.61
+        "seconds": 4.45
       },
       "backups": []
     },
@@ -866,7 +857,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.98
+        "seconds": 3.7
       },
       "backups": []
     },
@@ -878,7 +869,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.52
+        "seconds": 1.26
       },
       "backups": []
     },
@@ -890,7 +881,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.94
+        "seconds": 1.69
       },
       "backups": []
     },
@@ -902,7 +893,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.51
+        "seconds": 2.13
       },
       "backups": []
     },
@@ -914,7 +905,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.16
+        "seconds": 1.11
       },
       "backups": []
     },
@@ -926,7 +917,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.68
+        "seconds": 4.03
       },
       "backups": []
     },
@@ -938,7 +929,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.21
+        "seconds": 1.28
       },
       "backups": []
     },
@@ -950,20 +941,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.54
+        "seconds": 2.16
       },
       "backups": []
     },
     "Türkiyə:atvalanya.tr": {
       "name": "ATV Alanya (1080p)",
       "url": "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.77
+        "seconds": 0.71
       },
       "backups": [
         {
@@ -982,7 +973,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.35
+        "seconds": 3.17
       },
       "backups": []
     },
@@ -994,7 +985,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.66
+        "seconds": 1.45
       },
       "backups": []
     },
@@ -1006,7 +997,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.63
+        "seconds": 0.59
       },
       "backups": []
     },
@@ -1018,7 +1009,7 @@
       "check": {
         "ok": true,
         "height": 540,
-        "seconds": 0.69
+        "seconds": 0.56
       },
       "backups": []
     },
@@ -1030,7 +1021,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.17
+        "seconds": 4.09
       },
       "backups": []
     },
@@ -1042,7 +1033,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.9
+        "seconds": 1.36
       },
       "backups": [
         {
@@ -1061,7 +1052,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.54
+        "seconds": 4.7
       },
       "backups": [
         {
@@ -1080,19 +1071,19 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.16
+        "seconds": 2.08
       },
       "backups": []
     },
     "Türkiyə:bloomberght.tr": {
       "name": "BLOOMBERG HT",
-      "url": "https://ensonhaber-live.ercdn.net/bloomberght/bloomberght.m3u8",
+      "url": "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.31
+        "seconds": 3.11
       },
       "backups": [
         {
@@ -1101,21 +1092,7 @@
           "options": [
             "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
           ],
-          "url": "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8"
-        },
-        {
-          "attrs": "#EXTINF:-1 tvg-id=\"BloombergHT.tr\" tvg-name=\"BLOOMBERG HT\"  group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bloomberght.tr-4d60e12eed3f.png\"",
-          "name": "BLOOMBERG HT",
-          "options": [
-            "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
-          ],
           "url": "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8"
-        },
-        {
-          "attrs": "#EXTINF:-1 tvg-id=\"BloombergHT.tr\" tvg-name=\"BLOOMBERG HT\"  group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bloomberght.tr-4d60e12eed3f.png\"",
-          "name": "BLOOMBERG HT",
-          "options": [],
-          "url": "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"BloombergHT.tr\" tvg-name=\"BLOOMBERG HT\"  group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bloomberght.tr-4d60e12eed3f.png\"",
@@ -1145,7 +1122,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.38
+        "seconds": 2.01
       },
       "backups": []
     },
@@ -1157,7 +1134,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.98
+        "seconds": 2.33
       },
       "backups": []
     },
@@ -1169,7 +1146,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.32
+        "seconds": 3.5
       },
       "backups": []
     },
@@ -1181,7 +1158,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.11
+        "seconds": 3.9
       },
       "backups": [
         {
@@ -1200,7 +1177,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.92
+        "seconds": 0.84
       },
       "backups": []
     },
@@ -1212,7 +1189,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.79
+        "seconds": 0.41
       },
       "backups": []
     },
@@ -1224,7 +1201,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.44
+        "seconds": 0.89
       },
       "backups": []
     },
@@ -1236,7 +1213,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.81
+        "seconds": 1.36
       },
       "backups": []
     },
@@ -1248,7 +1225,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.91
+        "seconds": 1.43
       },
       "backups": []
     },
@@ -1260,7 +1237,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.22
+        "seconds": 0.49
       },
       "backups": []
     },
@@ -1272,7 +1249,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.01
+        "seconds": 2.67
       },
       "backups": []
     },
@@ -1284,7 +1261,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.01
+        "seconds": 1.43
       },
       "backups": []
     },
@@ -1296,7 +1273,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.92
+        "seconds": 1.78
       },
       "backups": []
     },
@@ -1308,7 +1285,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.7
+        "seconds": 1.61
       },
       "backups": []
     },
@@ -1320,20 +1297,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.23
+        "seconds": 4.15
       },
       "backups": []
     },
     "Türkiyə:dha.tr": {
       "name": "DHA (720p) [Not 24/7]",
       "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "<urlopen error _ssl.c:994: The handshake operation timed out>",
         "height": 0,
-        "seconds": 12.23
+        "seconds": 12.21
       },
       "backups": []
     },
@@ -1345,7 +1322,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.79
+        "seconds": 2.52
       },
       "backups": []
     },
@@ -1357,7 +1334,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.02
+        "seconds": 3.49
       },
       "backups": []
     },
@@ -1369,7 +1346,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.76
+        "seconds": 0.89
       },
       "backups": []
     },
@@ -1381,7 +1358,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.64
+        "seconds": 0.78
       },
       "backups": []
     },
@@ -1393,7 +1370,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.63
+        "seconds": 1.56
       },
       "backups": []
     },
@@ -1405,7 +1382,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 4.52
+        "seconds": 4.04
       },
       "backups": []
     },
@@ -1417,7 +1394,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.46
+        "seconds": 1.47
       },
       "backups": []
     },
@@ -1429,7 +1406,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.01
+        "seconds": 1.83
       },
       "backups": []
     },
@@ -1441,7 +1418,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.74
+        "seconds": 3.18
       },
       "backups": []
     },
@@ -1453,7 +1430,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.18
+        "seconds": 3.06
       },
       "backups": []
     },
@@ -1465,7 +1442,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.31
+        "seconds": 2.13
       },
       "backups": []
     },
@@ -1477,7 +1454,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.55
+        "seconds": 2.63
       },
       "backups": []
     },
@@ -1489,7 +1466,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.18
+        "seconds": 3.02
       },
       "backups": []
     },
@@ -1501,7 +1478,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.27
+        "seconds": 3.8
       },
       "backups": []
     },
@@ -1513,7 +1490,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.44
+        "seconds": 1.6
       },
       "backups": []
     },
@@ -1525,7 +1502,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.25,
+        "seconds": 0.75,
         "width": 1920,
         "resolution_verified": true
       },
@@ -1539,7 +1516,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.78
+        "seconds": 0.87
       },
       "backups": []
     },
@@ -1551,7 +1528,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.88
+        "seconds": 2.39
       },
       "backups": []
     },
@@ -1563,7 +1540,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.04
+        "seconds": 2.1
       },
       "backups": [
         {
@@ -1582,7 +1559,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.56
+        "seconds": 1.04
       },
       "backups": []
     },
@@ -1594,7 +1571,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.52
+        "seconds": 0.62
       },
       "backups": []
     },
@@ -1606,7 +1583,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.23
+        "seconds": 0.32
       },
       "backups": []
     },
@@ -1618,7 +1595,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.06
+        "seconds": 0.81
       },
       "backups": [
         {
@@ -1639,7 +1616,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.39
+        "seconds": 1.41
       },
       "backups": [
         {
@@ -1666,7 +1643,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.31
+        "seconds": 0.88
       },
       "backups": []
     },
@@ -1678,7 +1655,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.31
+        "seconds": 4.09
       },
       "backups": [
         {
@@ -1707,7 +1684,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.85
+        "seconds": 3.42
       },
       "backups": []
     },
@@ -1719,7 +1696,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.99
+        "seconds": 2.77
       },
       "backups": [
         {
@@ -1738,7 +1715,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.52
+        "seconds": 0.84
       },
       "backups": []
     },
@@ -1750,7 +1727,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.11
+        "seconds": 1.14
       },
       "backups": []
     },
@@ -1762,7 +1739,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.02
+        "seconds": 3.39
       },
       "backups": []
     },
@@ -1786,7 +1763,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.43
+        "seconds": 1.48
       },
       "backups": [
         {
@@ -1813,7 +1790,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.04
+        "seconds": 4.0
       },
       "backups": []
     },
@@ -1825,7 +1802,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.54
+        "seconds": 3.94
       },
       "backups": [
         {
@@ -1856,7 +1833,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.46
+        "seconds": 3.3
       },
       "backups": []
     },
@@ -1868,7 +1845,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.78
+        "seconds": 1.65
       },
       "backups": []
     },
@@ -1880,7 +1857,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.91
+        "seconds": 1.05
       },
       "backups": [
         {
@@ -1918,13 +1895,13 @@
     "Türkiyə:name:kanalfocuk": {
       "name": "KANAL F ÇOCUK",
       "url": "https://catcast.ismailturret.workers.dev/50822.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 1.32
+        "seconds": 1.14
       },
       "backups": []
     },
@@ -1936,7 +1913,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.92
+        "seconds": 2.65
       },
       "backups": []
     },
@@ -1948,7 +1925,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.42
+        "seconds": 2.62
       },
       "backups": []
     },
@@ -1960,7 +1937,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.93
+        "seconds": 3.03
       },
       "backups": []
     },
@@ -1972,7 +1949,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.15
+        "seconds": 2.95
       },
       "backups": [
         {
@@ -1991,7 +1968,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.94
+        "seconds": 0.88
       },
       "backups": []
     },
@@ -2003,7 +1980,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.02
+        "seconds": 1.98
       },
       "backups": []
     },
@@ -2015,7 +1992,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.92
+        "seconds": 2.72
       },
       "backups": []
     },
@@ -2027,20 +2004,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.95
+        "seconds": 5.23
       },
       "backups": []
     },
     "Türkiyə:kralpoptv.tr": {
       "name": "KRAL Pop TV (720p)",
       "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 720,
-        "seconds": 1.31
+        "seconds": 2.73
       },
       "backups": []
     },
@@ -2077,7 +2054,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.33
+        "seconds": 1.34
       },
       "backups": []
     },
@@ -2089,7 +2066,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.95
+        "seconds": 2.68
       },
       "backups": []
     },
@@ -2101,7 +2078,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.98
+        "seconds": 2.24
       },
       "backups": []
     },
@@ -2113,7 +2090,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.9
+        "seconds": 2.68
       },
       "backups": []
     },
@@ -2125,7 +2102,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.58
+        "seconds": 2.59
       },
       "backups": []
     },
@@ -2137,7 +2114,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.76
+        "seconds": 0.79
       },
       "backups": []
     },
@@ -2149,7 +2126,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.54
+        "seconds": 1.25
       },
       "backups": []
     },
@@ -2161,20 +2138,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.36
+        "seconds": 1.3
       },
       "backups": []
     },
     "Türkiyə:meltem tv.tr": {
       "name": "MELTEM TV",
       "url": "http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
-        "error": "Not HLS/media data",
+        "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.55
+        "seconds": 0.51
       },
       "backups": []
     },
@@ -2186,7 +2163,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.95
+        "seconds": 2.66
       },
       "backups": []
     },
@@ -2198,7 +2175,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.6
+        "seconds": 6.59
       },
       "backups": [
         {
@@ -2225,7 +2202,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.92
+        "seconds": 3.49
       },
       "backups": [
         {
@@ -2252,7 +2229,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.66
+        "seconds": 2.96
       },
       "backups": []
     },
@@ -2264,7 +2241,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.17
+        "seconds": 2.29
       },
       "backups": []
     },
@@ -2276,7 +2253,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.35
+        "seconds": 0.46
       },
       "backups": []
     },
@@ -2288,7 +2265,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.31
+        "seconds": 2.34
       },
       "backups": []
     },
@@ -2300,19 +2277,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.71
+        "seconds": 0.56
       },
       "backups": []
     },
     "Türkiyə:now.tr": {
       "name": "NOW (720p)",
       "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
+        "ok": false,
+        "error": "HTTP Error 502: Bad Gateway",
         "height": 0,
-        "seconds": 2.44
+        "seconds": 0.68
       },
       "backups": []
     },
@@ -2324,7 +2302,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.56
+        "seconds": 1.49
       },
       "backups": []
     },
@@ -2336,7 +2314,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.82
+        "seconds": 2.13
       },
       "backups": []
     },
@@ -2348,7 +2326,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.01
+        "seconds": 1.98
       },
       "backups": []
     },
@@ -2360,7 +2338,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.37
+        "seconds": 1.65
       },
       "backups": []
     },
@@ -2372,7 +2350,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.08
+        "seconds": 1.79
       },
       "backups": [
         {
@@ -2405,7 +2383,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.94
+        "seconds": 2.64
       },
       "backups": []
     },
@@ -2417,7 +2395,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.12
+        "seconds": 1.13
       },
       "backups": []
     },
@@ -2429,7 +2407,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.15
+        "seconds": 3.35
       },
       "backups": []
     },
@@ -2441,7 +2419,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.89
+        "seconds": 3.59
       },
       "backups": []
     },
@@ -2453,7 +2431,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.89
+        "seconds": 3.42
       },
       "backups": [
         {
@@ -2480,7 +2458,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.68
+        "seconds": 3.38
       },
       "backups": []
     },
@@ -2492,7 +2470,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.67
+        "seconds": 3.4
       },
       "backups": []
     },
@@ -2504,7 +2482,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.6
+        "seconds": 3.31
       },
       "backups": []
     },
@@ -2516,12 +2494,12 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.02
+        "seconds": 2.66
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"PowerTurkTV.tr@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktv.tr-01b1ec32c7c9.png\"",
-          "name": "PowerTürk TV (1088p)",
+          "name": "PowerTürk TV (1080p)",
           "options": [
             "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
           ],
@@ -2529,13 +2507,13 @@
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"PowerTurkTV.tr@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktv.tr-01b1ec32c7c9.png\"",
-          "name": "PowerTürk TV (1088p)",
+          "name": "PowerTürk TV (1080p)",
           "options": [],
           "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"PowerTurkTV.tr@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktv.tr-01b1ec32c7c9.png\"",
-          "name": "PowerTürk TV (1088p)",
+          "name": "PowerTürk TV (1080p)",
           "options": [
             "#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36"
           ],
@@ -2543,7 +2521,7 @@
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"PowerTurkTV.tr@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/powerturktv.tr-01b1ec32c7c9.png\"",
-          "name": "PowerTürk TV (1088p)",
+          "name": "PowerTürk TV (1080p)",
           "options": [],
           "url": "https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8"
         }
@@ -2557,7 +2535,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.37
+        "seconds": 2.66
       },
       "backups": []
     },
@@ -2569,7 +2547,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.71
+        "seconds": 2.51
       },
       "backups": []
     },
@@ -2581,7 +2559,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.66
+        "seconds": 2.69
       },
       "backups": []
     },
@@ -2589,25 +2567,25 @@
       "name": "Sat7 Türk (720p)",
       "url": "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
       "failures": 0,
-      "status": "replaced",
+      "status": "ok",
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.95
+        "seconds": 2.74
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Sat7Turk.cy@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/sat7turk.cy-9a6e3ae19d21.png\"",
-          "name": "Sat7 Türk (1080p)",
-          "options": [],
+          "name": "Sat7 Türk (720p)",
+          "options": [
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+          ],
           "url": "https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Sat7Turk.cy@SD\" group-title=\"Türkiyə\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/sat7turk.cy-9a6e3ae19d21.png\"",
-          "name": "Sat7 Türk (1080p)",
-          "options": [
-            "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
-          ],
+          "name": "Sat7 Türk (720p)",
+          "options": [],
           "url": "https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8"
         }
       ]
@@ -2620,7 +2598,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.63
+        "seconds": 0.56
       },
       "backups": []
     },
@@ -2632,7 +2610,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.72
+        "seconds": 1.99
       },
       "backups": []
     },
@@ -2644,7 +2622,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.0
+        "seconds": 0.99
       },
       "backups": []
     },
@@ -2656,7 +2634,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.37
+        "seconds": 2.89
       },
       "backups": []
     },
@@ -2668,7 +2646,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.88
+        "seconds": 2.65
       },
       "backups": [
         {
@@ -2682,13 +2660,12 @@
     "Türkiyə:tabii.tv.tr": {
       "name": "Tabii TV HD",
       "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8",
-      "failures": 2,
-      "status": "unavailable_kept",
+      "failures": 0,
+      "status": "ok",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
+        "ok": true,
         "height": 1080,
-        "seconds": 4.83
+        "seconds": 4.44
       },
       "backups": []
     },
@@ -2700,7 +2677,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.04
+        "seconds": 1.75
       },
       "backups": []
     },
@@ -2712,7 +2689,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.02
+        "seconds": 2.64
       },
       "backups": []
     },
@@ -2724,7 +2701,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.69
+        "seconds": 0.98
       },
       "backups": []
     },
@@ -2736,7 +2713,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.63
+        "seconds": 2.69
       },
       "backups": [
         {
@@ -2768,13 +2745,13 @@
     "Türkiyə:tgrtbelgesel.tr": {
       "name": "TGRT Belgesel TV (576p) [Not 24/7]",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.96
+        "seconds": 1.25
       },
       "backups": []
     },
@@ -2786,7 +2763,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.55
+        "seconds": 3.09
       },
       "backups": [
         {
@@ -2835,7 +2812,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.28,
+        "seconds": 2.7,
         "width": 1280,
         "resolution_verified": true
       },
@@ -2849,7 +2826,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.17
+        "seconds": 5.51
       },
       "backups": []
     },
@@ -2861,7 +2838,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.78
+        "seconds": 0.76
       },
       "backups": []
     },
@@ -2873,7 +2850,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.01
+        "seconds": 2.65
       },
       "backups": []
     },
@@ -2885,7 +2862,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.78
+        "seconds": 3.73
       },
       "backups": []
     },
@@ -2897,33 +2874,33 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.01
+        "seconds": 1.49
       },
       "backups": []
     },
     "Türkiyə:trt2.tr": {
       "name": "TRT 2 (1440p) [Geo-blocked]",
       "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-      "failures": 3,
+      "failures": 4,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.01
+        "seconds": 0.02
       },
       "backups": []
     },
     "Türkiyə:trt3.tr": {
       "name": "TRT 3 (720p)",
       "url": "https://tv-trt3.live.trt.com.tr/master.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 720,
-        "seconds": 0.06
+        "seconds": 0.21
       },
       "backups": []
     },
@@ -2935,7 +2912,7 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 1.79
+        "seconds": 2.53
       },
       "backups": []
     },
@@ -2947,7 +2924,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.69
+        "seconds": 0.44
       },
       "backups": []
     },
@@ -2959,19 +2936,20 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 1.27
+        "seconds": 1.36
       },
       "backups": []
     },
     "Türkiyə:trtcocuk.tr": {
       "name": "TRT Cocuk (1440p)",
       "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
-        "height": 1440,
-        "seconds": 1.81
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden",
+        "height": 0,
+        "seconds": 0.03
       },
       "backups": []
     },
@@ -2983,7 +2961,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.52
+        "seconds": 1.41
       },
       "backups": []
     },
@@ -2995,33 +2973,33 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 2.25
+        "seconds": 2.22
       },
       "backups": []
     },
     "Türkiyə:trtebailkokul.tr": {
       "name": "TRT EBA Ilkokul (720p)",
       "url": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 720,
-        "seconds": 2.47
+        "seconds": 2.36
       },
       "backups": []
     },
     "Türkiyə:trtebalise.tr": {
       "name": "TRT EBA Lise (720p)",
       "url": "https://tv-e-okul02.medya.trt.com.tr/master.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 720,
-        "seconds": 2.47
+        "seconds": 2.28
       },
       "backups": []
     },
@@ -3033,20 +3011,19 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.25
+        "seconds": 2.6
       },
       "backups": []
     },
     "Türkiyə:trtgenc.tr": {
       "name": "TRT Genc (1440p) [Geo-blocked]",
       "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 0,
+      "status": "ok",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
-        "height": 0,
-        "seconds": 0.01
+        "ok": true,
+        "height": 1440,
+        "seconds": 1.57
       },
       "backups": []
     },
@@ -3058,7 +3035,7 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 0.93
+        "seconds": 1.84
       },
       "backups": []
     },
@@ -3070,7 +3047,7 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 2.04
+        "seconds": 1.69
       },
       "backups": [
         {
@@ -3105,20 +3082,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.97
+        "seconds": 1.4
       },
       "backups": []
     },
     "Futbol və idman:trtsporyildiz.tr": {
       "name": "TRT Spor Yildiz (1440p) [Geo-blocked]",
       "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8",
-      "failures": 27,
+      "failures": 28,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 401: Unauthorized",
         "height": 0,
-        "seconds": 0.59
+        "seconds": 0.57
       },
       "backups": [
         {
@@ -3163,7 +3140,7 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 2.38
+        "seconds": 1.94
       },
       "backups": [
         {
@@ -3192,7 +3169,7 @@
       "check": {
         "ok": true,
         "height": 1440,
-        "seconds": 0.66
+        "seconds": 0.69
       },
       "backups": [
         {
@@ -3241,7 +3218,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.57
+        "seconds": 0.73
       },
       "backups": [
         {
@@ -3262,7 +3239,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.95
+        "seconds": 3.81
       },
       "backups": [
         {
@@ -3289,7 +3266,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.47
+        "seconds": 2.17
       },
       "backups": []
     },
@@ -3301,7 +3278,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.91
+        "seconds": 2.65
       },
       "backups": [
         {
@@ -3326,7 +3303,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.91
+        "seconds": 1.71
       },
       "backups": []
     },
@@ -3338,7 +3315,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.93
+        "seconds": 3.72
       },
       "backups": [
         {
@@ -3371,7 +3348,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.93
+        "seconds": 2.67
       },
       "backups": []
     },
@@ -3383,7 +3360,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.86
+        "seconds": 2.63
       },
       "backups": []
     },
@@ -3395,7 +3372,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.86
+        "seconds": 1.84
       },
       "backups": []
     },
@@ -3407,7 +3384,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.1
+        "seconds": 1.32
       },
       "backups": []
     },
@@ -3419,7 +3396,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.19
+        "seconds": 1.33
       },
       "backups": []
     },
@@ -3431,7 +3408,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.15
+        "seconds": 1.32
       },
       "backups": []
     },
@@ -3443,7 +3420,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.59
+        "seconds": 1.49
       },
       "backups": []
     },
@@ -3455,7 +3432,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.47
+        "seconds": 1.61
       },
       "backups": []
     },
@@ -3467,20 +3444,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.95
+        "seconds": 2.63
       },
       "backups": []
     },
     "Rusiya:telecafe.ru": {
       "name": "Telecafe (Russia) (720p)",
       "url": "https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 720,
-        "seconds": 3.01
+        "seconds": 3.37
       },
       "backups": [
         {
@@ -3499,7 +3476,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.01
+        "seconds": 2.36
       },
       "backups": [
         {
@@ -3539,33 +3516,34 @@
     "Rusiya:vremya.ru": {
       "name": "Vremya (720p)",
       "url": "https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8",
-      "failures": 40,
+      "failures": 41,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 720,
-        "seconds": 3.02
+        "seconds": 3.1
       },
       "backups": []
     },
     "Rusiya:dorama.ru": {
       "name": "Dorama HD (1080p)",
-      "url": "http://stream.mcquack.net/412/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.41
+        "seconds": 1.98
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Dorama.ru@HD\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/dorama.ru-eb29a8ab6c40.png\"",
           "name": "Dorama HD (1080p)",
-          "options": [],
-          "url": "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv"
+          "options": [
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          ],
+          "url": "http://stream.mcquack.net/412/index.m3u8"
         }
       ]
     },
@@ -3577,20 +3555,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.92
+        "seconds": 2.25
       },
       "backups": []
     },
     "Rusiya:red.ru": {
       "name": ".red HD (1080p)",
       "url": "http://178.134.1.158:8081/red/index.m3u8",
-      "failures": 9,
+      "failures": 10,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.47
+        "seconds": 1.44
       },
       "backups": [
         {
@@ -3609,7 +3587,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.52
+        "seconds": 1.53
       },
       "backups": []
     },
@@ -3621,7 +3599,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.32
+        "seconds": 4.69
       },
       "backups": []
     },
@@ -3633,7 +3611,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.78
+        "seconds": 1.36
       },
       "backups": []
     },
@@ -3645,19 +3623,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.37
+        "seconds": 3.3
       },
       "backups": []
     },
     "Rusiya:5minuttishiny.ru": {
       "name": "5 minut tishiny (720p)",
       "url": "https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
-        "height": 720,
-        "seconds": 2.01
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.4
       },
       "backups": []
     },
@@ -3669,20 +3648,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51
+        "seconds": 2.89
       },
       "backups": []
     },
     "Rusiya:amediahit.ru": {
       "name": "Amedia Hit (1080p)",
       "url": "http://stream.mcquack.net/162/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.41
+        "seconds": 0.37
       },
       "backups": []
     },
@@ -3694,20 +3673,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.76
+        "seconds": 1.62
       },
       "backups": []
     },
     "Rusiya:animalplanet.ru": {
       "name": "Animal Planet (Russia) (1080p)",
       "url": "http://stream.mcquack.net/114/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.48
+        "seconds": 0.36
       },
       "backups": []
     },
@@ -3719,7 +3698,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.03
+        "seconds": 3.01
       },
       "backups": []
     },
@@ -3731,7 +3710,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.55
+        "seconds": 2.44
       },
       "backups": []
     },
@@ -3743,7 +3722,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.33
+        "seconds": 2.3
       },
       "backups": []
     },
@@ -3755,7 +3734,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.23
+        "seconds": 2.53
       },
       "backups": []
     },
@@ -3767,20 +3746,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.02
+        "seconds": 3.8
       },
       "backups": []
     },
     "Rusiya:blokbaster.ru": {
       "name": "Blokbaster HD (1080p)",
       "url": "http://stream.mcquack.net/364/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.42
+        "seconds": 0.4
       },
       "backups": []
     },
@@ -3792,7 +3771,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.15
+        "seconds": 1.09
       },
       "backups": [
         {
@@ -3811,20 +3790,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.52
+        "seconds": 2.75
       },
       "backups": []
     },
     "Rusiya:classicmusic.ru": {
       "name": "Classic Music (1080p)",
       "url": "http://stream.mcquack.net/312/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.46
+        "seconds": 0.36
       },
       "backups": []
     },
@@ -3836,7 +3815,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.75
+        "seconds": 1.21
       },
       "backups": []
     },
@@ -3848,15 +3827,15 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.44
+        "seconds": 2.87
       },
       "backups": []
     },
     "Rusiya:dikayarybalka.ru": {
       "name": "Dikaya rybalka HD (1080p)",
       "url": "http://stream.mcquack.net/275/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
@@ -3868,8 +3847,8 @@
     "Rusiya:discoverychannel.ru": {
       "name": "Discovery Channel (Russia) (1080p)",
       "url": "http://stream.mcquack.net/177/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
@@ -3881,13 +3860,13 @@
     "Rusiya:domkinopremium.ru": {
       "name": "Dom kino Premium HD (1080p)",
       "url": "http://stream.mcquack.net/108/index.m3u8",
-      "failures": 1,
+      "failures": 2,
       "status": "cinema_quality_unavailable",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.38
       },
       "backups": [
         {
@@ -3906,7 +3885,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.21
+        "seconds": 1.07
       },
       "backups": []
     },
@@ -3918,7 +3897,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.87
+        "seconds": 2.93
       },
       "backups": []
     },
@@ -3930,7 +3909,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.63
+        "seconds": 1.46
       },
       "backups": []
     },
@@ -3942,7 +3921,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.82
+        "seconds": 1.12
       },
       "backups": [
         {
@@ -3967,46 +3946,47 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.13
+        "seconds": 2.2
       },
       "backups": []
     },
     "Rusiya:evrokino.ru": {
-      "name": "Evrokino HD (1080p)",
-      "url": "http://stream.mcquack.net/385/index.m3u8",
-      "failures": 1,
+      "name": "Evrokino HD (576p)",
+      "url": "https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv",
+      "failures": 0,
       "status": "cinema_quality_unavailable",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
-        "height": 0,
-        "seconds": 0.38
+        "ok": true,
+        "height": 576,
+        "seconds": 1.74,
+        "width": 720,
+        "resolution_verified": true
       },
       "backups": [
         {
-          "attrs": "#EXTINF:-1 tvg-id=\"Evrokino.ru@HD\" source-group=\"Rusiya\" group-title=\"1080p Russian Movies\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png\"",
-          "name": "Evrokino HD (1080p)",
-          "options": [],
-          "url": "https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv"
-        },
-        {
-          "attrs": "#EXTINF:-1 tvg-id=\"Evrokino.ru@HD\" source-group=\"Rusiya\" group-title=\"1080p Russian Movies\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png\"",
+          "attrs": "#EXTINF:-1 tvg-id=\"Evrokino.ru@HD\" source-group=\"Rusiya\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png\"",
           "name": "Evrokino HD (1080p)",
           "options": [],
           "url": "http://176.118.197.101/Evrokino/index.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Evrokino.ru@HD\" source-group=\"Rusiya\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png\"",
+          "name": "Evrokino HD (1080p)",
+          "options": [],
+          "url": "http://stream.mcquack.net/385/index.m3u8"
         }
       ]
     },
     "Rusiya:fashionlifestyle.ru": {
       "name": "Fashion&LifeStyle (1080p)",
       "url": "http://stream.mcquack.net/119/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.39
+        "seconds": 0.47
       },
       "backups": []
     },
@@ -4018,20 +3998,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.51
+        "seconds": 2.39
       },
       "backups": []
     },
     "Rusiya:foodnetwork.ru": {
       "name": "Food Network (Russia) (1080p)",
       "url": "http://stream.mcquack.net/298/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.4
       },
       "backups": []
     },
@@ -4043,7 +4023,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.73
+        "seconds": 2.36
       },
       "backups": []
     },
@@ -4055,20 +4035,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.79
+        "seconds": 1.45
       },
       "backups": []
     },
     "Rusiya:hit.ru": {
       "name": "Hit HD (1080p)",
       "url": "http://stream.mcquack.net/363/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.37
       },
       "backups": []
     },
@@ -4080,7 +4060,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.02
+        "seconds": 1.7
       },
       "backups": []
     },
@@ -4092,7 +4072,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.72
+        "seconds": 1.59
       },
       "backups": []
     },
@@ -4104,20 +4084,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.24
+        "seconds": 3.17
       },
       "backups": []
     },
     "Rusiya:investigationdiscovery.ru": {
       "name": "Investigation Discovery (Russia) (1080p)",
       "url": "http://stream.mcquack.net/205/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.41
+        "seconds": 0.34
       },
       "backups": []
     },
@@ -4129,7 +4109,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.38
+        "seconds": 2.71
       },
       "backups": []
     },
@@ -4141,20 +4121,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.99
+        "seconds": 1.31
       },
       "backups": []
     },
     "Rusiya:kapitanfantastika.ru": {
       "name": "Kapitan Fantastika (1080p)",
       "url": "http://stream.mcquack.net/144/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.35
       },
       "backups": []
     },
@@ -4166,7 +4146,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.52,
         "width": 1920,
         "resolution_verified": true
       },
@@ -4187,7 +4167,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.46,
+        "seconds": 1.45,
         "width": 1920,
         "resolution_verified": true
       },
@@ -4209,13 +4189,12 @@
     "Rusiya:kongresstv.ru": {
       "name": "Kongress TV (1080p)",
       "url": "https://live-3.otcnet.ru/congresstv/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 0,
+      "status": "ok",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 503: Service Unavailable",
-        "height": 0,
-        "seconds": 0.84
+        "ok": true,
+        "height": 1080,
+        "seconds": 3.27
       },
       "backups": []
     },
@@ -4227,20 +4206,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.83
+        "seconds": 1.84
       },
       "backups": []
     },
     "Rusiya:ldprtv.ru": {
       "name": "LDPR TV (1080p)",
       "url": "http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8",
-      "failures": 28,
+      "failures": 29,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "<urlopen error timed out>",
         "height": 0,
-        "seconds": 12.01
+        "seconds": 12.0
       },
       "backups": []
     },
@@ -4252,7 +4231,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 17.37
+        "seconds": 18.03
       },
       "backups": []
     },
@@ -4264,7 +4243,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.08
+        "seconds": 0.96
       },
       "backups": []
     },
@@ -4276,7 +4255,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.63
+        "seconds": 2.15
       },
       "backups": []
     },
@@ -4288,7 +4267,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.6
+        "seconds": 2.3
       },
       "backups": []
     },
@@ -4300,20 +4279,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.7
+        "seconds": 1.65
       },
       "backups": []
     },
     "Rusiya:mezzolive.fr": {
       "name": "Mezzo Live (1080p)",
       "url": "http://stream.mcquack.net/276/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.39
       },
       "backups": []
     },
@@ -4325,7 +4304,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.75
+        "seconds": 7.04
       },
       "backups": []
     },
@@ -4337,7 +4316,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.83
+        "seconds": 1.54
       },
       "backups": []
     },
@@ -4349,7 +4328,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.0
+        "seconds": 3.04
       },
       "backups": []
     },
@@ -4361,7 +4340,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.49
+        "seconds": 1.32
       },
       "backups": []
     },
@@ -4373,7 +4352,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.25
+        "seconds": 2.02
       },
       "backups": []
     },
@@ -4385,7 +4364,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.45
+        "seconds": 2.04
       },
       "backups": []
     },
@@ -4397,7 +4376,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.15
+        "seconds": 1.09
       },
       "backups": [
         {
@@ -4411,12 +4390,13 @@
     "Rusiya:nevskiy.ru": {
       "name": "Nevskiy (720p)",
       "url": "https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
-        "height": 720,
-        "seconds": 1.09
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.41
       },
       "backups": []
     },
@@ -4428,19 +4408,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.05
+        "seconds": 2.01
       },
       "backups": []
     },
     "Rusiya:novorossiyatv.ru": {
       "name": "Novorossiya TV (1080p) [Geo-blocked]",
       "url": "http://31.131.139.253:9002/novoros/index.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
+        "ok": false,
+        "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 1.28
+        "seconds": 0.39
       },
       "backups": []
     },
@@ -4452,7 +4433,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.98
+        "seconds": 2.08
       },
       "backups": []
     },
@@ -4464,7 +4445,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.47
+        "seconds": 4.04
       },
       "backups": [
         {
@@ -4519,7 +4500,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.41
+        "seconds": 4.12
       },
       "backups": []
     },
@@ -4531,7 +4512,7 @@
       "check": {
         "ok": true,
         "height": 808,
-        "seconds": 2.04
+        "seconds": 2.75
       },
       "backups": []
     },
@@ -4543,7 +4524,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.65
+        "seconds": 0.6
       },
       "backups": [
         {
@@ -4556,21 +4537,20 @@
     },
     "Rusiya:ohotnikirybolov.ru": {
       "name": "Ohotnik i rybolov HD (1080p)",
-      "url": "http://stream.mcquack.net/194/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.37
+        "seconds": 1.48
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Ohotnikirybolov.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ohotnikirybolov.ru-f13e886c0d30.png\"",
           "name": "Ohotnik i rybolov HD (1080p)",
           "options": [],
-          "url": "https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8"
+          "url": "http://stream.mcquack.net/194/index.m3u8"
         }
       ]
     },
@@ -4582,7 +4562,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.22
+        "seconds": 1.17
       },
       "backups": []
     },
@@ -4594,7 +4574,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.26
+        "seconds": 1.15
       },
       "backups": [
         {
@@ -4621,7 +4601,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 17.4
+        "seconds": 17.29
       },
       "backups": []
     },
@@ -4633,7 +4613,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.1
+        "seconds": 1.14
       },
       "backups": []
     },
@@ -4645,15 +4625,15 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.89
+        "seconds": 1.11
       },
       "backups": []
     },
     "Rusiya:premialnoe.ru": {
       "name": "Premialnoe HD (1080p)",
       "url": "http://stream.mcquack.net/421/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
@@ -4664,21 +4644,20 @@
     },
     "Rusiya:priklyucheniya.ru": {
       "name": "Priklyucheniya HD (1080p)",
-      "url": "http://stream.mcquack.net/198/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.38
+        "seconds": 1.75
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Priklyucheniya.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/priklyucheniya.ru-66168d542ff9.png\"",
           "name": "Priklyucheniya HD (1080p)",
           "options": [],
-          "url": "https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8"
+          "url": "http://stream.mcquack.net/198/index.m3u8"
         }
       ]
     },
@@ -4690,7 +4669,7 @@
       "check": {
         "ok": true,
         "height": 288,
-        "seconds": 3.28
+        "seconds": 2.67
       },
       "backups": []
     },
@@ -4702,7 +4681,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.2
+        "seconds": 2.26
       },
       "backups": []
     },
@@ -4714,7 +4693,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.11
+        "seconds": 2.15
       },
       "backups": []
     },
@@ -4726,7 +4705,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.95
+        "seconds": 4.13
       },
       "backups": []
     },
@@ -4738,7 +4717,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.48
+        "seconds": 1.05
       },
       "backups": []
     },
@@ -4750,7 +4729,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.09
+        "seconds": 3.5
       },
       "backups": []
     },
@@ -4762,33 +4741,32 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.7
+        "seconds": 2.96
       },
       "backups": []
     },
     "Rusiya:rtgtv.ru": {
       "name": "RTG TV HD (1080p)",
-      "url": "http://stream.mcquack.net/164/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "http://46.53.200.153:7777/play/a00u/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.36
+        "seconds": 0.96
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"RTGTV.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/rtgtv.ru-c7a47d1126d5.png\"",
           "name": "RTG TV HD (1080p)",
           "options": [],
-          "url": "http://46.53.200.153:7777/play/a00u/index.m3u8"
+          "url": "http://31.148.48.15/RTG_HD/index.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"RTGTV.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/rtgtv.ru-c7a47d1126d5.png\"",
           "name": "RTG TV HD (1080p)",
           "options": [],
-          "url": "http://31.148.48.15/RTG_HD/index.m3u8"
+          "url": "http://stream.mcquack.net/164/index.m3u8"
         }
       ]
     },
@@ -4800,7 +4778,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.27
+        "seconds": 3.86
       },
       "backups": []
     },
@@ -4812,7 +4790,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.1
+        "seconds": 0.99
       },
       "backups": [
         {
@@ -4825,43 +4803,67 @@
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
-          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8"
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus1/playlist_5.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
-          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8"
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus2/playlist_5.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
-          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8"
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus3/playlist_5.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
-          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8"
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus4/playlist_5.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
-          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8"
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus5/playlist_5.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
-          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/9/russia1-hd/index.m3u8"
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus6/playlist_5.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
+          "name": "Russia-1 HD (1080p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus7/playlist_5.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
+          "name": "Russia-1 HD (1080p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus8/playlist_5.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
+          "name": "Russia-1 HD (1080p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/russia1_plus9/playlist_5.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
           "name": "Russia-1 HD (1080p)",
           "options": [],
           "url": "http://176.118.197.101/RossiyaHD/index.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russia1.ru-b8d41069880e.png\"",
+          "name": "Russia-1 HD (1080p)",
+          "options": [],
+          "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8"
         }
       ]
     },
@@ -4873,9 +4875,33 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.16
+        "seconds": 1.04
       },
       "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
+          "name": "Russia-K HD (1080p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/russia_k_dubl1/playlist_5.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
+          "name": "Russia-K HD (1080p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/russia_k_dubl2/playlist_5.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
+          "name": "Russia-K HD (1080p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/russia_k_dubl3/playlist_5.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
+          "name": "Russia-K HD (1080p)",
+          "options": [],
+          "url": "https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8"
+        },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
           "name": "Russia-K HD (1080p)",
@@ -4893,12 +4919,6 @@
           "name": "Russia-K HD (1080p)",
           "options": [],
           "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8"
-        },
-        {
-          "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
-          "name": "Russia-K HD (1080p)",
-          "options": [],
-          "url": "https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"RussiaK.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russiak.ru-5aa248b09902.png\"",
@@ -4922,7 +4942,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.05
+        "seconds": 0.96
       },
       "backups": []
     },
@@ -4934,7 +4954,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.04
+        "seconds": 1.09
       },
       "backups": [
         {
@@ -4948,26 +4968,25 @@
     "Rusiya:shef.ru": {
       "name": "Shef (720p)",
       "url": "https://cdn-dvr.ntv.ru/Shef/index.m3u8",
-      "failures": 3,
-      "status": "unavailable_kept",
+      "failures": 0,
+      "status": "ok",
       "check": {
-        "ok": false,
-        "error": "Not HLS/media data",
-        "height": 0,
-        "seconds": 0.39
+        "ok": true,
+        "height": 720,
+        "seconds": 1.13
       },
       "backups": []
     },
     "Rusiya:shokiruyushchee.ru": {
       "name": "Shokiruyushchee HD (1080p)",
       "url": "http://stream.mcquack.net/75/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.36
       },
       "backups": []
     },
@@ -4979,7 +4998,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.13
+        "seconds": 2.17
       },
       "backups": []
     },
@@ -4991,9 +5010,16 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.94
+        "seconds": 0.88
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Smotrim100Detskoe.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/smotrim100detskoe.ru-d27ecb84d3fb.png\"",
+          "name": "Smotrim 100% Detskoe (720p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/fasttv05/playlist_3.m3u8"
+        }
+      ]
     },
     "Rusiya:smotrim100fakty.ru": {
       "name": "Smotrim 100% Fakty (720p)",
@@ -5003,9 +5029,16 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.09
+        "seconds": 1.06
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Smotrim100Fakty.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/smotrim100fakty.ru-131ac861b8da.png\"",
+          "name": "Smotrim 100% Fakty (720p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8"
+        }
+      ]
     },
     "Rusiya:smotrim100klassika.ru": {
       "name": "Smotrim 100% Klassika (720p)",
@@ -5015,9 +5048,16 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.1
+        "seconds": 1.15
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Smotrim100Klassika.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/smotrim100klassika.ru-bc72413d7371.png\"",
+          "name": "Smotrim 100% Klassika (720p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8"
+        }
+      ]
     },
     "Rusiya:smotrim100lyubov.ru": {
       "name": "Smotrim 100% Lyubov (720p)",
@@ -5027,9 +5067,16 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.14
+        "seconds": 1.0
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/smotrim100lyubov.ru-7ed625a3a5e4.png\"",
+          "name": "Smotrim 100% Lyubov (720p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/fasttv01/playlist_2.m3u8"
+        }
+      ]
     },
     "Rusiya:smotrim100muzhskoe.ru": {
       "name": "Smotrim 100% Muzhskoe (720p)",
@@ -5039,9 +5086,16 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.75
+        "seconds": 1.02
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/smotrim100muzhskoe.ru-0eb7ec5f241c.png\"",
+          "name": "Smotrim 100% Muzhskoe (720p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/fasttv02/playlist_3.m3u8"
+        }
+      ]
     },
     "Rusiya:smotrim100prazdnik.ru": {
       "name": "Smotrim 100% Prazdnik (720p)",
@@ -5051,9 +5105,16 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.03
+        "seconds": 0.92
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Smotrim100Prazdnik.ru@SD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/smotrim100prazdnik.ru-313983751fa0.png\"",
+          "name": "Smotrim 100% Prazdnik (720p)",
+          "options": [],
+          "url": "https://stream.smotrim.ru/hls2/fasttv04/playlist_3.m3u8"
+        }
+      ]
     },
     "Rusiya:smotrimchestnyydetektiv.ru": {
       "name": "Smotrim Chestnyy Detektiv (1080p)",
@@ -5063,20 +5124,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.3
+        "seconds": 1.46
       },
       "backups": []
     },
     "Rusiya:sochi24.ru": {
       "name": "Sochi24 (720p)",
       "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
-      "failures": 2,
+      "failures": 3,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.58
+        "seconds": 0.89
       },
       "backups": []
     },
@@ -5088,7 +5149,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.26
+        "seconds": 2.81
       },
       "backups": []
     },
@@ -5100,7 +5161,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.16
+        "seconds": 1.07
       },
       "backups": []
     },
@@ -5112,29 +5173,28 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.52,
         "width": 1920,
         "resolution_verified": true
       },
       "backups": []
     },
     "Rusiya:sts.ru": {
-      "name": "STS HD (1080p)",
-      "url": "http://stream.mcquack.net/138/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "name": "STS HD (576p)",
+      "url": "http://31.148.5.241/kanal_13/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
-        "height": 0,
-        "seconds": 0.38
+        "ok": true,
+        "height": 576,
+        "seconds": 1.64
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"STS.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/sts.ru-8f5bf1ee31b2.png\"",
           "name": "STS HD (1080p)",
           "options": [],
-          "url": "http://31.148.5.241/kanal_13/index.m3u8"
+          "url": "http://stream.mcquack.net/138/index.m3u8"
         }
       ]
     },
@@ -5146,7 +5206,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.65
+        "seconds": 2.74
       },
       "backups": [
         {
@@ -5173,7 +5233,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.33
+        "seconds": 3.2
       },
       "backups": []
     },
@@ -5185,20 +5245,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.03
+        "seconds": 1.39
       },
       "backups": []
     },
     "Rusiya:tlc.ru": {
       "name": "TLC (Russia) (1080p)",
       "url": "http://stream.mcquack.net/168/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.35
       },
       "backups": []
     },
@@ -5210,7 +5270,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.16
+        "seconds": 2.79
       },
       "backups": []
     },
@@ -5222,7 +5282,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.38
+        "seconds": 1.39
       },
       "backups": []
     },
@@ -5234,7 +5294,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.88
+        "seconds": 1.93
       },
       "backups": []
     },
@@ -5246,7 +5306,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.35
+        "seconds": 1.47
       },
       "backups": [
         {
@@ -5275,26 +5335,26 @@
     "Rusiya:travelchannel.ru": {
       "name": "Travel Channel (Russia) (1080p)",
       "url": "http://stream.mcquack.net/231/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.39
+        "seconds": 0.36
       },
       "backups": []
     },
     "Rusiya:travelplusadventure.ru": {
       "name": "Travel+Adventure HD (1080p)",
       "url": "http://stream.mcquack.net/206/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.44
+        "seconds": 0.38
       },
       "backups": [
         {
@@ -5319,7 +5379,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.14
+        "seconds": 2.04
       },
       "backups": []
     },
@@ -5331,7 +5391,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.2
+        "seconds": 1.09
       },
       "backups": []
     },
@@ -5339,30 +5399,30 @@
       "name": "TV-3 HD (576p)",
       "url": "http://31.148.5.241/kanal_15/index.m3u8",
       "failures": 0,
-      "status": "replaced",
+      "status": "ok",
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.69
+        "seconds": 1.65
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"TV3.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv3.ru-8b09fed5dd34.png\"",
-          "name": "TV-3 HD (1080p)",
+          "name": "TV-3 HD (576p)",
+          "options": [],
+          "url": "http://stream.mcquack.net/136/index.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"TV3.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv3.ru-8b09fed5dd34.png\"",
+          "name": "TV-3 HD (576p)",
           "options": [],
           "url": "http://flussonic.linkintel.ru/tv-3/index.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"TV3.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv3.ru-8b09fed5dd34.png\"",
-          "name": "TV-3 HD (1080p)",
+          "name": "TV-3 HD (576p)",
           "options": [],
           "url": "http://178.124.179.122:8080/TB-3/index.m3u8"
-        },
-        {
-          "attrs": "#EXTINF:-1 tvg-id=\"TV3.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tv3.ru-8b09fed5dd34.png\"",
-          "name": "TV-3 HD (1080p)",
-          "options": [],
-          "url": "http://stream.mcquack.net/136/index.m3u8"
         }
       ]
     },
@@ -5374,7 +5434,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.12
+        "seconds": 1.19
       },
       "backups": []
     },
@@ -5386,7 +5446,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.21
+        "seconds": 1.19
       },
       "backups": []
     },
@@ -5398,7 +5458,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.6
+        "seconds": 4.55
       },
       "backups": []
     },
@@ -5410,7 +5470,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.82
+        "seconds": 0.99
       },
       "backups": []
     },
@@ -5422,7 +5482,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.71
+        "seconds": 4.42
       },
       "backups": []
     },
@@ -5434,7 +5494,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.15
+        "seconds": 1.09
       },
       "backups": [
         {
@@ -5461,20 +5521,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.46
+        "seconds": 1.96
       },
       "backups": []
     },
     "Rusiya:vmirezhivotnykh.ru": {
       "name": "V mire zhivotnykh (1080p)",
       "url": "http://stream.mcquack.net/241/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.36
       },
       "backups": []
     },
@@ -5486,7 +5546,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.45
+        "seconds": 0.96
       },
       "backups": []
     },
@@ -5498,7 +5558,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.08
+        "seconds": 0.96
       },
       "backups": []
     },
@@ -5510,126 +5570,121 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.06
+        "seconds": 0.96
       },
       "backups": []
     },
     "Rusiya:vijupluscomedy.ru": {
       "name": "viju+ Comedy HD (1080p)",
-      "url": "http://stream.mcquack.net/201/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.96
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"vijuPlusComedy.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijupluscomedy.ru-e84bc90176c1.png\"",
           "name": "viju+ Comedy HD (1080p)",
           "options": [],
-          "url": "http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8"
+          "url": "http://stream.mcquack.net/201/index.m3u8"
         }
       ]
     },
     "Rusiya:vijuplusmegahit.ru": {
       "name": "viju+ Megahit HD (1080p)",
-      "url": "http://stream.mcquack.net/200/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.95
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"vijuPlusMegahit.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijuplusmegahit.ru-f919508d4696.png\"",
           "name": "viju+ Megahit HD (1080p)",
           "options": [],
-          "url": "http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8"
+          "url": "http://stream.mcquack.net/200/index.m3u8"
         }
       ]
     },
     "Rusiya:vijuplusplanet.ru": {
       "name": "viju+ Planet HD (1080p)",
       "url": "http://stream.mcquack.net/240/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.35
       },
       "backups": []
     },
     "Rusiya:vijupluspremiere.ru": {
       "name": "viju+ Premiere HD (1080p)",
-      "url": "http://stream.mcquack.net/202/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.39
+        "seconds": 0.96
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"vijuPlusPremiere.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijupluspremiere.ru-a186e7b765a7.png\"",
           "name": "viju+ Premiere HD (1080p)",
           "options": [],
-          "url": "http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8"
+          "url": "http://stream.mcquack.net/202/index.m3u8"
         }
       ]
     },
     "Rusiya:vijuplusserial.ru": {
       "name": "viju+ Serial HD (1080p)",
-      "url": "http://stream.mcquack.net/311/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.99
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"vijuPlusSerial.ru@HD\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijuplusserial.ru-24fbdb2884a5.png\"",
           "name": "viju+ Serial HD (1080p)",
           "options": [],
-          "url": "http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8"
+          "url": "http://stream.mcquack.net/311/index.m3u8"
         }
       ]
     },
     "Futbol və idman:vijuplussport.ru": {
       "name": "viju+ Sport HD (1080p)",
-      "url": "http://stream.mcquack.net/333/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "url": "http://46.53.200.153:7777/play/a01l/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
+        "ok": true,
         "height": 0,
-        "seconds": 0.39
+        "seconds": 0.95
       },
       "backups": [
         {
           "attrs": "#EXTINF:-1 tvg-id=\"vijuPlusSport.ru@HD\" source-group=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijuplussport.ru-82c271bd5da4.png\" group-title=\"Futbol və idman\"",
           "name": "viju+ Sport HD (1080p)",
           "options": [],
-          "url": "http://46.53.200.153:7777/play/a01l/index.m3u8"
+          "url": "http://31.148.5.241/Viasat_Sport/index.m3u8"
         },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"vijuPlusSport.ru@HD\" source-group=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vijuplussport.ru-82c271bd5da4.png\" group-title=\"Futbol və idman\"",
           "name": "viju+ Sport HD (1080p)",
           "options": [],
-          "url": "http://31.148.5.241/Viasat_Sport/index.m3u8"
+          "url": "http://stream.mcquack.net/333/index.m3u8"
         }
       ]
     },
@@ -5641,7 +5696,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.77
+        "seconds": 1.61
       },
       "backups": []
     },
@@ -5653,20 +5708,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 17.32
+        "seconds": 17.55
       },
       "backups": []
     },
     "Rusiya:zhivayapriroda.ru": {
       "name": "Zhivaya priroda HD (1080p)",
       "url": "http://stream.mcquack.net/225/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.38
       },
       "backups": [
         {
@@ -5699,7 +5754,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.99
+        "seconds": 2.65
       },
       "backups": [
         {
@@ -5718,19 +5773,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.0
+        "seconds": 2.65
       },
       "backups": []
     },
     "Türkiyə:meltemtv.tr": {
       "name": "Meltem TV (720p)",
       "url": "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
-        "height": 720,
-        "seconds": 2.88
+        "ok": false,
+        "error": "HTTP Error 404: Not Found",
+        "height": 0,
+        "seconds": 1.02
       },
       "backups": []
     },
@@ -5742,7 +5798,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.96
+        "seconds": 2.66
       },
       "backups": [
         {
@@ -5761,7 +5817,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.04
+        "seconds": 3.04
       },
       "backups": []
     },
@@ -5773,7 +5829,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.71
+        "seconds": 2.22
       },
       "backups": []
     },
@@ -5785,20 +5841,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.77
+        "seconds": 2.16
       },
       "backups": []
     },
     "Rusiya:dushevnoe.ru": {
       "name": "Dushevnoe HD (1080p)",
       "url": "http://stream.mcquack.net/213/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.39
+        "seconds": 0.34
       },
       "backups": []
     },
@@ -5810,33 +5866,33 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.06
+        "seconds": 4.54
       },
       "backups": []
     },
     "Rusiya:komediynoe.ru": {
       "name": "Komediynoe HD (1080p)",
       "url": "http://stream.mcquack.net/74/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.36
       },
       "backups": []
     },
     "Rusiya:moyastikhiya.ru": {
       "name": "Moya stikhiya HD (1080p)",
       "url": "http://stream.mcquack.net/141/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.36
+        "seconds": 0.34
       },
       "backups": []
     },
@@ -5848,7 +5904,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.82
+        "seconds": 2.43
       },
       "backups": []
     },
@@ -5860,7 +5916,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.4
+        "seconds": 1.42
       },
       "backups": []
     },
@@ -5872,7 +5928,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.01
+        "seconds": 2.12
       },
       "backups": []
     },
@@ -5884,7 +5940,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.24
+        "seconds": 1.69
       },
       "backups": []
     },
@@ -5896,7 +5952,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.92
+        "seconds": 1.96
       },
       "backups": []
     },
@@ -5908,7 +5964,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.06
+        "seconds": 1.77
       },
       "backups": []
     },
@@ -5920,7 +5976,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.78
+        "seconds": 1.83
       },
       "backups": []
     },
@@ -5932,7 +5988,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.24
+        "seconds": 1.91
       },
       "backups": []
     },
@@ -5944,7 +6000,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.16
+        "seconds": 2.14
       },
       "backups": []
     },
@@ -5956,7 +6012,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.99
+        "seconds": 1.22
       },
       "backups": []
     },
@@ -5968,7 +6024,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.3
+        "seconds": 1.42
       },
       "backups": []
     },
@@ -5980,7 +6036,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.4
+        "seconds": 1.2
       },
       "backups": []
     },
@@ -5992,7 +6048,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.35
+        "seconds": 1.73
       },
       "backups": []
     },
@@ -6004,7 +6060,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.67
+        "seconds": 0.56
       },
       "backups": []
     },
@@ -6016,7 +6072,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.67
+        "seconds": 0.79
       },
       "backups": [
         {
@@ -6035,7 +6091,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.03
+        "seconds": 2.15
       },
       "backups": []
     },
@@ -6047,9 +6103,15 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.51
+        "seconds": 0.95
       },
       "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"FIFAPlus.uk@English\" source-group=\"Beynəlxalq\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fifaplus.uk-160e6c2bde08.png\" group-title=\"Futbol və idman\"",
+          "name": "FIFA+ (720p)",
+          "options": [],
+          "url": "https://95cedebd.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fRklGQVBsdXNFbmdsaXNoX0hMUw/playlist.m3u8"
+        },
         {
           "attrs": "#EXTINF:-1 tvg-id=\"FIFAPlus.uk@English\" source-group=\"Beynəlxalq\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fifaplus.uk-160e6c2bde08.png\" group-title=\"Futbol və idman\"",
           "name": "FIFA+ (720p)",
@@ -6066,7 +6128,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.14
+        "seconds": 3.89
       },
       "backups": [
         {
@@ -6087,11 +6149,11 @@
       "name": "TV 8",
       "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8",
       "failures": 0,
-      "status": "ok_after_retry",
+      "status": "ok",
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 4.45
+        "seconds": 2.68
       },
       "backups": [
         {
@@ -6120,7 +6182,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.17
+        "seconds": 0.65
       },
       "backups": []
     },
@@ -6132,20 +6194,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.65
+        "seconds": 1.66
       },
       "backups": []
     },
     "Türkiyə:trtbelgesel.tr": {
       "name": "TRT Belgesel",
       "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
-      "failures": 39,
+      "failures": 40,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.01
+        "seconds": 0.02
       },
       "backups": [
         {
@@ -6185,20 +6247,21 @@
     "Rusiya:balabol.ru": {
       "name": "Balabol (720p)",
       "url": "https://cdn-dvr.ntv.ru/Balabol/index.m3u8",
-      "failures": 0,
-      "status": "ok",
+      "failures": 1,
+      "status": "retry_next_run",
       "check": {
-        "ok": true,
-        "height": 720,
-        "seconds": 1.41
+        "ok": false,
+        "error": "Not HLS/media data",
+        "height": 0,
+        "seconds": 0.41
       },
       "backups": []
     },
     "Rusiya:dikayaokhota.ru": {
       "name": "Dikaya okhota HD (1080p)",
       "url": "http://stream.mcquack.net/274/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
@@ -6210,13 +6273,13 @@
     "Futbol və idman:matchboets.ru": {
       "name": "Match! Boets (1080p)",
       "url": "http://stream.mcquack.net/112/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.37
       },
       "backups": []
     },
@@ -6228,46 +6291,46 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.18
+        "seconds": 1.11
       },
       "backups": []
     },
     "Rusiya:nashemuzhskoe.ru": {
       "name": "Nashe muzhskoe HD (1080p)",
       "url": "http://stream.mcquack.net/362/index.m3u8",
-      "failures": 1,
+      "failures": 2,
       "status": "cinema_quality_unavailable",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.37
+        "seconds": 0.34
       },
       "backups": []
     },
     "Futbol və idman:okkofutbol.ru": {
       "name": "Okko Futbol (576p)",
       "url": "http://178.124.179.122:8080/Setanta1/index.m3u8",
-      "failures": 4,
+      "failures": 5,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 400: Bad Request",
         "height": 0,
-        "seconds": 0.35
+        "seconds": 0.32
       },
       "backups": []
     },
     "Rusiya:ostrosyuzhetnoye.ru": {
       "name": "Ostrosyuzhetnoye HD (1080p)",
       "url": "http://stream.mcquack.net/214/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.35
       },
       "backups": []
     },
@@ -6279,7 +6342,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.82
+        "seconds": 2.14
       },
       "backups": []
     },
@@ -6291,7 +6354,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.79
+        "seconds": 0.72
       },
       "backups": []
     },
@@ -6303,7 +6366,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.25
+        "seconds": 0.32
       },
       "backups": [
         {
@@ -6322,7 +6385,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.46
+        "seconds": 0.93
       },
       "backups": []
     },
@@ -6334,7 +6397,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.83
+        "seconds": 1.34
       },
       "backups": []
     },
@@ -6346,7 +6409,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.78
+        "seconds": 0.91
       },
       "backups": []
     },
@@ -6358,7 +6421,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.36
+        "seconds": 0.43
       },
       "backups": []
     },
@@ -6370,7 +6433,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.85
+        "seconds": 1.18
       },
       "backups": []
     },
@@ -6382,7 +6445,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.67
+        "seconds": 1.56
       },
       "backups": []
     },
@@ -6394,7 +6457,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.61
+        "seconds": 0.5
       },
       "backups": []
     },
@@ -6406,7 +6469,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.46
+        "seconds": 0.99
       },
       "backups": []
     },
@@ -6418,7 +6481,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.87
+        "seconds": 0.47
       },
       "backups": []
     },
@@ -6430,7 +6493,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.96
+        "seconds": 2.12
       },
       "backups": []
     },
@@ -6442,7 +6505,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.57
+        "seconds": 0.64
       },
       "backups": []
     },
@@ -6454,7 +6517,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.03
+        "seconds": 0.98
       },
       "backups": []
     },
@@ -6466,7 +6529,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.98
+        "seconds": 0.92
       },
       "backups": []
     },
@@ -6478,7 +6541,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.02
+        "seconds": 2.16
       },
       "backups": []
     },
@@ -6490,7 +6553,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.96
+        "seconds": 0.97
       },
       "backups": []
     },
@@ -6502,7 +6565,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.87
+        "seconds": 0.82
       },
       "backups": []
     },
@@ -6514,7 +6577,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.49
+        "seconds": 0.68
       },
       "backups": []
     },
@@ -6526,7 +6589,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.88
+        "seconds": 0.83
       },
       "backups": [
         {
@@ -6545,20 +6608,19 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.87
+        "seconds": 0.83
       },
       "backups": []
     },
     "Futbol və idman:eurosport.in": {
       "name": "Eurosport (1080p)",
-      "url": "https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8",
-      "failures": 9,
-      "status": "unavailable_kept",
+      "url": "http://116.90.120.149:8000/play/a118/index.m3u8",
+      "failures": 0,
+      "status": "replaced",
       "check": {
-        "ok": false,
-        "error": "<urlopen error timed out>",
+        "ok": true,
         "height": 0,
-        "seconds": 12.03
+        "seconds": 1.17
       },
       "backups": [
         {
@@ -6566,6 +6628,12 @@
           "name": "Eurosport (1080p)",
           "options": [],
           "url": "https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Eurosport.in@SD\" source-group=\"Beynəlxalq\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/eurosport.in-6bae616be378.png\" group-title=\"Futbol və idman\"",
+          "name": "Eurosport (1080p)",
+          "options": [],
+          "url": "https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8"
         }
       ]
     },
@@ -6577,7 +6645,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.31
+        "seconds": 0.9
       },
       "backups": []
     },
@@ -6589,7 +6657,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.13
+        "seconds": 1.09
       },
       "backups": []
     },
@@ -6601,7 +6669,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.51
+        "seconds": 0.42
       },
       "backups": []
     },
@@ -6613,7 +6681,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.63
+        "seconds": 1.06
       },
       "backups": []
     },
@@ -6621,11 +6689,11 @@
       "name": "FightBox",
       "url": "https://webtvstream.bhtelecom.ba/fightbox.m3u8",
       "failures": 0,
-      "status": "ok",
+      "status": "ok_after_retry",
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 5.03
+        "seconds": 2.84
       },
       "backups": [
         {
@@ -6644,7 +6712,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.19
+        "seconds": 0.32
       },
       "backups": []
     },
@@ -6656,7 +6724,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.36
+        "seconds": 0.53
       },
       "backups": []
     },
@@ -6668,14 +6736,14 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.29
+        "seconds": 0.71
       },
       "backups": []
     },
     "Futbol və idman:foxdeportes.us": {
       "name": "Fox Deportes (720p)",
       "url": "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
-      "failures": 36,
+      "failures": 37,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
@@ -6686,14 +6754,14 @@
       "backups": []
     },
     "Futbol və idman:foxsports1.us": {
-      "name": "Fox Sports 1 (720p)",
+      "name": "Fox Sports 1 (1080p)",
       "url": "http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
-        "height": 720,
-        "seconds": 0.88
+        "height": 1080,
+        "seconds": 0.84
       },
       "backups": []
     },
@@ -6705,7 +6773,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.26
+        "seconds": 0.43
       },
       "backups": []
     },
@@ -6717,7 +6785,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.42
+        "seconds": 0.36
       },
       "backups": [
         {
@@ -6736,7 +6804,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.39
+        "seconds": 0.77
       },
       "backups": [
         {
@@ -6761,7 +6829,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.22
+        "seconds": 0.44
       },
       "backups": []
     },
@@ -6773,7 +6841,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.66
+        "seconds": 1.09
       },
       "backups": []
     },
@@ -6785,7 +6853,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.67
+        "seconds": 0.81
       },
       "backups": []
     },
@@ -6797,7 +6865,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.17
+        "seconds": 0.34
       },
       "backups": []
     },
@@ -6809,7 +6877,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.28
+        "seconds": 1.46
       },
       "backups": []
     },
@@ -6821,7 +6889,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.06
+        "seconds": 1.51
       },
       "backups": []
     },
@@ -6833,7 +6901,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.52
+        "seconds": 2.17
       },
       "backups": []
     },
@@ -6845,7 +6913,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.29
+        "seconds": 0.21
       },
       "backups": []
     },
@@ -6857,19 +6925,19 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.6
+        "seconds": 0.89
       },
       "backups": []
     },
     "Futbol və idman:monsterjam.us": {
-      "name": "Monster Jam (720p)",
-      "url": "https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8",
+      "name": "Monster Jam (1080p)",
+      "url": "https://wurlspacemob.global.transmit.live/hls/6791101f0b2848c81efe74d7/v1/answermedia_monsterjam_1/vizio_us/latest/main/hls/playlist.m3u8",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
-        "height": 0,
-        "seconds": 0.6
+        "height": 1080,
+        "seconds": 0.28
       },
       "backups": []
     },
@@ -6881,7 +6949,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.58
+        "seconds": 0.69
       },
       "backups": []
     },
@@ -6893,7 +6961,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.21
+        "seconds": 0.15
       },
       "backups": []
     },
@@ -6917,7 +6985,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.19
+        "seconds": 0.28
       },
       "backups": []
     },
@@ -6929,7 +6997,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.52
+        "seconds": 0.41
       },
       "backups": []
     },
@@ -6941,7 +7009,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.59
+        "seconds": 0.67
       },
       "backups": []
     },
@@ -6953,20 +7021,19 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.15
+        "seconds": 0.5
       },
       "backups": []
     },
     "Futbol və idman:omansportstv.om": {
       "name": "Oman Sports TV (1080p) [Not 24/7]",
       "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-      "failures": 2,
-      "status": "unavailable_kept",
+      "failures": 0,
+      "status": "ok",
       "check": {
-        "ok": false,
-        "error": "Not HLS/media data",
-        "height": 0,
-        "seconds": 0.16
+        "ok": true,
+        "height": 1080,
+        "seconds": 1.16
       },
       "backups": []
     },
@@ -6978,7 +7045,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.17
+        "seconds": 0.36
       },
       "backups": []
     },
@@ -6990,7 +7057,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.76
+        "seconds": 0.46
       },
       "backups": []
     },
@@ -7002,7 +7069,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.62
+        "seconds": 0.6
       },
       "backups": []
     },
@@ -7014,7 +7081,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.53
+        "seconds": 0.79
       },
       "backups": []
     },
@@ -7026,7 +7093,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.55
+        "seconds": 0.51
       },
       "backups": []
     },
@@ -7038,7 +7105,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.53
+        "seconds": 1.08
       },
       "backups": []
     },
@@ -7050,7 +7117,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.79
+        "seconds": 0.54
       },
       "backups": []
     },
@@ -7062,7 +7129,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.64
+        "seconds": 0.55
       },
       "backups": [
         {
@@ -7087,7 +7154,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.56
+        "seconds": 0.55
       },
       "backups": []
     },
@@ -7099,7 +7166,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.6
+        "seconds": 0.7
       },
       "backups": [
         {
@@ -7124,7 +7191,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.46
+        "seconds": 0.51
       },
       "backups": []
     },
@@ -7136,7 +7203,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.7
+        "seconds": 1.1
       },
       "backups": []
     },
@@ -7148,7 +7215,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.77
+        "seconds": 1.09
       },
       "backups": []
     },
@@ -7160,7 +7227,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.31
+        "seconds": 0.53
       },
       "backups": []
     },
@@ -7172,7 +7239,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.31
+        "seconds": 0.63
       },
       "backups": []
     },
@@ -7184,7 +7251,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.66
+        "seconds": 0.79
       },
       "backups": []
     },
@@ -7196,7 +7263,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.67
+        "seconds": 0.61
       },
       "backups": []
     },
@@ -7208,7 +7275,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.4
+        "seconds": 0.7
       },
       "backups": [
         {
@@ -7239,7 +7306,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.51
+        "seconds": 0.63
       },
       "backups": []
     },
@@ -7251,20 +7318,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.22
+        "seconds": 0.17
       },
       "backups": []
     },
     "Futbol və idman:setantasports1eurasia.ie": {
       "name": "Setanta Sports 1 Eurasia (1080p)",
       "url": "http://stream.mcquack.net/234/index.m3u8",
-      "failures": 2,
+      "failures": 3,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.36
+        "seconds": 0.37
       },
       "backups": []
     },
@@ -7276,7 +7343,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.23
+        "seconds": 3.35
       },
       "backups": []
     },
@@ -7288,20 +7355,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.03
+        "seconds": 1.91
       },
       "backups": []
     },
     "Futbol və idman:skysportsnfl.uk": {
       "name": "Sky Sports NFL (720p)",
       "url": "https://cdn.stmify.com/out/v1/SKY_SPORTS_ACTION/index.m3u8",
-      "failures": 6,
+      "failures": 7,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.48
+        "seconds": 0.41
       },
       "backups": []
     },
@@ -7313,33 +7380,33 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.75
+        "seconds": 5.94
       },
       "backups": []
     },
     "Futbol və idman:sport1baltic.ua": {
       "name": "Sport 1 Baltic (1080p)",
       "url": "http://stream.mcquack.net/461/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.35
       },
       "backups": []
     },
     "Futbol və idman:sport5.ua": {
       "name": "Sport 5 (1080p)",
       "url": "http://stream.mcquack.net/212/index.m3u8",
-      "failures": 1,
-      "status": "retry_next_run",
+      "failures": 2,
+      "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.35
       },
       "backups": []
     },
@@ -7351,7 +7418,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.72
+        "seconds": 0.99
       },
       "backups": []
     },
@@ -7363,9 +7430,16 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.17
+        "seconds": 0.4
       },
-      "backups": []
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Stadium.us@SD\" source-group=\"Beynəlxalq\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/stadium.us-2db89428647c.png\" group-title=\"Futbol və idman\"",
+          "name": "Stadium (1080p)",
+          "options": [],
+          "url": "https://wurl120sports.global.transmit.live/hls/6865b0ce3b41686108809e5a/v1/stadium_gracenote/vizio_us/latest/main/hls/playlist.m3u8"
+        }
+      ]
     },
     "Futbol və idman:strongman.us": {
       "name": "Strongman UK (720p)",
@@ -7375,7 +7449,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.4
+        "seconds": 1.03
       },
       "backups": []
     },
@@ -7387,7 +7461,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.47
+        "seconds": 0.84
       },
       "backups": [
         {
@@ -7406,7 +7480,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.92
+        "seconds": 0.17
       },
       "backups": []
     },
@@ -7418,7 +7492,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.14
+        "seconds": 0.16
       },
       "backups": []
     },
@@ -7430,7 +7504,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.68
+        "seconds": 1.35
       },
       "backups": []
     },
@@ -7442,7 +7516,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 3.1
+        "seconds": 3.06
       },
       "backups": []
     },
@@ -7454,7 +7528,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.98
+        "seconds": 1.16
       },
       "backups": [
         {
@@ -7473,7 +7547,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.45
+        "seconds": 0.64
       },
       "backups": []
     },
@@ -7485,19 +7559,19 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.98
+        "seconds": 1.72
       },
       "backups": []
     },
     "Futbol və idman:tvsboxing.us": {
-      "name": "TVS Boxing (720p)",
+      "name": "TVS Boxing (360p)",
       "url": "https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
-        "height": 720,
-        "seconds": 1.07
+        "height": 360,
+        "seconds": 0.71
       },
       "backups": []
     },
@@ -7509,7 +7583,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.03
+        "seconds": 0.74
       },
       "backups": []
     },
@@ -7521,7 +7595,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 0.97
+        "seconds": 0.77
       },
       "backups": []
     },
@@ -7533,31 +7607,31 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 1.29
+        "seconds": 0.69
       },
       "backups": []
     },
     "Futbol və idman:tvsturbo.us": {
-      "name": "TVS Turbo (360p)",
+      "name": "TVS Turbo (240p)",
       "url": "https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
-        "height": 360,
-        "seconds": 0.94
+        "height": 240,
+        "seconds": 0.76
       },
       "backups": []
     },
     "Futbol və idman:tvswomensports.us": {
-      "name": "TVS Women Sports (720p)",
+      "name": "TVS Women Sports (360p)",
       "url": "https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8",
       "failures": 0,
       "status": "ok",
       "check": {
         "ok": true,
-        "height": 720,
-        "seconds": 1.05
+        "height": 360,
+        "seconds": 0.71
       },
       "backups": []
     },
@@ -7569,7 +7643,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.36
+        "seconds": 0.53
       },
       "backups": []
     },
@@ -7581,7 +7655,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.22
+        "seconds": 0.44
       },
       "backups": []
     },
@@ -7593,7 +7667,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.21
+        "seconds": 0.35
       },
       "backups": [
         {
@@ -7618,20 +7692,20 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 7.47
+        "seconds": 9.74
       },
       "backups": []
     },
     "Futbol və idman:setantasports2eurasia.ie": {
       "name": "Setanta Sports 2 Eurasia (1080p)",
       "url": "http://stream.mcquack.net/235/index.m3u8",
-      "failures": 2,
+      "failures": 3,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.39
+        "seconds": 0.34
       },
       "backups": []
     },
@@ -7643,7 +7717,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.37,
+        "seconds": 2.3,
         "width": 1024,
         "resolution_verified": true
       },
@@ -7682,22 +7756,30 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.28,
+        "seconds": 1.74,
         "width": 720,
         "resolution_verified": true
       },
       "backups": [
         {
-          "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" source-group=\"Rusiya\" group-title=\"1080p Russian Movies\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/mosfilmgoldcollection.ru-0b29b1879c94.png\"",
-          "name": "Mosfilm — Золотая коллекция (1080p)",
+          "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" source-group=\"Rusiya\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/mosfilmgoldcollection.ru-0b29b1879c94.png\"",
+          "name": "Mosfilm — Золотая коллекция (576p)",
+          "options": [
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+          ],
+          "url": "http://stream.mcquack.net/369/index.m3u8"
+        },
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" source-group=\"Rusiya\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/mosfilmgoldcollection.ru-0b29b1879c94.png\"",
+          "name": "Mosfilm — Золотая коллекция (576p)",
           "options": [
             "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
           ],
           "url": "http://31.222.235.15/mosfilm/index.m3u8"
         },
         {
-          "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" source-group=\"Rusiya\" group-title=\"1080p Russian Movies\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/mosfilmgoldcollection.ru-0b29b1879c94.png\"",
-          "name": "Mosfilm — Золотая коллекция (1080p)",
+          "attrs": "#EXTINF:-1 tvg-id=\"MosfilmGoldCollection.ru@SD\" source-group=\"Rusiya\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/mosfilmgoldcollection.ru-0b29b1879c94.png\"",
+          "name": "Mosfilm — Золотая коллекция (576p)",
           "options": [],
           "url": "http://31.222.235.15/mosfilm/index.m3u8"
         }
@@ -7711,7 +7793,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.31,
+        "seconds": 1.53,
         "width": 1920,
         "resolution_verified": true
       },
@@ -7720,7 +7802,7 @@
     "Rusiya:russkiyroman.ru": {
       "name": "Russkiy roman (1080p)",
       "url": "http://stream.mcquack.net/266/index.m3u8",
-      "failures": 1,
+      "failures": 2,
       "status": "cinema_quality_unavailable",
       "check": {
         "ok": false,
@@ -7730,7 +7812,7 @@
       },
       "backups": [
         {
-          "attrs": "#EXTINF:-1 tvg-id=\"Russkiyroman.ru@SD\" source-group=\"Rusiya\" group-title=\"1080p Russian Movies\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russkiyroman.ru-804bbe7f056f.png\"",
+          "attrs": "#EXTINF:-1 tvg-id=\"Russkiyroman.ru@SD\" source-group=\"Rusiya\" group-title=\"Rusiya\" tvg-logo=\"https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/russkiyroman.ru-804bbe7f056f.png\"",
           "name": "Russkiy roman (1080p)",
           "options": [],
           "url": "http://31.148.48.15/Russkiy_Roman_HD/index.m3u8"
@@ -7745,7 +7827,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.04,
+        "seconds": 1.43,
         "width": 1920,
         "resolution_verified": true
       },
@@ -7772,7 +7854,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 3.19
+        "seconds": 5.37
       },
       "backups": []
     },
@@ -7784,14 +7866,14 @@
       "check": {
         "ok": true,
         "height": 432,
-        "seconds": 2.21
+        "seconds": 2.39
       },
       "backups": []
     },
     "Futbol və idman:foxsports2.us": {
       "name": "Fox Sports 2 (432p)",
       "url": "https://tvsen7.aynascope.net/foxsports2/index.m3u8",
-      "failures": 26,
+      "failures": 27,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
@@ -7809,20 +7891,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.07
+        "seconds": 0.97
       },
       "backups": []
     },
     "Futbol və idman:willow.us": {
       "name": "Willow (720p)",
       "url": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
-      "failures": 26,
+      "failures": 27,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "<urlopen error timed out>",
         "height": 0,
-        "seconds": 12.03
+        "seconds": 12.04
       },
       "backups": []
     },
@@ -7834,7 +7916,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.94
+        "seconds": 2.95
       },
       "backups": []
     },
@@ -7846,20 +7928,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.84
+        "seconds": 1.13
       },
       "backups": []
     },
     "Futbol və idman:volleyball.ru": {
       "name": "Volleyball (576p)",
       "url": "https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8",
-      "failures": 2,
+      "failures": 3,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "Not HLS/media data",
         "height": 0,
-        "seconds": 0.6
+        "seconds": 0.61
       },
       "backups": []
     },
@@ -7871,7 +7953,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.07
+        "seconds": 0.91
       },
       "backups": [
         {
@@ -7890,7 +7972,7 @@
       "check": {
         "ok": true,
         "height": 432,
-        "seconds": 2.16
+        "seconds": 2.39
       },
       "backups": []
     },
@@ -7902,33 +7984,33 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.25
+        "seconds": 2.37
       },
       "backups": []
     },
     "Futbol və idman:skysportsnews.uk": {
       "name": "Sky Sports News (1080p)",
       "url": "https://cdn.stmify.com/out/v1/SKY_SPORTS_PREMIER_LEAGUE/index.m3u8",
-      "failures": 6,
+      "failures": 7,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.44
+        "seconds": 0.42
       },
       "backups": []
     },
     "Futbol və idman:starsportsselect2.in": {
       "name": "Star Sports Select 2 HD (720p)",
       "url": "http://tvsen7.aynascope.net/ssport2hd/index.m3u8",
-      "failures": 26,
+      "failures": 27,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "<urlopen error timed out>",
         "height": 0,
-        "seconds": 12.0
+        "seconds": 12.03
       },
       "backups": []
     },
@@ -7940,27 +8022,27 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.83
+        "seconds": 1.17
       },
       "backups": []
     },
     "Futbol və idman:dazn1.uk": {
       "name": "DAZN 1 Germany",
       "url": "http://45.142.104.86/stream/25/index.m3u8",
-      "failures": 24,
+      "failures": 25,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "<urlopen error timed out>",
         "height": 0,
-        "seconds": 12.0
+        "seconds": 12.01
       },
       "backups": []
     },
     "Futbol və idman:dazn2.uk": {
       "name": "DAZN 2 Germany",
       "url": "http://45.142.104.86/stream/15/index.m3u8",
-      "failures": 24,
+      "failures": 25,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
@@ -7978,20 +8060,20 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 4.73
+        "seconds": 2.15
       },
       "backups": []
     },
     "Futbol və idman:eurosport.fr": {
       "name": "Eurosport (France)",
       "url": "http://103.253.74.210:7070/stream/122/index.m3u8",
-      "failures": 4,
+      "failures": 5,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 403: FORBIDDEN",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.41
       },
       "backups": []
     },
@@ -8003,7 +8085,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.21
+        "seconds": 1.25
       },
       "backups": []
     },
@@ -8015,7 +8097,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.75
+        "seconds": 0.87
       },
       "backups": []
     },
@@ -8027,7 +8109,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.52
+        "seconds": 1.73
       },
       "backups": [
         {
@@ -8041,26 +8123,26 @@
     "Rusiya:kinouzhas.ru": {
       "name": "Kinouzhas (1080p)",
       "url": "http://s1.merlive.am/Kinoujas/index.m3u8",
-      "failures": 16,
+      "failures": 17,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.48
+        "seconds": 0.42
       },
       "backups": []
     },
     "Rusiya:terra.ru": {
       "name": "TERRA (1080p)",
       "url": "http://s1.merlive.am/TerraHD/index.m3u8",
-      "failures": 16,
+      "failures": 17,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.43
+        "seconds": 0.42
       },
       "backups": []
     },
@@ -8072,7 +8154,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 1.62
+        "seconds": 1.52
       },
       "backups": []
     },
@@ -8084,7 +8166,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.19
+        "seconds": 1.13
       },
       "backups": []
     },
@@ -8108,20 +8190,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.72
+        "seconds": 0.94
       },
       "backups": []
     },
     "Futbol və idman:nhlantenaplay.ro": {
       "name": "NHL AntenaPlay (576i) [Not 24/7]",
       "url": "https://stream1.antenaplay.ro/promo/nhl-12-1411/chunklist.m3u8",
-      "failures": 7,
+      "failures": 8,
       "status": "unavailable_kept",
       "check": {
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "height": 0,
-        "seconds": 0.56
+        "seconds": 0.66
       },
       "backups": []
     },
@@ -8133,7 +8215,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.69
+        "seconds": 0.78
       },
       "backups": []
     },
@@ -8145,7 +8227,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 2.0
+        "seconds": 2.25
       },
       "backups": [
         {
@@ -8164,7 +8246,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.82,
+        "seconds": 1.53,
         "width": 1350,
         "resolution_verified": true
       },
@@ -8178,7 +8260,7 @@
       "check": {
         "ok": true,
         "height": 0,
-        "seconds": 0.8
+        "seconds": 0.79
       },
       "backups": []
     },
@@ -8190,7 +8272,93 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.16
+        "seconds": 1.35
+      },
+      "backups": []
+    },
+    "Rusiya:black.ru": {
+      "name": ".black HD (1080p)",
+      "url": "http://116.90.120.149:8000/play/a0ac/index.m3u8",
+      "failures": 0,
+      "status": "ok",
+      "check": {
+        "ok": true,
+        "height": 0,
+        "seconds": 1.17
+      },
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"black.ru@HD\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" group-title=\"Rusiya\"",
+          "name": ".black HD (1080p)",
+          "options": [],
+          "url": "http://116.90.120.149:8000/play/a0s4/index.m3u8"
+        }
+      ]
+    },
+    "Rusiya:russia24.ru": {
+      "name": "Russia-24 (1080p)",
+      "url": "https://stream.smotrim.ru/hls2/givc11_hd/playlist_4.m3u8",
+      "failures": 0,
+      "status": "ok",
+      "check": {
+        "ok": true,
+        "height": 0,
+        "seconds": 1.34
+      },
+      "backups": [
+        {
+          "attrs": "#EXTINF:-1 tvg-id=\"Russia24.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png\" group-title=\"Rusiya\"",
+          "name": "Russia-24 (1080p)",
+          "options": [],
+          "url": "http://77.232.131.211/Rossiya24/index.m3u8"
+        }
+      ]
+    },
+    "Rusiya:smotrim100gorkogo.ru": {
+      "name": "Smotrim 100% Gorkogo (1080p)",
+      "url": "https://stream.smotrim.ru/hls2/fasttv07/playlist_3.m3u8",
+      "failures": 0,
+      "status": "ok",
+      "check": {
+        "ok": true,
+        "height": 0,
+        "seconds": 1.14
+      },
+      "backups": []
+    },
+    "Rusiya:smotrim100k1.ru": {
+      "name": "Smotrim 100% k 1 (1080p)",
+      "url": "https://stream.smotrim.ru/hls2/fasttv08/playlist_2.m3u8",
+      "failures": 0,
+      "status": "ok",
+      "check": {
+        "ok": true,
+        "height": 0,
+        "seconds": 1.0
+      },
+      "backups": []
+    },
+    "Rusiya:smotrim100talkshow.ru": {
+      "name": "Smotrim 100% Talk-show (1080p)",
+      "url": "https://stream.smotrim.ru/hls2/fasttv09/playlist_3.m3u8",
+      "failures": 0,
+      "status": "ok",
+      "check": {
+        "ok": true,
+        "height": 0,
+        "seconds": 0.96
+      },
+      "backups": []
+    },
+    "Futbol və idman:pickleballtv.us": {
+      "name": "Pickleball TV (1080p) [Geo-blocked]",
+      "url": "https://amg27547-amg27547c1-amgplt0022.playout.now3.amagi.tv/playlist.m3u8",
+      "failures": 0,
+      "status": "ok",
+      "check": {
+        "ok": true,
+        "height": 1080,
+        "seconds": 0.47
       },
       "backups": []
     }
