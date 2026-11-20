@@ -1,6 +1,6 @@
 # Yayım vəziyyəti
 
-Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
+Son yoxlama (UTC): 2026-11-20T20:34:42+00:00
 
 | Ölkə | Kanal | Vəziyyət | Ardıcıl uğursuz yoxlama |
 |---|---|---|---|
@@ -27,11 +27,11 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | SHOW TV | ok | 0 |
 | Türkiyə | KANAL D | ok | 0 |
 | Türkiyə | ATV (1080p) | ok_after_retry | 0 |
-| Türkiyə | NOW TV (720p) | ok | 0 |
+| Türkiyə | NOW TV (720p) | ok_after_retry | 0 |
 | Türkiyə | Star TV (720p) | ok | 0 |
 | Türkiyə | TRT 1 (1440p) | ok | 0 |
 | Türkiyə | TV 8 (1080p) | ok | 0 |
-| Türkiyə | TV 8.5 | ok | 0 |
+| Türkiyə | TV 8.5 | retry_next_run | 1 |
 | Türkiyə | HABERTURK | ok | 0 |
 | Türkiyə | NTV | ok | 0 |
 | Türkiyə | A Haber (1080p) | ok | 0 |
@@ -51,9 +51,9 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | Alanya Posta TV (1080p) | ok | 0 |
 | Türkiyə | Almahriah TV (576p) | ok | 0 |
 | Türkiyə | Anadolu Net TV (1080p) | ok | 0 |
-| Türkiyə | ARAS TV (720p) [Not 24/7] | ok | 0 |
+| Türkiyə | ARAS TV (720p) [Not 24/7] | retry_next_run | 1 |
 | Türkiyə | ARD Alpha | ok | 0 |
-| Türkiyə | ATV Alanya (1080p) | unavailable_kept | 2 |
+| Türkiyə | ATV Alanya (1080p) | unavailable_kept | 3 |
 | Türkiyə | Augsburg TV | ok | 0 |
 | Türkiyə | BBC Earth | ok | 0 |
 | Türkiyə | BBC First Turkiye | ok | 0 |
@@ -78,7 +78,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | Das Erste | ok | 0 |
 | Türkiyə | DELUXE MUSIC | ok | 0 |
 | Türkiyə | Deniz Postası TV (720p) [Not 24/7] | ok | 0 |
-| Türkiyə | DHA (720p) [Not 24/7] | unavailable_kept | 2 |
+| Türkiyə | DHA (720p) [Not 24/7] | unavailable_kept | 3 |
 | Türkiyə | Diyanet TV (1080p) | ok | 0 |
 | Türkiyə | Diyar TV (720p) | ok | 0 |
 | Türkiyə | DMAX | ok | 0 |
@@ -117,7 +117,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | KANAL 58 (720p) [Not 24/7] | ok | 0 |
 | Türkiyə | Kanal 7 Avrupa (1080p) [Not 24/7] | ok | 0 |
 | Türkiyə | Kanal D Drama (1080p) | ok | 0 |
-| Türkiyə | KANAL F ÇOCUK | unavailable_kept | 41 |
+| Türkiyə | KANAL F ÇOCUK | unavailable_kept | 42 |
 | Türkiyə | Kanal Firat (720p) [Not 24/7] | ok | 0 |
 | Türkiyə | Kanal V (720p) [Not 24/7] | ok | 0 |
 | Türkiyə | Kay TV (720p) [Geo-blocked] | ok | 0 |
@@ -126,7 +126,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | Kocaeli TV (1080p) | ok | 0 |
 | Türkiyə | Konya Olay TV (720p) | ok | 0 |
 | Türkiyə | KRAL POP | ok | 0 |
-| Türkiyə | KRAL Pop TV (720p) | unavailable_kept | 41 |
+| Türkiyə | KRAL Pop TV (720p) | unavailable_kept | 42 |
 | Türkiyə | Lalegul TV (1080p) | ok | 0 |
 | Türkiyə | LIDER HABER | ok | 0 |
 | Türkiyə | Life TV (1080p) [Not 24/7] | ok | 0 |
@@ -136,7 +136,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | Med Muzik (1080p) | ok | 0 |
 | Türkiyə | MedyaHaber TV | ok | 0 |
 | Türkiyə | Mekameleen TV (1080p) | ok | 0 |
-| Türkiyə | MELTEM TV | unavailable_kept | 2 |
+| Türkiyə | MELTEM TV | unavailable_kept | 3 |
 | Türkiyə | Mercan TV (576p) [Not 24/7] | ok | 0 |
 | Türkiyə | Minika Cocuk (720p) | ok | 0 |
 | Türkiyə | Minika Go (720p) | ok | 0 |
@@ -145,7 +145,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | NBC News NOW | ok | 0 |
 | Türkiyə | NDR Hamburg | ok | 0 |
 | Türkiyə | NHK WORLD | ok | 0 |
-| Türkiyə | NOW (720p) | retry_next_run | 1 |
+| Türkiyə | NOW (720p) | ok | 0 |
 | Türkiyə | NR1 FASHION ONE | ok | 0 |
 | Türkiyə | Number 1 Ask (720p) | ok | 0 |
 | Türkiyə | Number 1 Damar (720p) | ok | 0 |
@@ -174,7 +174,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | Tempo TV (720p) | ok | 0 |
 | Türkiyə | Terra Mater WILD | ok | 0 |
 | Türkiyə | TEVE2 | ok | 0 |
-| Türkiyə | TGRT Belgesel TV (576p) [Not 24/7] | unavailable_kept | 41 |
+| Türkiyə | TGRT Belgesel TV (576p) [Not 24/7] | unavailable_kept | 42 |
 | Türkiyə | TGRT HABER | ok | 0 |
 | Türkiyə | Tivi 6 (720p) | ok | 0 |
 | Türkiyə | TJK TV (1080p) | ok | 0 |
@@ -182,22 +182,22 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | Ton TV (1080p) [Not 24/7] | ok | 0 |
 | Türkiyə | TR:SOZCU TV | ok | 0 |
 | Türkiyə | TRACE URBAN | ok | 0 |
-| Türkiyə | TRT 2 (1440p) [Geo-blocked] | unavailable_kept | 4 |
-| Türkiyə | TRT 3 (720p) | unavailable_kept | 41 |
+| Türkiyə | TRT 2 (1440p) [Geo-blocked] | unavailable_kept | 5 |
+| Türkiyə | TRT 3 (720p) | unavailable_kept | 42 |
 | Türkiyə | TRT Arabi (1440p) [Not 24/7] | ok | 0 |
 | Türkiyə | TRT ARAPCA | ok | 0 |
 | Türkiyə | TRT Avaz (1440p) | ok | 0 |
-| Türkiyə | TRT Cocuk (1440p) | retry_next_run | 1 |
+| Türkiyə | TRT Cocuk (1440p) | ok | 0 |
 | Türkiyə | TRT COCUK DIYANET | ok | 0 |
 | Türkiyə | TRT Diyanet Çocuk (1440p) | ok | 0 |
-| Türkiyə | TRT EBA Ilkokul (720p) | unavailable_kept | 41 |
-| Türkiyə | TRT EBA Lise (720p) | unavailable_kept | 41 |
+| Türkiyə | TRT EBA Ilkokul (720p) | unavailable_kept | 42 |
+| Türkiyə | TRT EBA Lise (720p) | unavailable_kept | 42 |
 | Türkiyə | TRT EBA Ortaokul (720p) | ok | 0 |
-| Türkiyə | TRT Genc (1440p) [Geo-blocked] | ok | 0 |
+| Türkiyə | TRT Genc (1440p) [Geo-blocked] | retry_next_run | 1 |
 | Türkiyə | TRT Kurdî (1440p) | ok | 0 |
 | Türkiyə | TRT Müzik (1440p) | ok | 0 |
 | Türkiyə | TRT NOSTALJI | ok | 0 |
-| Türkiyə | TRT Spor Yildiz (1440p) [Geo-blocked] | unavailable_kept | 28 |
+| Türkiyə | TRT Spor Yildiz (1440p) [Geo-blocked] | unavailable_kept | 29 |
 | Türkiyə | TRT Türk (1440p) | ok | 0 |
 | Türkiyə | TRT World (1440p) [Not 24/7] | ok | 0 |
 | Türkiyə | TV 100 | ok | 0 |
@@ -216,65 +216,65 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | YOL TV | ok | 0 |
 | Türkiyə | Zarok TV (1080p) | ok | 0 |
 | Türkiyə | Çiftçi TV (720p) [Not 24/7] | ok | 0 |
-| Rusiya | Telecafe (Russia) (720p) | unavailable_kept | 41 |
+| Rusiya | Telecafe (Russia) (720p) | unavailable_kept | 42 |
 | Rusiya | Mir (1080p) | ok | 0 |
-| Rusiya | Vremya (720p) | unavailable_kept | 41 |
-| Rusiya | Dorama HD (1080p) | replaced | 0 |
+| Rusiya | Vremya (720p) | unavailable_kept | 42 |
+| Rusiya | Dorama HD (1080p) | ok | 0 |
 | Rusiya | Channel 8 Krasnoyarsk HD (1080p) | ok | 0 |
-| Rusiya | .red HD (1080p) | unavailable_kept | 10 |
+| Rusiya | .red HD (1080p) | ok | 0 |
 | Rusiya | 1HD Music Television (1080p) | ok | 0 |
 | Rusiya | 360° (1080p) | ok | 0 |
 | Rusiya | 360° News (1080p) | ok | 0 |
 | Rusiya | 3ABN Russia (720p) | ok | 0 |
-| Rusiya | 5 minut tishiny (720p) | retry_next_run | 1 |
+| Rusiya | 5 minut tishiny (720p) | ok_after_retry | 0 |
 | Rusiya | AIST TV (1080p) | ok | 0 |
-| Rusiya | Amedia Hit (1080p) | unavailable_kept | 2 |
+| Rusiya | Amedia Hit (1080p) | unavailable_kept | 3 |
 | Rusiya | Angel TV Russian (720p) | ok | 0 |
-| Rusiya | Animal Planet (Russia) (1080p) | unavailable_kept | 2 |
+| Rusiya | Animal Planet (Russia) (1080p) | unavailable_kept | 3 |
 | Rusiya | Arkhyz 24 (1080p) | ok | 0 |
 | Rusiya | Astrahan 24 (720p) | ok | 0 |
 | Rusiya | Astrahan.Ru Sport (1080p) | ok | 0 |
 | Rusiya | Belgorod 24 (1080p) | ok | 0 |
 | Rusiya | Big Asia (720p) | ok | 0 |
-| Rusiya | Blokbaster HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Blokbaster HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Carousel +4 (576p) | ok | 0 |
 | Rusiya | Channel 12 (1080p) | ok | 0 |
-| Rusiya | Classic Music (1080p) | unavailable_kept | 2 |
+| Rusiya | Classic Music (1080p) | unavailable_kept | 3 |
 | Rusiya | Current Time TV (1080p) | ok | 0 |
 | Rusiya | Dagestan (1080p) | ok | 0 |
-| Rusiya | Dikaya rybalka HD (1080p) | unavailable_kept | 2 |
-| Rusiya | Discovery Channel (Russia) (1080p) | unavailable_kept | 2 |
-| Rusiya | Dom kino Premium HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Dikaya rybalka HD (1080p) | unavailable_kept | 3 |
+| Rusiya | Discovery Channel (Russia) (1080p) | unavailable_kept | 3 |
+| Rusiya | Dom kino Premium HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Duma TV (720p) | ok | 0 |
 | Rusiya | Eurasia (720p) | ok | 0 |
 | Rusiya | Euronews Russian (720p) | ok | 0 |
 | Rusiya | Eurosport 1 Russia (1080p) | ok | 0 |
 | Rusiya | Eurosport 2 Russia (1080p) | ok | 0 |
-| Rusiya | Evrokino HD (1080p) | replaced | 0 |
-| Rusiya | Fashion&LifeStyle (1080p) | unavailable_kept | 2 |
+| Rusiya | Evrokino HD (576p) | ok | 0 |
+| Rusiya | Fashion&LifeStyle (1080p) | unavailable_kept | 3 |
 | Rusiya | FashionTV (Russia) (1080p) | ok | 0 |
-| Rusiya | Food Network (Russia) (1080p) | unavailable_kept | 2 |
+| Rusiya | Food Network (Russia) (1080p) | unavailable_kept | 3 |
 | Rusiya | Govorit Moskva (720p) | ok | 0 |
 | Rusiya | Gulli Girl (720p) | ok | 0 |
-| Rusiya | Hit HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Hit HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Hope Channel Russia (720p) | ok | 0 |
 | Rusiya | Horoshee Kino (1080p) | ok | 0 |
 | Rusiya | Ingushetia (1080p) | ok | 0 |
-| Rusiya | Investigation Discovery (Russia) (1080p) | unavailable_kept | 2 |
+| Rusiya | Investigation Discovery (Russia) (1080p) | unavailable_kept | 3 |
 | Rusiya | Istoki (576p) | ok | 0 |
 | Rusiya | Izvestia (1080p) | ok | 0 |
-| Rusiya | Kapitan Fantastika (1080p) | unavailable_kept | 2 |
+| Rusiya | Kapitan Fantastika (1080p) | unavailable_kept | 3 |
 | Rusiya | Kino TV HD (1080p) | ok | 0 |
 | Rusiya | Kinopremyera (1080p) | ok | 0 |
 | Rusiya | Kongress TV (1080p) | ok | 0 |
 | Rusiya | Krik-TV (1080p) | ok | 0 |
-| Rusiya | LDPR TV (1080p) | unavailable_kept | 29 |
+| Rusiya | LDPR TV (1080p) | unavailable_kept | 30 |
 | Rusiya | Leomax 24 (1080p) | ok | 0 |
 | Rusiya | Live Music Channel HD (1080p) | ok | 0 |
 | Rusiya | Magnat (1080p) | ok | 0 |
 | Rusiya | Maidan (720p) | ok | 0 |
 | Rusiya | Match! Ultra (1080p) | ok | 0 |
-| Rusiya | Mezzo Live (1080p) | unavailable_kept | 2 |
+| Rusiya | Mezzo Live (1080p) | unavailable_kept | 3 |
 | Rusiya | Ministerstvo idey (576p) | ok | 0 |
 | Rusiya | Mir 24 (1080p) | ok | 0 |
 | Rusiya | Mir Belogorya (1080p) [Geo-blocked] | ok | 0 |
@@ -282,22 +282,22 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Rusiya | Moskva 24 (1080p) | ok | 0 |
 | Rusiya | Moy mir (720p) | ok | 0 |
 | Rusiya | Nano HD (1080p) | ok | 0 |
-| Rusiya | Nevskiy (720p) | retry_next_run | 1 |
+| Rusiya | Nevskiy (720p) | unavailable_kept | 2 |
 | Rusiya | NovgorOblTV [Geo-blocked] | ok | 0 |
-| Rusiya | Novorossiya TV (1080p) [Geo-blocked] | retry_next_run | 1 |
+| Rusiya | Novorossiya TV (1080p) [Geo-blocked] | unavailable_kept | 2 |
 | Rusiya | NTK 21 [Geo-blocked] | ok | 0 |
 | Rusiya | NTV (Russia) HD (1080p) | ok | 0 |
 | Rusiya | NTV Sledstviye veli (1080p) [Geo-blocked] | ok | 0 |
 | Rusiya | NTV Vitrina (808p) | ok | 0 |
 | Rusiya | O! International (720p) | ok | 0 |
-| Rusiya | Ohotnik i rybolov HD (1080p) | replaced | 0 |
-| Rusiya | Oplot 2 (576p) [Geo-blocked] | ok | 0 |
+| Rusiya | Ohotnik i rybolov HD (1080p) | ok | 0 |
+| Rusiya | Oplot 2 (720p) [Geo-blocked] | ok | 0 |
 | Rusiya | Oplot TV (1080p) [Geo-blocked] | ok | 0 |
 | Rusiya | Osetiya-Iryston (1080p) | ok | 0 |
 | Rusiya | Perviy otdel (720p) | ok | 0 |
 | Rusiya | Pes (720p) | ok | 0 |
-| Rusiya | Premialnoe HD (1080p) | unavailable_kept | 2 |
-| Rusiya | Priklyucheniya HD (1080p) | replaced | 0 |
+| Rusiya | Premialnoe HD (1080p) | unavailable_kept | 3 |
+| Rusiya | Priklyucheniya HD (1080p) | ok | 0 |
 | Rusiya | Pro Business (288p) | ok | 0 |
 | Rusiya | Prodvizhenie (1080p) | ok | 0 |
 | Rusiya | Radio 1 (Russia) (720p) [Geo-blocked] | ok | 0 |
@@ -305,14 +305,14 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Rusiya | Radio Rossii (720p) | ok | 0 |
 | Rusiya | RT Balkan (1080p) | ok | 0 |
 | Rusiya | RT Documentary Russian (1080p) | ok | 0 |
-| Rusiya | RTG TV HD (1080p) | replaced | 0 |
+| Rusiya | RTG TV HD (1080p) | ok | 0 |
 | Rusiya | RU.TV (1080p) | ok | 0 |
 | Rusiya | Russia-1 HD (1080p) | ok | 0 |
 | Rusiya | Russia-K HD (1080p) | ok | 0 |
 | Rusiya | Russian Extreme Ultra (1440p) | ok | 0 |
 | Rusiya | Sankt-Peterburg HD (720p) | ok | 0 |
 | Rusiya | Shef (720p) | ok | 0 |
-| Rusiya | Shokiruyushchee HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Shokiruyushchee HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Shopping Live (1080p) | ok | 0 |
 | Rusiya | Smotrim 100% Detskoe (720p) | ok | 0 |
 | Rusiya | Smotrim 100% Fakty (720p) | ok | 0 |
@@ -321,21 +321,21 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Rusiya | Smotrim 100% Muzhskoe (720p) | ok | 0 |
 | Rusiya | Smotrim 100% Prazdnik (720p) | ok | 0 |
 | Rusiya | Smotrim Chestnyy Detektiv (1080p) | ok | 0 |
-| Rusiya | Sochi24 (720p) | unavailable_kept | 3 |
+| Rusiya | Sochi24 (720p) | ok | 0 |
 | Rusiya | Sportivnyy (1080p) | ok | 0 |
 | Rusiya | Star Family (1080p) | ok | 0 |
 | Rusiya | START Air (1080p) | ok | 0 |
-| Rusiya | STS HD (576p) | replaced | 0 |
+| Rusiya | STS HD (576p) | ok | 0 |
 | Rusiya | Subbota! (1080p) | ok | 0 |
 | Rusiya | Svoyo TV (1080p) | ok | 0 |
 | Rusiya | Telekanal Krasnodar (1080p) | ok | 0 |
-| Rusiya | TLC (Russia) (1080p) | unavailable_kept | 2 |
+| Rusiya | TLC (Russia) (1080p) | unavailable_kept | 3 |
 | Rusiya | TNV-Tatarstan (720p) | ok | 0 |
 | Rusiya | Tolk (720p) | ok | 0 |
 | Rusiya | Tooku (1080p) | ok | 0 |
 | Rusiya | Trace Sport Stars Russia (720p) | ok | 0 |
-| Rusiya | Travel Channel (Russia) (1080p) | unavailable_kept | 2 |
-| Rusiya | Travel+Adventure HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Travel Channel (Russia) (1080p) | unavailable_kept | 3 |
+| Rusiya | Travel+Adventure HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Tsargrad TV (1080p) [Geo-blocked] | ok | 0 |
 | Rusiya | TV BRICS Russian (1080p) | ok | 0 |
 | Rusiya | TV-3 HD (576p) | ok | 0 |
@@ -346,30 +346,30 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Rusiya | Univer TV (1080p) | ok | 0 |
 | Rusiya | Unknown Russia HD (1080p) | ok | 0 |
 | Rusiya | V gostyakh u skazki (1080p) | ok | 0 |
-| Rusiya | V mire zhivotnykh (1080p) | unavailable_kept | 2 |
+| Rusiya | V mire zhivotnykh (1080p) | unavailable_kept | 3 |
 | Rusiya | Vesti FM (720p) | ok | 0 |
 | Rusiya | viju TV1000 novella HD (1080p) | ok | 0 |
 | Rusiya | viju TV1000 romantica HD (1080p) | ok | 0 |
-| Rusiya | viju+ Comedy HD (1080p) | replaced | 0 |
-| Rusiya | viju+ Megahit HD (1080p) | replaced | 0 |
-| Rusiya | viju+ Planet HD (1080p) | unavailable_kept | 2 |
-| Rusiya | viju+ Premiere HD (1080p) | replaced | 0 |
-| Rusiya | viju+ Serial HD (1080p) | replaced | 0 |
-| Rusiya | viju+ Sport HD (1080p) | replaced | 0 |
+| Rusiya | viju+ Comedy HD (1080p) | ok | 0 |
+| Rusiya | viju+ Megahit HD (1080p) | ok | 0 |
+| Rusiya | viju+ Planet HD (1080p) | unavailable_kept | 3 |
+| Rusiya | viju+ Premiere HD (1080p) | ok | 0 |
+| Rusiya | viju+ Serial HD (1080p) | ok | 0 |
+| Rusiya | viju+ Sport HD (1080p) | ok | 0 |
 | Rusiya | Vitrina TV (1080p) | ok | 0 |
 | Rusiya | YaPervyy (1080p) | ok | 0 |
-| Rusiya | Zhivaya priroda HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Zhivaya priroda HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Zvezda HD (1080p) | ok | 0 |
 | Rusiya | Zvezda Plus HD (1080p) | ok | 0 |
-| Türkiyə | Meltem TV (720p) | retry_next_run | 1 |
+| Türkiyə | Meltem TV (720p) | ok_after_retry | 0 |
 | Rusiya | 2x2 (576i) | ok | 0 |
 | Rusiya | 86 (1080p) [Not 24/7] | ok | 0 |
 | Rusiya | Aris 24 (720p) [Not 24/7] | ok | 0 |
 | Rusiya | Channel 10 (Russia) (576i) | ok | 0 |
-| Rusiya | Dushevnoe HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Dushevnoe HD (1080p) | unavailable_kept | 3 |
 | Rusiya | Groznyj | ok | 0 |
-| Rusiya | Komediynoe HD (1080p) | unavailable_kept | 2 |
-| Rusiya | Moya stikhiya HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Komediynoe HD (1080p) | unavailable_kept | 3 |
+| Rusiya | Moya stikhiya HD (1080p) | unavailable_kept | 3 |
 | Rusiya | MTV Volgograd (720p) [Not 24/7] | ok | 0 |
 | Rusiya | NTM (720p) [Not 24/7] | ok | 0 |
 | Rusiya | NTS (1080p) [Not 24/7] | ok | 0 |
@@ -379,7 +379,7 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Rusiya | Prima (Russia) (1080p) | ok | 0 |
 | Rusiya | S1 (1080p) [Not 24/7] | ok | 0 |
 | Rusiya | Sever | ok | 0 |
-| Rusiya | Skoraya pomoshch (720p) | ok | 0 |
+| Rusiya | Skoraya pomoshch (720p) | retry_next_run | 1 |
 | Rusiya | Sochi Live (720p) [Not 24/7] | ok | 0 |
 | Rusiya | Strana FM | ok | 0 |
 | Rusiya | TKR (720p) [Not 24/7] | ok | 0 |
@@ -391,14 +391,14 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Türkiyə | TV 8 | ok | 0 |
 | Türkiyə | ABC NEWS | ok | 0 |
 | Türkiyə | POWER TURK TAPTAZE | ok | 0 |
-| Türkiyə | TRT Belgesel | unavailable_kept | 40 |
-| Rusiya | Balabol (720p) | retry_next_run | 1 |
-| Rusiya | Dikaya okhota HD (1080p) | unavailable_kept | 2 |
-| Rusiya | Match! Boets (1080p) | unavailable_kept | 2 |
+| Türkiyə | TRT Belgesel | unavailable_kept | 41 |
+| Rusiya | Balabol (720p) | ok | 0 |
+| Rusiya | Dikaya okhota HD (1080p) | unavailable_kept | 3 |
+| Rusiya | Match! Boets (1080p) | unavailable_kept | 3 |
 | Rusiya | Match! Premier (576p) | ok | 0 |
-| Rusiya | Nashe muzhskoe HD (1080p) | unavailable_kept | 2 |
-| Rusiya | Okko Futbol (576p) | unavailable_kept | 5 |
-| Rusiya | Ostrosyuzhetnoye HD (1080p) | unavailable_kept | 2 |
+| Rusiya | Nashe muzhskoe HD (1080p) | unavailable_kept | 3 |
+| Rusiya | Okko Futbol (576p) | unavailable_kept | 6 |
+| Rusiya | Ostrosyuzhetnoye HD (1080p) | unavailable_kept | 3 |
 | Beynəlxalq | 30A Golf Kingdom (720p) | ok | 0 |
 | Beynəlxalq | ACC Digital Network (1080p) | ok | 0 |
 | Beynəlxalq | American Ninja Warrior (1080p) | ok | 0 |
@@ -421,21 +421,21 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Beynəlxalq | ESPN8: The Ocho (1080p) | ok | 0 |
 | Beynəlxalq | ESPN (United States) HD (720p) | ok | 0 |
 | Beynəlxalq | ESPNU HD (720p) | ok | 0 |
-| Beynəlxalq | Eurosport (1080p) | replaced | 0 |
+| Beynəlxalq | Eurosport (1080p) | ok | 0 |
 | Beynəlxalq | F1 Channel (1080p) [Geo-blocked] | ok | 0 |
 | Beynəlxalq | Fast&FunBox | ok | 0 |
 | Beynəlxalq | FCK Lovinderne | ok | 0 |
 | Beynəlxalq | FIFA+ Women (720p) | ok | 0 |
-| Beynəlxalq | FightBox | ok_after_retry | 0 |
+| Beynəlxalq | FightBox | ok | 0 |
 | Beynəlxalq | FITE 24/7 (1080p) | ok | 0 |
 | Beynəlxalq | FloHockey (1080p) | ok | 0 |
 | Beynəlxalq | FloRacing (1080p) | ok | 0 |
-| Beynəlxalq | Fox Deportes (720p) | unavailable_kept | 37 |
+| Beynəlxalq | Fox Deportes (720p) | unavailable_kept | 38 |
 | Beynəlxalq | Fox Sports 1 (1080p) | ok | 0 |
-| Beynəlxalq | FTF Sports (1080p) | ok | 0 |
+| Beynəlxalq | FTF Sports (1080p) | retry_next_run | 1 |
 | Beynəlxalq | Fubo Sports Network (1080p) | ok | 0 |
 | Beynəlxalq | FUEL TV (1080p) | ok | 0 |
-| Beynəlxalq | Game+ (720p) | ok | 0 |
+| Beynəlxalq | Game+ (720p) | retry_next_run | 1 |
 | Beynəlxalq | Glory Kickboxing Poland (720p) | ok | 0 |
 | Beynəlxalq | Golazo Network (720p) | ok | 0 |
 | Beynəlxalq | HBCU-GO Sports (720p) | ok | 0 |
@@ -452,10 +452,10 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Beynəlxalq | NFL Channel (720p) | ok | 0 |
 | Beynəlxalq | NHL Network (1080p) | ok | 0 |
 | Beynəlxalq | NHRA TV (1080p) | ok | 0 |
-| Beynəlxalq | Oman Sports TV (1080p) [Not 24/7] | ok | 0 |
+| Beynəlxalq | Oman Sports TV (1080p) [Not 24/7] | retry_next_run | 1 |
 | Beynəlxalq | Overtime (1080p) | ok | 0 |
 | Beynəlxalq | PBR RidePass (720p) | ok | 0 |
-| Beynəlxalq | PFL MMA (720p) | ok | 0 |
+| Beynəlxalq | PFL MMA (720p) | retry_next_run | 1 |
 | Beynəlxalq | PGA Tour (1080p) | ok | 0 |
 | Beynəlxalq | Pluto TV Competition | ok | 0 |
 | Beynəlxalq | Pluto TV Handboll Highlights | ok | 0 |
@@ -473,13 +473,13 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Beynəlxalq | Red Bull TV AU (1080p) | ok | 0 |
 | Beynəlxalq | REV'N Action (720p) [Geo-blocked] | ok | 0 |
 | Beynəlxalq | Right Now TV (720p) | ok | 0 |
-| Beynəlxalq | Setanta Sports 1 Eurasia (1080p) | unavailable_kept | 3 |
+| Beynəlxalq | Setanta Sports 1 Eurasia (1080p) | unavailable_kept | 4 |
 | Beynəlxalq | Sky Racing 1 (720p) | ok | 0 |
 | Beynəlxalq | Sky Sports F1 (720p) | ok | 0 |
-| Beynəlxalq | Sky Sports NFL (720p) | unavailable_kept | 7 |
+| Beynəlxalq | Sky Sports NFL (720p) | unavailable_kept | 8 |
 | Beynəlxalq | Slopes TV (720p) | ok | 0 |
-| Beynəlxalq | Sport 1 Baltic (1080p) | unavailable_kept | 2 |
-| Beynəlxalq | Sport 5 (1080p) | unavailable_kept | 2 |
+| Beynəlxalq | Sport 1 Baltic (1080p) | unavailable_kept | 3 |
+| Beynəlxalq | Sport 5 (1080p) | unavailable_kept | 3 |
 | Beynəlxalq | SportsGrid (1080p) | ok | 0 |
 | Beynəlxalq | Stadium (1080p) | ok | 0 |
 | Beynəlxalq | Strongman UK (720p) | ok | 0 |
@@ -492,51 +492,51 @@ Son yoxlama (UTC): 2026-11-20T07:32:26+00:00
 | Beynəlxalq | Trace Sport Stars (1080p) | ok | 0 |
 | Beynəlxalq | TSN The Ocho (1080p) | ok | 0 |
 | Beynəlxalq | TVS Bowling Network (720p) | ok | 0 |
-| Beynəlxalq | TVS Boxing (360p) | ok | 0 |
+| Beynəlxalq | TVS Boxing (720p) | ok | 0 |
 | Beynəlxalq | TVS Classic Sports (720p) | ok | 0 |
-| Beynəlxalq | TVS Sports (720p) [Not 24/7] | ok | 0 |
-| Beynəlxalq | TVS Sports Bureau (720p) | ok | 0 |
-| Beynəlxalq | TVS Turbo (240p) | ok | 0 |
-| Beynəlxalq | TVS Women Sports (360p) | ok | 0 |
+| Beynəlxalq | TVS Sports (480p) [Not 24/7] | ok | 0 |
+| Beynəlxalq | TVS Sports Bureau (538p) | ok | 0 |
+| Beynəlxalq | TVS Turbo (360p) | ok | 0 |
+| Beynəlxalq | TVS Women Sports (480p) | ok | 0 |
 | Beynəlxalq | Unbeaten (1080p) | ok | 0 |
 | Beynəlxalq | Willow Sports (1080p) | ok | 0 |
 | Beynəlxalq | World Poker Tour (1080p) | ok | 0 |
-| Beynəlxalq | XFC TV (720p) | ok | 0 |
-| Beynəlxalq | Setanta Sports 2 Eurasia (1080p) | unavailable_kept | 3 |
+| Beynəlxalq | XFC TV (720p) | ok_after_retry | 0 |
+| Beynəlxalq | Setanta Sports 2 Eurasia (1080p) | unavailable_kept | 4 |
 | Rusiya | Pobeda / Победа (576p) | ok | 0 |
 | Rusiya | Mosfilm — Золотая коллекция (576p) | ok | 0 |
 | Türkiyə | Cine 1 (1080p) | ok | 0 |
-| Rusiya | Russkiy roman (1080p) | unavailable_kept | 2 |
+| Rusiya | Russkiy roman (1080p) | unavailable_kept | 3 |
 | Rusiya | viju TV1000 russkoe (1080p) | ok | 0 |
-| Türkiyə | Tele 1 (1080p) | ok | 0 |
+| Türkiyə | Tele 1 (1080p) | retry_next_run | 1 |
 | Beynəlxalq | beIN Sports USA (432p) | ok | 0 |
-| Beynəlxalq | Fox Sports 2 (432p) | unavailable_kept | 27 |
+| Beynəlxalq | Fox Sports 2 (432p) | unavailable_kept | 28 |
 | Rusiya | Saphire (1080p) | ok | 0 |
-| Beynəlxalq | Willow (720p) | unavailable_kept | 27 |
+| Beynəlxalq | Willow (720p) | unavailable_kept | 28 |
 | Rusiya | Samara-GIS (1080p) [Not 24/7] | ok | 0 |
 | Rusiya | The Explorers (1080p) | ok | 0 |
-| Rusiya | Volleyball (576p) | unavailable_kept | 3 |
+| Rusiya | Volleyball (576p) | ok | 0 |
 | Beynəlxalq | AntenaPlay Events (576i) [Not 24/7] | ok | 0 |
 | Beynəlxalq | Golf Channel (United States) (432p) | ok | 0 |
 | Beynəlxalq | Marquee Sports Network (1080p) | ok | 0 |
-| Beynəlxalq | Sky Sports News (1080p) | unavailable_kept | 7 |
-| Beynəlxalq | Star Sports Select 2 HD (720p) | unavailable_kept | 27 |
+| Beynəlxalq | Sky Sports News (1080p) | unavailable_kept | 8 |
+| Beynəlxalq | Star Sports Select 2 HD (720p) | unavailable_kept | 28 |
 | Beynəlxalq | TAP Sports (1080p) [Geo-blocked] | ok | 0 |
-| Beynəlxalq | DAZN 1 Germany | unavailable_kept | 25 |
-| Beynəlxalq | DAZN 2 Germany | unavailable_kept | 25 |
+| Beynəlxalq | DAZN 1 Germany | unavailable_kept | 26 |
+| Beynəlxalq | DAZN 2 Germany | unavailable_kept | 26 |
 | Beynəlxalq | Eurosport 4K Romania (2160p) [Geo-blocked] | ok | 0 |
-| Beynəlxalq | Eurosport (France) | unavailable_kept | 5 |
+| Beynəlxalq | Eurosport (France) | unavailable_kept | 6 |
 | Türkiyə | CNN Turk (1080p) | ok | 0 |
 | Beynəlxalq | Eurovision Sport (1080p) | ok | 0 |
 | Rusiya | FON TV (1080p) | ok | 0 |
-| Rusiya | Kinouzhas (1080p) | unavailable_kept | 17 |
-| Rusiya | TERRA (1080p) | unavailable_kept | 17 |
+| Rusiya | Kinouzhas (1080p) | unavailable_kept | 18 |
+| Rusiya | TERRA (1080p) | unavailable_kept | 18 |
 | Beynəlxalq | Eurosport 1 UK (1080p) | ok | 0 |
 | Beynəlxalq | Formula 1 AntenaPlay (576i) [Not 24/7] | ok | 0 |
 | Beynəlxalq | Setanta Sports+ Georgia (1080p) | ok | 0 |
 | Türkiyə | beIN Sports 1 Turk | ok | 0 |
 | Türkiyə | Sozcu TV (1080p) | ok | 0 |
-| Beynəlxalq | NHL AntenaPlay (576i) [Not 24/7] | unavailable_kept | 8 |
+| Beynəlxalq | NHL AntenaPlay (576i) [Not 24/7] | unavailable_kept | 9 |
 | Türkiyə | KRT (1080p) | ok | 0 |
 | Rusiya | Match! Planeta (576p) | ok | 0 |
 | Rusiya | START World (1080p) | ok | 0 |
