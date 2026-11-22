@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.89,
+        "seconds": 0.91,
         "width": 1920,
         "resolution_verified": true
       }
@@ -28,7 +28,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.29
       }
     },
     "evrokino.ru": {
@@ -37,7 +37,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.13,
+        "seconds": 1.31,
         "width": 720,
         "resolution_verified": true
       }
@@ -48,7 +48,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.12,
+        "seconds": 0.7,
         "width": 1920,
         "resolution_verified": true
       }
@@ -59,7 +59,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.65,
+        "seconds": 1.51,
         "width": 1920,
         "resolution_verified": true
       }
@@ -70,7 +70,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.47,
+        "seconds": 1.17,
         "width": 1920,
         "resolution_verified": true
       }
@@ -81,7 +81,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.12,
+        "seconds": 1.21,
         "width": 720,
         "resolution_verified": true
       }
@@ -93,7 +93,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.38
+        "seconds": 0.3
       }
     },
     "nashenovoekino.ru": {
@@ -111,7 +111,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.65,
+        "seconds": 3.82,
         "width": 1024,
         "resolution_verified": true
       }
@@ -150,7 +150,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.32
+        "seconds": 0.29
       }
     },
     "startair.ru": {
@@ -159,7 +159,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.49,
+        "seconds": 1.2,
         "width": 1920,
         "resolution_verified": true
       }
@@ -170,7 +170,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.37,
+        "seconds": 1.47,
         "width": 1350,
         "resolution_verified": true
       }
@@ -181,7 +181,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 4.46,
+        "seconds": 2.58,
         "width": 1280,
         "resolution_verified": true
       }
@@ -201,7 +201,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.62,
+        "seconds": 1.51,
         "width": 1920,
         "resolution_verified": true
       }
