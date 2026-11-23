@@ -7,18 +7,20 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.91,
+        "seconds": 1.46,
         "width": 1920,
         "resolution_verified": true
       }
     },
     "domkino.ru": {
-      "name": "domkino.ru",
-      "group": null,
+      "name": "Dom kino (576p)",
+      "group": "Rusiya",
       "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
+        "ok": true,
+        "height": 576,
+        "seconds": 1.42,
+        "width": 1024,
+        "resolution_verified": true
       }
     },
     "domkinopremium.ru": {
@@ -28,18 +30,17 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.29
+        "seconds": 1.48
       }
     },
     "evrokino.ru": {
       "name": "Evrokino HD (576p)",
       "group": "Rusiya",
       "check": {
-        "ok": true,
-        "height": 576,
-        "seconds": 1.31,
-        "width": 720,
-        "resolution_verified": true
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden",
+        "height": 0,
+        "seconds": 0.71
       }
     },
     "film.screen.tr": {
@@ -48,7 +49,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.7,
+        "seconds": 1.08,
         "width": 1920,
         "resolution_verified": true
       }
@@ -59,7 +60,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.42,
         "width": 1920,
         "resolution_verified": true
       }
@@ -70,7 +71,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.17,
+        "seconds": 2.47,
         "width": 1920,
         "resolution_verified": true
       }
@@ -79,11 +80,10 @@
       "name": "Mosfilm — Золотая коллекция (576p)",
       "group": "Rusiya",
       "check": {
-        "ok": true,
-        "height": 576,
-        "seconds": 1.21,
-        "width": 720,
-        "resolution_verified": true
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden",
+        "height": 0,
+        "seconds": 0.69
       }
     },
     "nashemuzhskoe.ru": {
@@ -93,16 +93,18 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.3
+        "seconds": 0.43
       }
     },
     "nashenovoekino.ru": {
-      "name": "nashenovoekino.ru",
-      "group": null,
+      "name": "Nashe Novoe Kino (576p)",
+      "group": "Rusiya",
       "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
+        "ok": true,
+        "height": 576,
+        "seconds": 1.42,
+        "width": 1024,
+        "resolution_verified": true
       }
     },
     "pobeda.ru": {
@@ -111,18 +113,20 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 3.82,
+        "seconds": 2.02,
         "width": 1024,
         "resolution_verified": true
       }
     },
     "rodnoekino.ru": {
-      "name": "rodnoekino.ru",
-      "group": null,
+      "name": "Rodnoe Kino (576p)",
+      "group": "Rusiya",
       "check": {
-        "ok": false,
-        "height": 0,
-        "error": "No working cinema source"
+        "ok": true,
+        "height": 576,
+        "seconds": 2.45,
+        "width": 1024,
+        "resolution_verified": true
       }
     },
     "russkiybestseller.ru": {
@@ -150,7 +154,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.29
+        "seconds": 0.42
       }
     },
     "startair.ru": {
@@ -159,20 +163,19 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.2,
+        "seconds": 1.41,
         "width": 1920,
         "resolution_verified": true
       }
     },
     "startworld.ru": {
       "name": "START World (1080p)",
-      "group": "1080p Russian Movies",
+      "group": "Rusiya",
       "check": {
-        "ok": true,
-        "height": 1080,
-        "seconds": 1.47,
-        "width": 1350,
-        "resolution_verified": true
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden",
+        "height": 0,
+        "seconds": 0.68
       }
     },
     "tivi6.tr": {
@@ -181,7 +184,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.58,
+        "seconds": 3.13,
         "width": 1280,
         "resolution_verified": true
       }
@@ -201,7 +204,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.42,
         "width": 1920,
         "resolution_verified": true
       }
