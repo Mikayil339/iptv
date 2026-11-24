@@ -144,9 +144,7 @@ def select(original, current_result, alternatives, previous_failures, checker=pr
     retry = checker(original)
     if retry['ok']:
         return original, 0, 'ok_after_retry', retry
-    if failures < 2:
-        return original, failures, 'retry_next_run', retry
-    for candidate in alternatives[:8]:
+    for candidate in alternatives:
         candidate = clean_candidate(candidate, original)
         result = checker(candidate)
         if result['ok']:
@@ -301,13 +299,6 @@ def main():
             return int(match[1]) if match else 0
         alternatives.sort(key=quality, reverse=True)
         result = probe(entry)
-        if not result['ok'] and identity(entry) in config.get('required_channels', []):
-            for alternative in alternatives[:8]:
-                candidate = clean_candidate(alternative, entry)
-                candidate_result = probe(candidate)
-                if candidate_result['ok']:
-                    entry, result = candidate, candidate_result
-                    break
         if result['ok'] and (result.get('height', 0) < 720 or result.get('seconds', 0) > 6):
             for alternative in alternatives[:2]:
                 candidate = clean_candidate(alternative, entry)
@@ -315,7 +306,7 @@ def main():
                 if candidate_result['ok'] and candidate_result.get('height', 0) >= 720 and (result.get('height', 0) < 720 or candidate_result.get('seconds', 99) < result.get('seconds', 0)):
                     entry, result = candidate, candidate_result
                     break
-        chosen, failures, status, result = select(entry, result, alternatives, count)
+        chosen, failures, status, result = select(entry, result, alternatives, count, checker=probe)
         if result.get('ok') and result.get('height'):
             height = result['height']
             chosen = dict(chosen)
@@ -345,7 +336,7 @@ def main():
             '| Ölkə | Kanal | Vəziyyət | Ardıcıl uğursuz yoxlama |', '|---|---|---|---|']
     for chosen, key, info in results:
         rows.append('| ' + ' | '.join([country(chosen), chosen['name'].replace('|', '/'), info['status'], str(info['failures'])]) + ' |')
-    rows += ['', 'Açılmayan kanal silinmir. Əvəzləmə ən azı iki ardıcıl yoxlamadan sonra edilir.',
+    rows += ['', 'Cari link eyni icrada iki dəfə açılmazsa, işlək alternativ həmin icrada seçilir. Alternativ tapılmasa, kanal saxlanılır.',
              'Yoxlama video fraqmentinin alınmasını təsdiqləyir; uzunmüddətli oynatma, səs və coğrafi əlçatanlıq zəmanəti deyil.',
              '', 'Mənbə xətalarının sayı: ' + str(len(errors))]
     (ROOT / 'STATUS.md').write_text('\n'.join(rows) + '\n')

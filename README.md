@@ -8,7 +8,7 @@ Bu açıq linki  IPTV tətbiqlərinə əlavə edin. Hesab, parol tələb olunmur
 
 ## Avtomatik yeniləmə
 
-GitHub Actions hər 6 saatdan bir — Bakı vaxtı ilə təxminən 04:23, 10:23, 16:23 və 22:23 — açıq mənbələri yenidən oxuyur, HLS siyahılarını və video fraqmentlərini yoxlayır. İki ardıcıl uğursuz yoxlamadan sonra işləyən ehtiyat mənbəni seçir. İşlək ehtiyat tapılmazsa kanal silinmir və vəziyyət hesabatında qeyd edilir. İşləyən HD alternativlərə və ölçülmüş daha qısa cavab müddətinə üstünlük verilir.
+GitHub Actions hər 6 saatdan bir — Bakı vaxtı ilə təxminən 04:23, 10:23, 16:23 və 22:23 — açıq mənbələri yenidən oxuyur, HLS siyahılarını və video fraqmentlərini yoxlayır. Cari link eyni icrada iki dəfə açılmazsa, kataloqlardakı və yadda saxlanmış ehtiyat linkləri yoxlayır və video fraqmenti açılan ilk alternativi həmin icrada pleylistə yazır. İşlək ehtiyat tapılmazsa kanal saxlanılır və vəziyyət hesabatında qeyd edilir. Alternativlər yoxlanarkən daha yüksək elan edilmiş keyfiyyətə üstünlük verilir.
 
 Əlavə HD kanallar avtomatik axtarılır. Futbol və idman kanalları Azərbaycan, rus, ingilis və türk dili məlumatlarına əsasən kataloqdan seçilir. Yalnız yoxlamadan keçən yeni yayımlar əlavə edilir. Giriş məlumatı tələb edən hesab linkləri və dəstəklənməyən DRM yayımları idxal edilmir. İctimai yayımların regional məhdudiyyətləri ola bilər; bütün oyunların göstərilməsi zəmanəti yoxdur.
 
