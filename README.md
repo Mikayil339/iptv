@@ -4,7 +4,7 @@
 
 https://raw.githubusercontent.com/Mikayil339/iptv/main/playlist.m3u8
 
-Bu açıq linki Televizo və digər IPTV tətbiqlərinə əlavə edin. Hesab, parol və ChatGPT tələb olunmur. Pleylist, mənbələr, loqolar və avtomatik yeniləmə bu GitHub repozitoriyasında saxlanılır. Əvvəlki ayrıca giriş xidmətindən asılılıq yoxdur.
+Bu açıq linki  IPTV tətbiqlərinə əlavə edin. Hesab, parol tələb olunmur. Pleylist, mənbələr, loqolar və avtomatik yeniləmə bu GitHub repozitoriyasında saxlanılır. Əvvəlki ayrıca giriş xidmətindən asılılıq yoxdur.
 
 ## Avtomatik yeniləmə
 
@@ -19,8 +19,6 @@ TRT Belgesel Türkiyə qrupunda ayrıca saxlanılır, rəsmi yayımlar və ehtiy
 Loqolar PNG formatında `logos/` qovluğuna yüklənir və həmin GitHub hesabından göstərilir. Xarici şəkil serveri sonradan bağlansa da saxlanılan loqo qalır. Loqolar hər həftə yoxlanılır; uğursuz şəkillər hər icrada yenidən sınanır. Real loqo tapılmayan kanal üçün görünən hərf nişanı yaradılır; bu, rəsmi kanal loqosu deyil. Ətraflı vəziyyət `logo_status.json` faylındadır.
 
 [Vəziyyət](STATUS.md) · [Son nəticə](LAST_RUN.json) · [Avtomatik icralar](https://github.com/Mikayil339/iptv/actions/workflows/refresh.yml)
-
-Televizo-da gündəlik avtomatik pleylist yeniləməsini aktivləşdirin. GitHub cədvəli gecikə və ya uzun fəaliyyətsizlikdən sonra dayandırıla bilər. Lazım olsa Actions → Refresh IPTV playlist → Run workflow ilə əl ilə başladın.
 
 ## Lokal icra
 
