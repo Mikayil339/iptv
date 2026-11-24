@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.46,
+        "seconds": 1.44,
         "width": 1920,
         "resolution_verified": true
       }
@@ -18,7 +18,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.42,
+        "seconds": 1.18,
         "width": 1024,
         "resolution_verified": true
       }
@@ -30,17 +30,18 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 1.48
+        "seconds": 0.3
       }
     },
     "evrokino.ru": {
       "name": "Evrokino HD (576p)",
       "group": "Rusiya",
       "check": {
-        "ok": false,
-        "error": "HTTP Error 403: Forbidden",
-        "height": 0,
-        "seconds": 0.71
+        "ok": true,
+        "height": 576,
+        "seconds": 1.49,
+        "width": 720,
+        "resolution_verified": true
       }
     },
     "film.screen.tr": {
@@ -49,7 +50,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.08,
+        "seconds": 0.58,
         "width": 1920,
         "resolution_verified": true
       }
@@ -60,7 +61,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.42,
+        "seconds": 1.21,
         "width": 1920,
         "resolution_verified": true
       }
@@ -71,7 +72,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 2.47,
+        "seconds": 1.49,
         "width": 1920,
         "resolution_verified": true
       }
@@ -83,7 +84,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.69
+        "seconds": 0.89
       }
     },
     "nashemuzhskoe.ru": {
@@ -93,7 +94,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.43
+        "seconds": 0.27
       }
     },
     "nashenovoekino.ru": {
@@ -102,7 +103,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.42,
+        "seconds": 1.19,
         "width": 1024,
         "resolution_verified": true
       }
@@ -113,7 +114,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.02,
+        "seconds": 2.63,
         "width": 1024,
         "resolution_verified": true
       }
@@ -124,7 +125,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.45,
+        "seconds": 1.17,
         "width": 1024,
         "resolution_verified": true
       }
@@ -154,7 +155,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.42
+        "seconds": 0.28
       }
     },
     "startair.ru": {
@@ -163,7 +164,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.41,
+        "seconds": 1.53,
         "width": 1920,
         "resolution_verified": true
       }
@@ -175,7 +176,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.68
+        "seconds": 0.59
       }
     },
     "tivi6.tr": {
@@ -184,7 +185,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 3.13,
+        "seconds": 2.22,
         "width": 1280,
         "resolution_verified": true
       }
@@ -204,7 +205,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.42,
+        "seconds": 1.15,
         "width": 1920,
         "resolution_verified": true
       }

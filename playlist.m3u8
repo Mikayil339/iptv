@@ -42,7 +42,7 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 #EXTINF:-1 tvg-id="KapazTV.az@SD" group-title="Azərbaycan" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/kapaztv.az-7505cc503161.png",Kapaz TV
 http://85.132.78.122:8050/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="KNMusicTV.az@SD" group-title="Azərbaycan" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/knmusictv.az-e0b0842e35eb.png",KN Music TV
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+https://cdn4.yayin.com.tr/kntv/video.m3u8
 #EXTINF:-1 tvg-id="VilayetTV.az@SD" group-title="Azərbaycan" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/vilayettv.az-7433d2bc3bc1.png",Vilayet TV
 https://nl.livekadeh.com/hls2/vilayet.m3u8
 #EXTINF:-1 tvg-id="AzadTV.az@SD" group-title="Azərbaycan" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/azadtv.az-f135ae84acf0.png",Azad TV (1080p)
@@ -670,7 +670,7 @@ https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" source-group="Rusiya" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/eurosport2.fr-b34d3cc2468e.png",Eurosport 2 Russia (1080p)
 https://s7.iptv-24.net/1452/playlist.m3u8
 #EXTINF:-1 tvg-id="Evrokino.ru@HD" source-group="Rusiya" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/evrokino.ru-2c9c6165c406.png",Evrokino HD (576p)
-https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
+http://176.118.197.101/Evrokino/index.m3u8
 #EXTINF:-1 tvg-id="FashionLifeStyle.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fashionlifestyle.ru-d14bfd0b45f8.png",Fashion&LifeStyle (1080p)
 http://stream.mcquack.net/119/index.m3u8
 #EXTINF:-1 tvg-id="FashionTV.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/fashiontv.ru-e23eeb868c74.png",FashionTV (Russia) (1080p)
@@ -1038,7 +1038,7 @@ https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playl
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxdeportes.us-4d73575c6667.png",Fox Deportes (720p)
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us@HD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxsports1.us-2a0b0540a382.png",Fox Sports 1 (1080p)
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/foxsports1.us-2a0b0540a382.png",Fox Sports 1 (720p)
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/ftfsports.us-e31257b321e7.png",FTF Sports (1080p)
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
@@ -1169,15 +1169,15 @@ https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
 #EXTINF:-1 tvg-id="TVSBoxing.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsboxing.us-eb7d4caf7861.png",TVS Boxing (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
-#EXTINF:-1 tvg-id="TVSClassicSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsclassicsports.us-0ff24fc8e456.png",TVS Classic Sports (360p)
+#EXTINF:-1 tvg-id="TVSClassicSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsclassicsports.us-0ff24fc8e456.png",TVS Classic Sports (288p)
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-#EXTINF:-1 tvg-id="TVSSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssports.us-ff95e4b053c6.png",TVS Sports (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVSSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssports.us-ff95e4b053c6.png",TVS Sports (476p) [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
-#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssportsbureau.us-7caa6a50a76d.png",TVS Sports Bureau (720p)
+#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvssportsbureau.us-682fd624b365.png",TVS Sports Bureau (538p)
 https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
-#EXTINF:-1 tvg-id="TVSTurbo.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsturbo.us-17d84cecba59.png",TVS Turbo (360p)
+#EXTINF:-1 tvg-id="TVSTurbo.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvsturbo.us-17d84cecba59.png",TVS Turbo (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvswomensports.us-5a7d763e00d7.png",TVS Women Sports (480p)
+#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/tvswomensports.us-5a7d763e00d7.png",TVS Women Sports (960p)
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" source-group="Beynəlxalq" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/unbeaten.us-f23f4db95b4b.png",Unbeaten (1080p)
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
@@ -1297,7 +1297,7 @@ https://cdn-sonumidtv.yayin.com.tr/sonumidtv/sonumidtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Azərbaycan" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/name-zahratv-d6eb5beb1258.png",ZAHRA TV (720p)
 https://ak.imamhussein.live/alzahratvlive/alzahra.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Turkiye" source-group="Türkiyə" group-title="Futbol və idman" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/eurosport1.fr-cc102e006cdc.png",Eurosport 1 Turkiye (1080p)
-https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85
+https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1 tvg-id="AutoPlus.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/autoplus.ru-c15a2af44ecc.png",Auto Plus (1080p)
 https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BST.ru@SD" group-title="Rusiya" tvg-logo="https://raw.githubusercontent.com/Mikayil339/iptv/main/logos/bst.ru-b6f56491c804.png",BST (1080p)
