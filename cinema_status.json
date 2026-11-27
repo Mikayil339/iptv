@@ -7,7 +7,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.16,
+        "seconds": 3.03,
         "width": 1920,
         "resolution_verified": true
       }
@@ -18,7 +18,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.17,
+        "seconds": 1.51,
         "width": 1024,
         "resolution_verified": true
       }
@@ -30,7 +30,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.27
+        "seconds": 0.37
       }
     },
     "evrokino.ru": {
@@ -39,7 +39,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.48,
+        "seconds": 1.46,
         "width": 720,
         "resolution_verified": true
       }
@@ -50,7 +50,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 0.63,
+        "seconds": 0.84,
         "width": 1920,
         "resolution_verified": true
       }
@@ -61,7 +61,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.15,
+        "seconds": 1.56,
         "width": 1920,
         "resolution_verified": true
       }
@@ -72,7 +72,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.46,
         "width": 1920,
         "resolution_verified": true
       }
@@ -84,7 +84,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.62
+        "seconds": 1.37
       }
     },
     "nashemuzhskoe.ru": {
@@ -94,7 +94,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.27
+        "seconds": 0.37
       }
     },
     "nashenovoekino.ru": {
@@ -103,7 +103,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.15,
+        "seconds": 1.46,
         "width": 1024,
         "resolution_verified": true
       }
@@ -114,7 +114,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 2.61,
+        "seconds": 1.97,
         "width": 1024,
         "resolution_verified": true
       }
@@ -125,7 +125,7 @@
       "check": {
         "ok": true,
         "height": 576,
-        "seconds": 1.17,
+        "seconds": 1.42,
         "width": 1024,
         "resolution_verified": true
       }
@@ -155,7 +155,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.27
+        "seconds": 0.35
       }
     },
     "startair.ru": {
@@ -164,7 +164,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.51,
+        "seconds": 1.47,
         "width": 1920,
         "resolution_verified": true
       }
@@ -176,7 +176,7 @@
         "ok": false,
         "error": "HTTP Error 403: Forbidden",
         "height": 0,
-        "seconds": 0.62
+        "seconds": 1.39
       }
     },
     "tivi6.tr": {
@@ -185,7 +185,7 @@
       "check": {
         "ok": true,
         "height": 720,
-        "seconds": 2.17,
+        "seconds": 3.52,
         "width": 1280,
         "resolution_verified": true
       }
@@ -205,7 +205,7 @@
       "check": {
         "ok": true,
         "height": 1080,
-        "seconds": 1.16,
+        "seconds": 1.41,
         "width": 1920,
         "resolution_verified": true
       }
